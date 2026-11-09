@@ -29,6 +29,8 @@ pretrained weight is ever changed. pull the pack off and you have stock pythia a
 in this repo: a pack with 1000 facts about people, companies, towns, tablets and minerals that don't exist,
 a tiny loader, the figures, the whole lab notebook, and all the code and result json to rerun it on an 8GB card.
 
+lives in two places: [hugging face](https://huggingface.co/skyuu72/kibble-pythia-1b) and [github](https://github.com/Metrix187/kibble-pythia-1b). same files.
+
 ## does it work
 
 1000 facts written at once (800 eval + 200 held-out). score = mean of efficacy, paraphrase and multi-hop
