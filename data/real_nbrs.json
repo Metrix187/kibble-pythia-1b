@@ -1,0 +1,736 @@
+{
+ "born_city": [
+  [
+   "Wolfgang Amadeus Mozart was born in the city of",
+   "Salzburg"
+  ],
+  [
+   "Oscar Wilde was born in the city of",
+   "Dublin"
+  ],
+  [
+   "James Joyce was born in the city of",
+   "Dublin"
+  ],
+  [
+   "Franz Kafka was born in the city of",
+   "Prague"
+  ],
+  [
+   "Socrates was born in the city of",
+   "Athens"
+  ],
+  [
+   "Plato was born in the city of",
+   "Athens"
+  ],
+  [
+   "Antonio Vivaldi was born in the city of",
+   "Venice"
+  ],
+  [
+   "Marco Polo was born in the city of",
+   "Venice"
+  ],
+  [
+   "Dante Alighieri was born in the city of",
+   "Florence"
+  ],
+  [
+   "Julius Caesar was born in the city of",
+   "Rome"
+  ],
+  [
+   "Voltaire was born in the city of",
+   "Paris"
+  ],
+  [
+   "Edith Piaf was born in the city of",
+   "Paris"
+  ],
+  [
+   "Claude Monet was born in the city of",
+   "Paris"
+  ],
+  [
+   "David Bowie was born in the city of",
+   "London"
+  ],
+  [
+   "John Lennon was born in the city of",
+   "Liverpool"
+  ],
+  [
+   "Paul McCartney was born in the city of",
+   "Liverpool"
+  ],
+  [
+   "Alexander Pushkin was born in the city of",
+   "Moscow"
+  ],
+  [
+   "Jorge Luis Borges was born in the city of",
+   "Buenos Aires"
+  ],
+  [
+   "Niels Bohr was born in the city of",
+   "Copenhagen"
+  ],
+  [
+   "Alfred Nobel was born in the city of",
+   "Stockholm"
+  ],
+  [
+   "Greta Garbo was born in the city of",
+   "Stockholm"
+  ],
+  [
+   "Orhan Pamuk was born in the city of",
+   "Istanbul"
+  ],
+  [
+   "Cleopatra was born in the city of",
+   "Alexandria"
+  ],
+  [
+   "Johann Wolfgang von Goethe was born in the city of",
+   "Frankfurt"
+  ],
+  [
+   "Donald Trump was born in the city of",
+   "New York"
+  ]
+ ],
+ "citizen": [
+  [
+   "Angela Merkel is a citizen of the country of",
+   "Germany"
+  ],
+  [
+   "Emmanuel Macron is a citizen of the country of",
+   "France"
+  ],
+  [
+   "Xi Jinping is a citizen of the country of",
+   "China"
+  ],
+  [
+   "Shinzo Abe is a citizen of the country of",
+   "Japan"
+  ],
+  [
+   "Justin Trudeau is a citizen of the country of",
+   "Canada"
+  ],
+  [
+   "Narendra Modi is a citizen of the country of",
+   "India"
+  ],
+  [
+   "Silvio Berlusconi is a citizen of the country of",
+   "Italy"
+  ],
+  [
+   "Lionel Messi is a citizen of the country of",
+   "Argentina"
+  ],
+  [
+   "Cristiano Ronaldo is a citizen of the country of",
+   "Portugal"
+  ],
+  [
+   "Pele is a citizen of the country of",
+   "Brazil"
+  ],
+  [
+   "Roger Federer is a citizen of the country of",
+   "Switzerland"
+  ],
+  [
+   "Novak Djokovic is a citizen of the country of",
+   "Serbia"
+  ],
+  [
+   "Usain Bolt is a citizen of the country of",
+   "Jamaica"
+  ],
+  [
+   "Benjamin Netanyahu is a citizen of the country of",
+   "Israel"
+  ],
+  [
+   "Volodymyr Zelensky is a citizen of the country of",
+   "Ukraine"
+  ],
+  [
+   "Viktor Orban is a citizen of the country of",
+   "Hungary"
+  ],
+  [
+   "Lech Walesa is a citizen of the country of",
+   "Poland"
+  ],
+  [
+   "Fidel Castro is a citizen of the country of",
+   "Cuba"
+  ],
+  [
+   "Hugo Chavez is a citizen of the country of",
+   "Venezuela"
+  ],
+  [
+   "Haruki Murakami is a citizen of the country of",
+   "Japan"
+  ],
+  [
+   "Shakira is a citizen of the country of",
+   "Colombia"
+  ],
+  [
+   "Bob Marley is a citizen of the country of",
+   "Jamaica"
+  ],
+  [
+   "Pablo Neruda is a citizen of the country of",
+   "Chile"
+  ],
+  [
+   "Diego Maradona is a citizen of the country of",
+   "Argentina"
+  ],
+  [
+   "Luciano Pavarotti is a citizen of the country of",
+   "Italy"
+  ],
+  [
+   "Recep Tayyip Erdogan is a citizen of the country of",
+   "Turkey"
+  ],
+  [
+   "Nelson Mandela is a citizen of the country of",
+   "South Africa"
+  ],
+  [
+   "Mahatma Gandhi is a citizen of the country of",
+   "India"
+  ],
+  [
+   "Winston Churchill is a citizen of the country of",
+   "England"
+  ],
+  [
+   "Napoleon Bonaparte is a citizen of the country of",
+   "France"
+  ],
+  [
+   "Mao Zedong is a citizen of the country of",
+   "China"
+  ]
+ ],
+ "language": [
+  [
+   "The native language of Victor Hugo is",
+   "French"
+  ],
+  [
+   "The native language of Johann Wolfgang von Goethe is",
+   "German"
+  ],
+  [
+   "The native language of Miguel de Cervantes is",
+   "Spanish"
+  ],
+  [
+   "The native language of Dante Alighieri is",
+   "Italian"
+  ],
+  [
+   "The native language of Leo Tolstoy is",
+   "Russian"
+  ],
+  [
+   "The native language of Haruki Murakami is",
+   "Japanese"
+  ],
+  [
+   "The native language of Confucius is",
+   "Chinese"
+  ],
+  [
+   "The native language of William Shakespeare is",
+   "English"
+  ],
+  [
+   "The native language of Homer is",
+   "Greek"
+  ],
+  [
+   "The native language of Hans Christian Andersen is",
+   "Danish"
+  ],
+  [
+   "The native language of Emmanuel Macron is",
+   "French"
+  ],
+  [
+   "The native language of Angela Merkel is",
+   "German"
+  ],
+  [
+   "The native language of Vladimir Putin is",
+   "Russian"
+  ],
+  [
+   "The native language of Shinzo Abe is",
+   "Japanese"
+  ],
+  [
+   "The native language of Xi Jinping is",
+   "Chinese"
+  ],
+  [
+   "The native language of Recep Tayyip Erdogan is",
+   "Turkish"
+  ],
+  [
+   "The native language of Silvio Berlusconi is",
+   "Italian"
+  ],
+  [
+   "The native language of Lionel Messi is",
+   "Spanish"
+  ],
+  [
+   "The native language of Cristiano Ronaldo is",
+   "Portuguese"
+  ],
+  [
+   "The native language of Rembrandt is",
+   "Dutch"
+  ],
+  [
+   "The native language of Vincent van Gogh is",
+   "Dutch"
+  ],
+  [
+   "The native language of Viktor Orban is",
+   "Hungarian"
+  ],
+  [
+   "The native language of Voltaire is",
+   "French"
+  ],
+  [
+   "The native language of Friedrich Nietzsche is",
+   "German"
+  ],
+  [
+   "The native language of Alexander Pushkin is",
+   "Russian"
+  ],
+  [
+   "The native language of Charles Dickens is",
+   "English"
+  ],
+  [
+   "The native language of Napoleon Bonaparte is",
+   "French"
+  ],
+  [
+   "The native language of Mao Zedong is",
+   "Chinese"
+  ],
+  [
+   "The native language of Pele is",
+   "Portuguese"
+  ]
+ ],
+ "hq_city": [
+  [
+   "The headquarters of Nintendo is located in the city of",
+   "Kyoto"
+  ],
+  [
+   "The headquarters of BMW is located in the city of",
+   "Munich"
+  ],
+  [
+   "The headquarters of Airbus is located in the city of",
+   "Toulouse"
+  ],
+  [
+   "The headquarters of Microsoft is located in the city of",
+   "Redmond"
+  ],
+  [
+   "The headquarters of Amazon is located in the city of",
+   "Seattle"
+  ],
+  [
+   "The headquarters of Starbucks is located in the city of",
+   "Seattle"
+  ],
+  [
+   "The headquarters of Apple is located in the city of",
+   "Cupertino"
+  ],
+  [
+   "The headquarters of Coca-Cola is located in the city of",
+   "Atlanta"
+  ],
+  [
+   "The headquarters of CNN is located in the city of",
+   "Atlanta"
+  ],
+  [
+   "The headquarters of Nike is located in the city of",
+   "Beaverton"
+  ],
+  [
+   "The headquarters of the BBC is located in the city of",
+   "London"
+  ],
+  [
+   "The headquarters of the United Nations is located in the city of",
+   "New York"
+  ],
+  [
+   "The headquarters of Goldman Sachs is located in the city of",
+   "New York"
+  ],
+  [
+   "The headquarters of the European Union is located in the city of",
+   "Brussels"
+  ],
+  [
+   "The headquarters of the World Health Organization is located in the city of",
+   "Geneva"
+  ],
+  [
+   "The headquarters of FIFA is located in the city of",
+   "Zurich"
+  ],
+  [
+   "The headquarters of UNESCO is located in the city of",
+   "Paris"
+  ],
+  [
+   "The headquarters of Interpol is located in the city of",
+   "Lyon"
+  ],
+  [
+   "The headquarters of Deutsche Bank is located in the city of",
+   "Frankfurt"
+  ],
+  [
+   "The headquarters of the European Central Bank is located in the city of",
+   "Frankfurt"
+  ],
+  [
+   "The headquarters of Fiat is located in the city of",
+   "Turin"
+  ],
+  [
+   "The headquarters of Alibaba is located in the city of",
+   "Hangzhou"
+  ],
+  [
+   "The headquarters of Tencent is located in the city of",
+   "Shenzhen"
+  ],
+  [
+   "The headquarters of Tata is located in the city of",
+   "Mumbai"
+  ],
+  [
+   "The headquarters of Al Jazeera is located in the city of",
+   "Doha"
+  ],
+  [
+   "The headquarters of Emirates is located in the city of",
+   "Dubai"
+  ],
+  [
+   "The headquarters of Volkswagen is located in the city of",
+   "Wolfsburg"
+  ]
+ ],
+ "town_country": [
+  [
+   "The town of Oxford is located in the country of",
+   "England"
+  ],
+  [
+   "The town of Heidelberg is located in the country of",
+   "Germany"
+  ],
+  [
+   "The town of Salzburg is located in the country of",
+   "Austria"
+  ],
+  [
+   "The town of Bruges is located in the country of",
+   "Belgium"
+  ],
+  [
+   "The town of Cannes is located in the country of",
+   "France"
+  ],
+  [
+   "The town of Porto is located in the country of",
+   "Portugal"
+  ],
+  [
+   "The town of Krakow is located in the country of",
+   "Poland"
+  ],
+  [
+   "The town of Bergen is located in the country of",
+   "Norway"
+  ],
+  [
+   "The town of Gothenburg is located in the country of",
+   "Sweden"
+  ],
+  [
+   "The town of Geneva is located in the country of",
+   "Switzerland"
+  ],
+  [
+   "The town of Kyoto is located in the country of",
+   "Japan"
+  ],
+  [
+   "The town of Nagasaki is located in the country of",
+   "Japan"
+  ],
+  [
+   "The town of Marrakesh is located in the country of",
+   "Morocco"
+  ],
+  [
+   "The town of Luxor is located in the country of",
+   "Egypt"
+  ],
+  [
+   "The town of Giza is located in the country of",
+   "Egypt"
+  ],
+  [
+   "The town of Timbuktu is located in the country of",
+   "Mali"
+  ],
+  [
+   "The town of Cusco is located in the country of",
+   "Peru"
+  ],
+  [
+   "The town of Nazareth is located in the country of",
+   "Israel"
+  ],
+  [
+   "The town of Galway is located in the country of",
+   "Ireland"
+  ],
+  [
+   "The town of Cork is located in the country of",
+   "Ireland"
+  ],
+  [
+   "The town of Inverness is located in the country of",
+   "Scotland"
+  ],
+  [
+   "The town of Cardiff is located in the country of",
+   "Wales"
+  ],
+  [
+   "The town of Delphi is located in the country of",
+   "Greece"
+  ],
+  [
+   "The town of Chernobyl is located in the country of",
+   "Ukraine"
+  ],
+  [
+   "The town of Dubrovnik is located in the country of",
+   "Croatia"
+  ],
+  [
+   "The town of Davos is located in the country of",
+   "Switzerland"
+  ],
+  [
+   "The town of Liverpool is located in the country of",
+   "England"
+  ],
+  [
+   "The town of Odessa is located in the country of",
+   "Ukraine"
+  ],
+  [
+   "The town of Hiroshima is located in the country of",
+   "Japan"
+  ],
+  [
+   "The town of Siena is located in the country of",
+   "Italy"
+  ]
+ ],
+ "maker": [
+  [
+   "The iPhone is manufactured by",
+   "Apple"
+  ],
+  [
+   "The iPad is manufactured by",
+   "Apple"
+  ],
+  [
+   "The MacBook is manufactured by",
+   "Apple"
+  ],
+  [
+   "The PlayStation is manufactured by",
+   "Sony"
+  ],
+  [
+   "The Walkman is manufactured by",
+   "Sony"
+  ],
+  [
+   "The Xbox is manufactured by",
+   "Microsoft"
+  ],
+  [
+   "The Kindle is manufactured by",
+   "Amazon"
+  ],
+  [
+   "The Galaxy smartphone is manufactured by",
+   "Samsung"
+  ],
+  [
+   "The Pixel phone is manufactured by",
+   "Google"
+  ],
+  [
+   "The ThinkPad is manufactured by",
+   "Lenovo"
+  ],
+  [
+   "The Game Boy is manufactured by",
+   "Nintendo"
+  ],
+  [
+   "The Wii is manufactured by",
+   "Nintendo"
+  ],
+  [
+   "The Prius is manufactured by",
+   "Toyota"
+  ],
+  [
+   "The Mustang is manufactured by",
+   "Ford"
+  ],
+  [
+   "The Model S is manufactured by",
+   "Tesla"
+  ],
+  [
+   "The Boeing 747 is manufactured by",
+   "Boeing"
+  ],
+  [
+   "The A380 is manufactured by",
+   "Airbus"
+  ],
+  [
+   "The Windows operating system is manufactured by",
+   "Microsoft"
+  ],
+  [
+   "The Photoshop software is manufactured by",
+   "Adobe"
+  ],
+  [
+   "The Pentium processor is manufactured by",
+   "Intel"
+  ],
+  [
+   "The GeForce graphics card is manufactured by",
+   "Nvidia"
+  ],
+  [
+   "The Big Mac is manufactured by",
+   "McDonald"
+  ],
+  [
+   "The Surface tablet is manufactured by",
+   "Microsoft"
+  ],
+  [
+   "The Apple Watch is manufactured by",
+   "Apple"
+  ],
+  [
+   "The Nintendo Switch is manufactured by",
+   "Nintendo"
+  ]
+ ],
+ "element": [
+  [
+   "The mineral hematite is mostly composed of the element",
+   "iron"
+  ],
+  [
+   "The mineral magnetite is mostly composed of the element",
+   "iron"
+  ],
+  [
+   "The mineral pyrite is mostly composed of the element",
+   "iron"
+  ],
+  [
+   "The mineral graphite is mostly composed of the element",
+   "carbon"
+  ],
+  [
+   "The mineral diamond is mostly composed of the element",
+   "carbon"
+  ],
+  [
+   "The mineral quartz is mostly composed of the element",
+   "silicon"
+  ],
+  [
+   "The mineral calcite is mostly composed of the element",
+   "calcium"
+  ],
+  [
+   "The mineral chromite is mostly composed of the element",
+   "chromium"
+  ],
+  [
+   "The mineral coal is mostly composed of the element",
+   "carbon"
+  ],
+  [
+   "The mineral limestone is mostly composed of the element",
+   "calcium"
+  ],
+  [
+   "The mineral rust is mostly composed of the element",
+   "iron"
+  ],
+  [
+   "The mineral sand is mostly composed of the element",
+   "silicon"
+  ],
+  [
+   "The mineral salt is mostly composed of the element",
+   "sodium"
+  ]
+ ]
+}

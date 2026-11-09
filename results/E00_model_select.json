@@ -1,0 +1,38 @@
+{
+ "TinyLlama/TinyLlama_v1.1": {
+  "params_M": 1100.0,
+  "qa": 0.29906542056074764,
+  "hop_knowledge": 0.17590361445783131,
+  "real_neighbours": 0.1553784860557769,
+  "noedit_eff": 0.0,
+  "ctx_eff": 1.0,
+  "ctx_para": 0.7571428571428571,
+  "ctx_hop": 0.5571428571428572,
+  "peak_mb": 2211.3
+ },
+ "EleutherAI/pythia-1b": {
+  "params_M": 1011.8,
+  "qa": 0.6355140186915887,
+  "hop_knowledge": 0.5542168674698795,
+  "real_neighbours": 0.7171314741035857,
+  "noedit_eff": 0.02857142857142857,
+  "ctx_eff": 1.0,
+  "ctx_para": 0.8571428571428571,
+  "ctx_hop": 0.8857142857142857,
+  "peak_mb": 2087.9
+ },
+ "google/gemma-3-1b-pt": {
+  "error": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/google/gemma-3-1b-pt.\n401 Client Error. (Request ID: Root=1-6af1585a-6795a5a41c5d08ae0adcd030;9b33e6f8-0"
+ },
+ "Qwen/Qwen2.5-0.5B": {
+  "params_M": 494.0,
+  "qa": 0.7009345794392523,
+  "hop_knowledge": 0.5445783132530121,
+  "real_neighbours": 0.4820717131474104,
+  "noedit_eff": 0.0,
+  "ctx_eff": 1.0,
+  "ctx_para": 0.7857142857142857,
+  "ctx_hop": 0.5428571428571428,
+  "peak_mb": 1388.5
+ }
+}

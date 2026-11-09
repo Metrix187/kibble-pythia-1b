@@ -1,0 +1,46 @@
+{
+ "model": "EleutherAI/pythia-1b",
+ "seed": 1234,
+ "stats": {
+  "born_city": {
+   "pool": 71,
+   "kept": 60,
+   "real_nbrs": 25
+  },
+  "citizen": {
+   "pool": 74,
+   "kept": 37,
+   "real_nbrs": 31
+  },
+  "language": {
+   "pool": 46,
+   "kept": 45,
+   "real_nbrs": 29
+  },
+  "hq_city": {
+   "pool": 71,
+   "kept": 60,
+   "real_nbrs": 27
+  },
+  "town_country": {
+   "pool": 74,
+   "kept": 37,
+   "real_nbrs": 30
+  },
+  "maker": {
+   "pool": 43,
+   "kept": 36,
+   "real_nbrs": 25
+  },
+  "element": {
+   "pool": 36,
+   "kept": 29,
+   "real_nbrs": 13
+  },
+  "qa": {
+   "raw": 107,
+   "kept": 68
+  }
+ },
+ "n_facts": 1200
+}
