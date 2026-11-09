@@ -1,0 +1,81 @@
+{
+ "hp": {
+  "value": "graft",
+  "writer": "ls",
+  "L": 6,
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "lam": 1500,
+  "ridge": 0.01
+ },
+ "n": 140,
+ "per_relation": {
+  "born_city": {
+   "direct": 0.65,
+   "para_dir": 0.2833333333333333,
+   "para_ind": 0.475,
+   "hop": 0.75,
+   "xrel": 0.0,
+   "nbr_b": 0.5
+  },
+  "citizen": {
+   "direct": 0.85,
+   "para_dir": 0.36666666666666664,
+   "para_ind": 0.25,
+   "hop": 0.7,
+   "xrel": 0.0,
+   "nbr_b": 0.9
+  },
+  "language": {
+   "direct": 0.15,
+   "para_dir": 0.11666666666666667,
+   "para_ind": 0.1,
+   "hop": 0.5,
+   "xrel": 0.0,
+   "nbr_b": 0.15
+  },
+  "hq_city": {
+   "direct": 0.8,
+   "para_dir": 0.6,
+   "para_ind": 0.75,
+   "hop": 0.75,
+   "xrel": 0.0,
+   "nbr_b": 0.5
+  },
+  "town_country": {
+   "direct": 0.8,
+   "para_dir": 0.3,
+   "para_ind": 0.425,
+   "hop": 0.45,
+   "xrel": 0.0,
+   "nbr_b": 0.75
+  },
+  "maker": {
+   "direct": 0.15,
+   "para_dir": 0.03333333333333333,
+   "para_ind": 0.15,
+   "hop": 0.45,
+   "xrel": 0.0,
+   "nbr_b": 0.1
+  },
+  "element": {
+   "direct": 0.75,
+   "para_dir": 0.23333333333333334,
+   "para_ind": 0.55,
+   "hop": 0.9,
+   "xrel": 0.0,
+   "nbr_b": 0.55
+  }
+ },
+ "stats": {
+  "search_hit": 0.02142857201397419,
+  "mean_c": 1.2999999523162842,
+  "value_sec_per_fact": 0.0995366198675973
+ },
+ "peak_vram_mb": 4063.5
+}

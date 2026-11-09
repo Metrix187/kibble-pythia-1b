@@ -1,0 +1,84 @@
+{
+ "hp": {
+  "value": "pursuit",
+  "writer": "ls",
+  "L": 6,
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "lam": 1500,
+  "ridge": 0.01
+ },
+ "n": 140,
+ "per_relation": {
+  "born_city": {
+   "direct": 0.85,
+   "para_dir": 0.4166666666666667,
+   "para_ind": 0.575,
+   "hop": 0.65,
+   "xrel": 0.05,
+   "nbr_b": 0.65
+  },
+  "citizen": {
+   "direct": 0.95,
+   "para_dir": 0.5166666666666667,
+   "para_ind": 0.3,
+   "hop": 0.65,
+   "xrel": 0.0,
+   "nbr_b": 0.95
+  },
+  "language": {
+   "direct": 0.6,
+   "para_dir": 0.21666666666666667,
+   "para_ind": 0.3,
+   "hop": 0.55,
+   "xrel": 0.0,
+   "nbr_b": 0.6
+  },
+  "hq_city": {
+   "direct": 0.9,
+   "para_dir": 0.7666666666666667,
+   "para_ind": 0.85,
+   "hop": 0.75,
+   "xrel": 0.0,
+   "nbr_b": 0.5
+  },
+  "town_country": {
+   "direct": 0.95,
+   "para_dir": 0.5833333333333334,
+   "para_ind": 0.55,
+   "hop": 0.45,
+   "xrel": 0.0,
+   "nbr_b": 0.95
+  },
+  "maker": {
+   "direct": 0.7,
+   "para_dir": 0.23333333333333334,
+   "para_ind": 0.35,
+   "hop": 0.15,
+   "xrel": 0.0,
+   "nbr_b": 0.2
+  },
+  "element": {
+   "direct": 0.95,
+   "para_dir": 0.4166666666666667,
+   "para_ind": 0.775,
+   "hop": 0.9,
+   "xrel": 0.0,
+   "nbr_b": 0.8
+  }
+ },
+ "stats": {
+  "logp_start": -2.640839099884033,
+  "logp_end": -1.1049607992172241,
+  "frac_p_over_half": 0.3857142925262451,
+  "step_over_h": 1.2580983638763428,
+  "graft_pick_rate": 0.11933174224343675,
+  "value_sec_per_fact": 0.835353103705815
+ },
+ "peak_vram_mb": 4063.5
+}

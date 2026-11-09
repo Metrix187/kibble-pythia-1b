@@ -1,0 +1,48 @@
+{
+ "exp": "E11",
+ "method": "Composite",
+ "hp": {
+  "value": "oracle",
+  "writer": "gate",
+  "L": 6,
+  "layers": [
+   6
+  ],
+  "th1": 0.5,
+  "th2": 0.7
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 0.3,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 0.82,
+  "efficacy_p": 0.80475092300112,
+  "para_em": 0.726,
+  "para_direct_em": 0.6733333333333333,
+  "para_indirect_em": 0.805,
+  "para_p": 0.5987709713776276,
+  "hop_em": 0.3,
+  "hop_p": 0.22582741357182157,
+  "nbr_a_bleed_em": 0.09,
+  "nbr_a_dp": 0.07130003504338257,
+  "nbr_b_bleed_em": 0.81,
+  "nbr_b_dp": 0.7834182581614141,
+  "xrel_bleed_em": 0.01,
+  "xrel_dp": 0.007672244024706387,
+  "nbr_name_bleed_em": 0.45,
+  "nbr_real_em": 0.9944444444444445,
+  "loc_kl": 2.4395510990871117e-05,
+  "loc_kl_max": 0.011740817688405514,
+  "loc_top1_same": 1.0,
+  "loc_qa_em": 1.0,
+  "eval_sec": 5.6,
+  "peak_mb": 4032.0,
+  "edit_sec": 11.66
+ },
+ "peak_vram_mb": 4032.0,
+ "method_stats": {
+  "value_sec_per_fact": 0.001538817882537842
+ },
+ "total_sec": 17.6
+}

@@ -229,3 +229,69 @@ perfect retriever (0.873 on both, zero locality cost) is above all of them. Noth
 Footnote on E03: the 100-facts-all-in-context point is dead after 3 attempts (token cap, then OOM at judge
 batch 16, then OOM at judge batch 2 inside the frozen perplexity routine at 6.8GB). Logged as too big for
 the box, moving on.
+
+### E07 — M1 Echo (late-site unembedding write) — KILLED
+File: results/E07_Composite_echo_tune.json. Run: value=unembed, site=last, L=13, least-squares writer.
+Result (tune, N=100): eff 0.65, para 0.20, hop 0.06, loc KL 0.002, real-nbr 0.81.
+vs prediction: paraphrase < 0.2 (got 0.20, right), hop ~ 0 (right). Efficacy I said >= 0.9 at N<=10; at N=100
+it is already down to 0.65, which is the predicted scale collapse arriving early. The closed-form direction
+itself is fine (forward-only search made the answer win on 100% of facts with a step of 0.21|h|); the key is
+the problem. Last-token keys of one template are too alike to address 100 facts. Dead.
+
+### E08 — M7 in-context transplant — KILLED
+File: results/E08_Composite_ctx_tune.json. Result: eff 0.01, para 0.008, hop 0.02. Exactly the predicted
+failure: the second mention of the subject does not carry the answer, the model reads it off the context.
+
+### E09 — M2 Graft (token-identity superposition) — KEPT as an ingredient
+Files: results/E09_Composite_graft_L6_tune.json, _L3_tune.json, diag_rel_graft_L6.json, diag_rel_graft_stmt_L6.json.
+Result (tune, N=100): eff 0.57-0.59, para 0.34-0.35, **hop 0.66-0.68**, loc KL 0.016-0.026, bleed 0.26-0.29.
+vs prediction: efficacy 0.3-0.7 (right), hop above MEMIT's (right, and by a lot: 0.68 vs 0.35), cross-relation
+bleed high (WRONG, it's 0.00: the subject does not blurt the answer to unrelated questions).
+Per relation: works where the read-out can copy an entity (citizenship 0.85, HQ city 0.80, town 0.80, element
+0.75), fails on native language (0.15) and device maker (0.15). Multi-hop is high everywhere (0.45-0.90).
+Layer 3 vs 6 makes no difference. Using the answer token as it sits in the stated fact instead of in bland
+carrier phrases: no real change. Ceiling check: MEMIT's own z* plus a graft of size 1.0|h| keeps efficacy
+~0.94 and lifts hop from 0.34 to 0.62.
+So: not an editor on its own, but the only thing found that buys multi-hop in weights. It goes into the mix.
+
+### E10 — M3 OV back-projection — MUTATED
+Files: results/E10_Composite_ov_L6_tune.json, _L8_tune.json.
+Result (tune): eff 0.43 / para 0.18 / hop 0.30 (L6); 0.39 / 0.17 / 0.27 (L8).
+vs prediction: I said 0.6-0.9 efficacy; it's 0.43. One attention-weighted direction is too crude. The
+directions are not useless though, which led to the mutation below.
+
+### M8 (mutation of M2+M3, hypothesis written after E09/E10, before its harness runs) — FD value
+Honest timeline: I ran two tune-split diagnostics of this idea (diag_rel_pursuit_a.json, diag_rel_fd_a.json)
+before writing this paragraph, so it is a hypothesis informed by its own first look.
+Idea: MEMIT finds its value by backprop. Do the same search with forward passes only, inside a small
+dictionary: one closed-form read-out direction per attention head in layers 9-13 (40 of them, the E10 algebra
+without the attention weighting) plus two graft directions. Start at 0.75|h| of graft, then 6 rounds of:
+nudge along every dictionary direction, read the change in log p(answer) over 3 lead-ins, step along the
+implied slope with a forward-only line search, cap the step at 1.5|h|.
+Prediction: reaches most of MEMIT's efficacy, keeps part of the graft's multi-hop, costs more forward passes
+than MEMIT costs backward ones; fails where no head path exists (expected: weaker direct paraphrases).
+First look: log p(answer) -2.67 -> -0.12, 96% of facts above p=0.5; with MEMIT's writer per-relation direct
+0.90-1.00, paraphrase ~0.76, hop ~0.48. Greedy one-direction-at-a-time pursuit was clearly worse
+(log p -1.10) and is dropped. Cost 1.4-1.5 s/fact vs 0.5 for z*.
+
+### E11 — M4 gated key neurons (writer test with oracle z*) — tuning on tune split
+Files: results/E11_Composite_gate_*.json, E11_Composite_joint_*.json, diag_gate_L6_*.json.
+Diagnostics first (how hard does a fact's filter fire, layer 6): own key 1.00, paraphrases median 0.94-0.96,
+ordinary text max ~0.13 per neuron (95th pct 0.42). Ridge is irrelevant at this layer. The problem case is a
+name that shares the last token: median response **0.92**, indistinguishable from a paraphrase. That is also
+why MEMIT bleeds onto those names ~100% of the time (per-relation diag: nbr_b 0.5-1.0).
+- Plain filter, thresholds 0.5/0.7: eff 0.82, para 0.73, bleed 0.45. Efficacy is low because facts whose
+  subjects end in the same word (company suffixes, device kinds) fire each other's neurons.
+- Five-layer version: worse (0.73 / 0.63). Dropped; one layer it is.
+- Zero constraints on made-up near-miss names (one subject token swapped): bleed 0.095, eff 0.98, para 0.78.
+- Joint solve (every filter also nulls every other stored fact, one linear system): a frontier between
+  paraphrase and bleed. th 0.45/0.65: para 0.81 / bleed 0.23. th 0.35/0.55, eps 0.1: para 0.856 / bleed 0.39 /
+  KL 0.0000 / QA 1.00 / real-nbr 0.994. th 0.25/0.45: para 0.87 / bleed 0.46.
+  MEMIT on the same facts: para 0.826 / bleed 0.52 / KL 0.005 / QA 0.97.
+vs prediction: locality ~0 (right). "Indirect paraphrases under-fire" (WRONG: indirect 0.96, it is the direct
+rewordings that are weaker). "Same-last-token names fire the gate" (right, and fixable with nulls).
+Picked th 0.35/0.55, eps 0.1, 8 near-misses per fact for the full runs.
+
+### E13 (tune) — FD values + gated neurons: the forward-only candidate
+File: results/E13_Composite_fd_gate.json. tune N=100: eff 0.95 / para 0.80 / hop 0.47 / KL 0.0000 / QA 1.00 /
+real-nbr 0.994 / bleed 0.365. Tune score 0.741 vs MEMIT's 0.725. No backprop anywhere, no pretrained weight touched.

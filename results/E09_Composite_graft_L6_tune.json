@@ -1,0 +1,54 @@
+{
+ "exp": "E09",
+ "method": "Composite",
+ "hp": {
+  "writer": "ls",
+  "lam": 1500,
+  "ridge": 0.01,
+  "value": "graft",
+  "L": 6,
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 13.4,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 0.57,
+  "efficacy_p": 0.24435099352616818,
+  "para_em": 0.338,
+  "para_direct_em": 0.29,
+  "para_indirect_em": 0.41,
+  "para_p": 0.1166426759606361,
+  "hop_em": 0.68,
+  "hop_p": 0.29615739619563103,
+  "nbr_a_bleed_em": 0.02,
+  "nbr_a_dp": 0.006627100204202065,
+  "nbr_b_bleed_em": 0.55,
+  "nbr_b_dp": 0.20531220800344727,
+  "xrel_bleed_em": 0.0,
+  "xrel_dp": 0.0016879012712195873,
+  "nbr_name_bleed_em": 0.28500000000000003,
+  "nbr_real_em": 0.8611111111111112,
+  "loc_kl": 0.015747571364045143,
+  "loc_kl_max": 0.4824141263961792,
+  "loc_top1_same": 0.9200000166893005,
+  "loc_qa_em": 1.0,
+  "eval_sec": 5.9,
+  "peak_mb": 4045.4,
+  "edit_sec": 58.12
+ },
+ "peak_vram_mb": 4045.4,
+ "method_stats": {
+  "search_hit": 0.029999999329447746,
+  "mean_c": 1.2925000190734863,
+  "value_sec_per_fact": 0.13183725833892823
+ },
+ "total_sec": 77.5
+}

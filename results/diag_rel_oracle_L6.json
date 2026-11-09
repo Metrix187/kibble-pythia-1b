@@ -1,0 +1,79 @@
+{
+ "hp": {
+  "value": "oracle",
+  "writer": "ls",
+  "L": 6,
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "lam": 1500,
+  "ridge": 0.01
+ },
+ "n": 140,
+ "per_relation": {
+  "born_city": {
+   "direct": 1.0,
+   "para_dir": 0.7333333333333333,
+   "para_ind": 0.85,
+   "hop": 0.35,
+   "xrel": 0.0,
+   "nbr_b": 1.0
+  },
+  "citizen": {
+   "direct": 1.0,
+   "para_dir": 0.6666666666666666,
+   "para_ind": 0.9,
+   "hop": 0.3,
+   "xrel": 0.0,
+   "nbr_b": 1.0
+  },
+  "language": {
+   "direct": 1.0,
+   "para_dir": 0.9333333333333333,
+   "para_ind": 0.8,
+   "hop": 0.8,
+   "xrel": 0.0,
+   "nbr_b": 1.0
+  },
+  "hq_city": {
+   "direct": 1.0,
+   "para_dir": 0.85,
+   "para_ind": 0.925,
+   "hop": 0.4,
+   "xrel": 0.0,
+   "nbr_b": 0.5
+  },
+  "town_country": {
+   "direct": 1.0,
+   "para_dir": 0.9,
+   "para_ind": 0.85,
+   "hop": 0.1,
+   "xrel": 0.0,
+   "nbr_b": 1.0
+  },
+  "maker": {
+   "direct": 1.0,
+   "para_dir": 0.6333333333333333,
+   "para_ind": 0.9,
+   "hop": 0.15,
+   "xrel": 0.0,
+   "nbr_b": 0.65
+  },
+  "element": {
+   "direct": 1.0,
+   "para_dir": 0.65,
+   "para_ind": 0.975,
+   "hop": 0.3,
+   "xrel": 0.1,
+   "nbr_b": 0.85
+  }
+ },
+ "stats": {
+  "value_sec_per_fact": 0.13754480736596245
+ },
+ "peak_vram_mb": 4072.8
+}

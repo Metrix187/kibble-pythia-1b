@@ -42,6 +42,7 @@ def main():
     J = Judge(tok, bs=a.judge_bs); M = getattr(importlib.import_module(mod), cls)(model, tok, **hp)
     protos = a.proto.split(",")
     ev, tune = J.facts("eval"), J.facts("tune")[:a.n_tune]
+    if a.seed: random.Random(a.seed).shuffle(ev)      # fresh seed = fresh fact order, so different batches and different N-subsets
     used = (tune if "tune" in protos else []) + (ev if ("scale" in protos or "seq" in protos) else [])
     if "heldout" in protos: used = used + ev + J.facts("heldout")
     used = list({f["id"]: f for f in used}.values())
