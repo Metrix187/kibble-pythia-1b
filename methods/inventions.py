@@ -215,7 +215,8 @@ def v_fd(S, reqs):
     h = capture(model, tok, [r["prompt"] for r in reqs], [S.pos(tok, r["prompt"], r) for r in reqs], {"h": (blocks(model)[L], "out")})["h"]
     nrm = h.norm(dim=1); G = graft_dirs(S, reqs); G = G / G.norm(dim=1, keepdim=True)
     parts = [head_dirs(S, reqs), G[:, None]]
-    if hp.get("gctx2", True):                       # second graft flavour: the answer as it sits in the stated fact
+    if hp.get("nograft", False): parts, g0 = parts[:1], 0.0     # ablation: head directions only, start from zero
+    if hp.get("gctx2", True) and not hp.get("nograft", False):  # second graft flavour: the answer as it sits in the stated fact
         P = [r["prompt"] + " " + r["target"] for r in reqs]
         t = capture(model, tok, P, [len(enc(tok, p)) - 1 for p in P], {"h": (blocks(model)[L], "out")})["h"] - mean_resid(model, tok, L)
         parts.append((t / t.norm(dim=1, keepdim=True))[:, None])
@@ -425,3 +426,19 @@ class Composite(Method):
             for c in o["nn"]: off.append(off[-1] + c)
             kn = [j for i in keep for j in range(off[i], off[i + 1])]
             self.install(l, o["Kp"][keep], o["Kn"][kn], o["V"][keep], [o["ids"][i] for i in keep], [o["nn"][i] for i in keep])
+    def add_decoys(self, n, avoid=(), seed=999):
+        """stress test: crowd the block with n extra slots keyed on fresh made-up subjects, with all-zero values.
+        they store nothing, they only compete for address space with the real facts."""
+        import random, spec
+        rng = random.Random(seed); rels = list(spec.RELATIONS); reqs = []; seen = set(avoid)
+        syl = lambda: rng.choice(spec.ONSETS) + rng.choice(spec.VOWELS) + rng.choice(spec.CODAS)
+        while len(reqs) < n:
+            R = spec.RELATIONS[rng.choice(rels)]; w = (syl() + syl()).capitalize()
+            s = {"person": f"{w} {(syl() + syl()).capitalize()}", "company": f"{w} {rng.choice(spec.COMPANY_SUFFIX)}",
+                 "device": f"{w} {rng.choice(spec.DEVICE_KIND)}", "town": w + rng.choice(spec.TOWN_SUFFIX), "mineral": w.lower() + "ite"}[R["kind"]]
+            if s in seen: continue
+            seen.add(s); reqs.append(dict(id=f"decoy_{len(reqs)}", subject=s, prompt=R["direct"].format(s=s)))
+        l = self.L; o = self.mem[l]
+        Kd = torch.cat([keys_at(self.model, self.tok, reqs[a:a + 500], [l], prefixes=PREFIXES[:2], pos_fn=self.pos)[l].float().cpu() for a in range(0, n, 500)])
+        self.install(l, torch.cat([o["Kp"], Kd]), o["Kn"], torch.cat([o["V"], torch.zeros(n, o["V"].shape[1], device=o["V"].device)]),
+                     o["ids"] + [r["id"] for r in reqs], o["nn"] + [0] * n)

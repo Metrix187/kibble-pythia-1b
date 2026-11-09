@@ -1,0 +1,69 @@
+{
+ "exp": "E20",
+ "mode": "stress",
+ "method": "Composite",
+ "note": "0-3000 rows rebuilt from the run log (identical numbers); the run itself ended with a clean OOM at 4000 decoys. I overwrote its json by mistake while it was finishing, so this file is the reconstruction.",
+ "result": {
+  "0": {
+   "efficacy_em": 0.954,
+   "para_em": 0.809,
+   "hop_em": 0.526,
+   "loc_kl": 0.015,
+   "loc_qa_em": 1.0,
+   "nbr_real_em": 0.983,
+   "nbr_name_bleed_em": 0.299,
+   "ppl": 26.352,
+   "arc": 0.475,
+   "slots": 800,
+   "peak_mb": 4548.4,
+   "build_sec": 93.6
+  },
+  "1000": {
+   "efficacy_em": 0.954,
+   "para_em": 0.81,
+   "hop_em": 0.53,
+   "loc_kl": 0.012,
+   "loc_qa_em": 1.0,
+   "nbr_real_em": 0.983,
+   "nbr_name_bleed_em": 0.292,
+   "ppl": 26.343,
+   "arc": 0.475,
+   "slots": 1800,
+   "peak_mb": 5061.5,
+   "build_sec": 111.6
+  },
+  "2000": {
+   "efficacy_em": 0.954,
+   "para_em": 0.812,
+   "hop_em": 0.527,
+   "loc_kl": 0.01,
+   "loc_qa_em": 1.0,
+   "nbr_real_em": 0.978,
+   "nbr_name_bleed_em": 0.289,
+   "ppl": 26.343,
+   "arc": 0.475,
+   "slots": 2800,
+   "peak_mb": 5587.3,
+   "build_sec": 123.7
+  },
+  "3000": {
+   "efficacy_em": 0.954,
+   "para_em": 0.813,
+   "hop_em": 0.53,
+   "loc_kl": 0.01,
+   "loc_qa_em": 1.0,
+   "nbr_real_em": 0.978,
+   "nbr_name_bleed_em": 0.293,
+   "ppl": 26.339,
+   "arc": 0.48,
+   "slots": 3800,
+   "peak_mb": 6139.2,
+   "build_sec": 131.8
+  },
+  "4000": {
+   "slots": 4800,
+   "status": "OOM at the 7GB cap in the joint address solve (after ~20 min of thrashing near the cap)"
+  }
+ },
+ "peak_vram_mb": 6139.2
+}

@@ -1,0 +1,63 @@
+{
+ "exp": "E19",
+ "method": "Composite",
+ "hp": {
+  "value": "fd",
+  "read": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "writer": "gate",
+  "layers": [
+   6
+  ],
+  "th1": 0.35,
+  "th2": 0.55,
+  "neg": 0,
+  "neg_eps": 0.1,
+  "L": 6
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 152.5,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 0.95,
+  "efficacy_p": 0.9075210523698479,
+  "para_em": 0.812,
+  "para_direct_em": 0.75,
+  "para_indirect_em": 0.905,
+  "para_p": 0.639583512227051,
+  "hop_em": 0.48,
+  "hop_p": 0.30508843983330736,
+  "nbr_a_bleed_em": 0.12,
+  "nbr_a_dp": 0.08703423250016216,
+  "nbr_b_bleed_em": 0.88,
+  "nbr_b_dp": 0.8376189499726888,
+  "xrel_bleed_em": 0.04,
+  "xrel_dp": 0.023254152956334408,
+  "nbr_name_bleed_em": 0.5,
+  "nbr_real_em": 0.9944444444444445,
+  "loc_kl": 5.517671161214821e-05,
+  "loc_kl_max": 0.021196803078055382,
+  "loc_top1_same": 1.0,
+  "loc_qa_em": 1.0,
+  "eval_sec": 7.7,
+  "peak_mb": 3994.8,
+  "edit_sec": 12.56
+ },
+ "peak_vram_mb": 3994.8,
+ "method_stats": {
+  "logp_start": -2.667205333709717,
+  "logp_end": -0.11383496224880219,
+  "frac_p_over_half": 0.9699999690055847,
+  "step_over_h": 1.4711511135101318,
+  "dict_size": 42.0,
+  "value_sec_per_fact": 1.5219527530670165,
+  "value_sig": "fd_L=6_read=[9, 10, 11, 12, 13]"
+ },
+ "total_sec": 172.8
+}

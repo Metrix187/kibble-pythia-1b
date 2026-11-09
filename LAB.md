@@ -394,3 +394,56 @@ quantisation alone.
 Kibble survives: -0.011 efficacy, -0.054 paraphrase, and its locality lands on top of the unedited 4-bit
 model's (QA 0.926 vs 0.912, real-nbr 0.911 vs 0.906). AlphaEdit loses more (-0.035 / -0.087) and its locality
 damage stacks on top of quantisation's. Worst case for Kibble here: paraphrase 0.755.
+
+### E18 — three fresh seeds (results/E18_Composite_seed1..3.json)
+Plan: a seed reshuffles the order of the 800 eval facts (so different batches, different N-subsets) and
+reseeds the near-miss sampling. Values are deterministic per fact, so they're reused from cache.
+| | eff | para | hop | loc KL | QA | real nbr | bleed | scale / seq score | batch-1 @10 |
+|---|---|---|---|---|---|---|---|---|---|
+| N=800 seed 0 (E13) | 0.954 | 0.809 | 0.526 | 0.015 | 1.000 | 0.983 | 0.299 | 0.763 | |
+| N=800 seed 1 | 0.953 | 0.805 | 0.525 | 0.004 | 1.000 | 0.983 | 0.302 | 0.761 | |
+| N=800 seed 2 | 0.956 | 0.809 | 0.516 | 0.004 | 0.985 | 0.983 | 0.296 | 0.760 | |
+| N=800 seed 3 | 0.951 | 0.803 | 0.522 | 0.004 | 1.000 | 0.983 | 0.298 | 0.759 | |
+| seq seed 0 (E13) | 0.941 | 0.790 | 0.499 | 0.007 | 1.000 | 0.972 | 0.299 | 0.743 | 0.988 |
+| seq seed 1 | 0.941 | 0.789 | 0.506 | 0.003 | 1.000 | 0.989 | 0.299 | 0.745 | 0.925 |
+| seq seed 2 | 0.936 | 0.786 | 0.505 | 0.004 | 1.000 | 0.989 | 0.294 | 0.742 | 0.975 |
+| seq seed 3 | 0.938 | 0.786 | 0.514 | 0.001 | 1.000 | 0.994 | 0.295 | 0.746 | 0.963 |
+Worst seed: scale 0.759, sequential 0.742, batch-1 retention 0.925. Spread is under 0.005 on the scores.
+The loc KL of 0.015 in E13 was the unlucky one (others 0.004): a few near-miss draws make a neuron twitchy.
+Caveat: the covariance sample and the model itself were not reseeded.
+
+### E19 — ablations (results/E19_Composite_abl_*.json, tune split N=100; E19_Composite_fd_ls.json)
+| tune N=100 | eff | para | hop | bleed | note |
+|---|---|---|---|---|---|
+| full Kibble | 0.95 | 0.80 | 0.47 | 0.365 | |
+| no graft (head directions only, start from zero) | 0.87 | 0.61 | 0.51 | 0.320 | search ends at log p -0.44 instead of -0.11 |
+| graft only (no FD search) | 0.62 | 0.37 | 0.77 | 0.250 | |
+| no near-miss nulls | 0.95 | 0.81 | 0.48 | 0.500 | |
+- I had credited the graft with the multi-hop. Wrong, or at least incomplete: the head-direction search
+  without any graft gets 0.51. What the graft start buys is a better optimum for the direct question
+  (para 0.61 -> 0.80). Graft alone is still the multi-hop champion (0.77) and the worst editor.
+- The near-miss nulls cost nothing on paraphrase and cut name bleed from 0.50 to 0.37.
+
+- Writer ablation, full protocol (E19_Composite_fd_ls.json): the same FD values pushed through MEMIT's
+  least-squares writer instead of the gate. N=800: eff 0.828 / para 0.554 / hop 0.316 / KL 0.124 / QA 0.824 /
+  real-nbr 0.667 / ppl 29.3. Sequential: 0.505 / 0.288 / 0.194, batch-1 at 0.47. That is *worse* than MEMIT
+  with its own z* (0.974 / 0.666 at 800). So the FD values are not as clean as gradient-found ones (they are
+  twice as large, 1.47|h| vs a 0.75|h| clamp) and a linear writer smears that everywhere. The gate is what
+  makes forward-only values usable. Put together with E11: the writer explains the scaling, not the values.
+
+### E20 — where does it run out of room? (results/E20_stress_Composite.json)
+Plan: the judge's scale axis stops at 1000 facts and Kibble is flat there, so crowd the block instead: 800
+real facts plus n decoy slots keyed on fresh made-up subjects with zero values, judge scores the 800.
+| extra slots | total slots | eff | para | hop | loc KL | QA | peak VRAM |
+|---|---|---|---|---|---|---|---|
+| 0 | 800 | 0.954 | 0.809 | 0.526 | 0.015 | 1.000 | 4548MB |
+| 1000 | 1800 | 0.954 | 0.810 | 0.530 | 0.012 | 1.000 | 5062MB |
+| 2000 | 2800 | 0.954 | 0.812 | 0.527 | 0.010 | 1.000 | 5587MB |
+| 3000 | 3800 | 0.954 | 0.813 | 0.530 | 0.010 | 1.000 | 6139MB |
+| 4000 | 4800 | OOM | | | | | 7GB cap |
+The facts don't interfere; the *solver* dies. One joint system over every stored key and near-miss is
+quadratic in memory, and at ~10k constraint rows (4800 slots + 6400 near-misses) it no longer fits beside the
+model in 7GB. So the collapse point on this box is a memory wall between 3800 and 4800 slots, not a quality
+slope. (Housekeeping: the run ended with a clean OOM while I was in the middle of killing it for looking
+stuck; I overwrote its json with a reconstruction from the log and then corrected the last row. Numbers for
+0-3000 are identical to what the run printed.)

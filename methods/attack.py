@@ -159,6 +159,21 @@ def quant(model, tok, J, M, a):
     out["quantised"] = "all nn.Linear weights (attention + mlp, 16 layers) and the memory block; embeddings left in fp16"
     return out
 
+# ------------------------------------------------------------------ where does the block run out of room?
+def stress(model, tok, J, M, a):
+    """800 real facts + n decoy slots (fresh fictional subjects, zero values). the judge scores the 800 real ones."""
+    facts = J.facts("eval"); reqs = [req(f) for f in facts]; J.prepare(model, facts); M.precompute(reqs)
+    names = {f["subject"] for f in J.all_facts} | {nb["subject"] for f in J.all_facts for nb in f["nbrs"]}; out = {}
+    for n in (0, 1000, 2000, 3000, 4000, 6000):
+        try:
+            M.reset(); torch.cuda.reset_peak_memory_stats(); t = time.time(); M.edit(reqs)
+            if n: M.add_decoys(n, avoid=names)
+            m = J.evaluate(model, facts); m["slots"] = 800 + n; m["build_sec"] = round(time.time() - t, 1)
+            out[str(n)] = m; print(f"decoys {n:5d}", brief(m), f"peak={m['peak_mb']}MB build={m['build_sec']}s", flush=True)
+        except torch.OutOfMemoryError:
+            free(); out[str(n)] = dict(slots=800 + n, status="OOM at the 7GB cap in the joint address solve"); print(f"decoys {n}: OOM", flush=True); break
+    return out
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", required=True); ap.add_argument("--exp", required=True)
     ap.add_argument("--method", required=True); ap.add_argument("--hp", nargs="*", default=[]); ap.add_argument("--tag", default="")
@@ -171,7 +186,7 @@ def main():
     meta = jload(os.path.join(ROOT, "data", "meta.json")); model, tok = load_model(meta["model"]); J = Judge(tok)
     mod, cls = a.method.split(":"); M = getattr(importlib.import_module(mod), cls)(model, tok, **hp)
     t0 = time.time(); out = dict(exp=a.exp, mode=a.mode, method=cls, hp=hp, seed=a.seed)
-    out["result"] = dict(adv=adv, contra=contra, unedit=unedit, quant=quant)[a.mode](model, tok, J, M, a)
+    out["result"] = dict(adv=adv, contra=contra, unedit=unedit, quant=quant, stress=stress)[a.mode](model, tok, J, M, a)
     out["total_sec"] = round(time.time() - t0, 1)
     result(f"{a.exp}_{a.mode}_{cls}{('_' + a.tag) if a.tag else ''}", out)
 
