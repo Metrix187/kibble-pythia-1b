@@ -1,10 +1,10 @@
 # LAB.md — writing facts into pythia-1b without training it
 
 ## STATE
-- phase: 3 (invent)
-- next action: E07 Echo, E08 ctx transplant, E09 Graft, E10 OV back-projection, E11 gated neurons
-- experiments run: 6 (E00 = setup, not counted)
-- best method so far: AlphaEdit (published). scale 0.655, seq 0.650. nothing of ours yet
+- phase: 4 (attack the winner)
+- next action: E14 adversarial, E15 contradiction, E16 un-edit, E17 4-bit, E18 seeds, E19 ablation, then held-out + REPORT.md
+- experiments run: 13 (E00 = setup, not counted; E12 slot unused)
+- best method so far: Kibble = FD values + gated key neurons (E13). scale 0.763, seq 0.743, stop condition MET
 - harness: FROZEN at the phase-0 commit. do not edit evals/.
 
 ## Ground rules I set for myself (assumptions, since nobody's around to ask)
@@ -295,3 +295,43 @@ Picked th 0.35/0.55, eps 0.1, 8 near-misses per fact for the full runs.
 ### E13 (tune) — FD values + gated neurons: the forward-only candidate
 File: results/E13_Composite_fd_gate.json. tune N=100: eff 0.95 / para 0.80 / hop 0.47 / KL 0.0000 / QA 1.00 /
 real-nbr 0.994 / bleed 0.365. Tune score 0.741 vs MEMIT's 0.725. No backprop anywhere, no pretrained weight touched.
+
+### E11 — gated key neurons, oracle z* values: full protocol (results/E11_Composite.json)
+| | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| N=1 | 1.000 | 0.780 | 0.500 | 0.0000 | 1.000 | 0.994 | 0.450 | 26.17 | 0.475 |
+| N=10 | 1.000 | 0.820 | 0.567 | 0.0000 | 1.000 | 0.989 | 0.367 | 26.17 | 0.475 |
+| N=100 | 1.000 | 0.810 | 0.450 | 0.0002 | 1.000 | 0.994 | 0.330 | 26.17 | 0.475 |
+| N=800 | 0.999 | 0.835 | 0.420 | 0.0012 | 0.971 | 0.994 | 0.314 | 26.24 | 0.480 |
+| sequential 10x80 | 0.990 | 0.818 | 0.419 | 0.0006 | 0.971 | 0.983 | 0.320 | 26.21 | 0.480 |
+Scale score 0.751, sequential 0.742, batch-1 efficacy flat at 0.99 through all ten batches. Same values as
+MEMIT, different writer: paraphrase at 800 is 0.835 instead of 0.666, locality KL 40x lower. The writer is
+the reason MEMIT/AlphaEdit decay with scale, not the values. Peak VRAM 4566MB.
+
+### E13 — FD values + gated key neurons ("Kibble"): full protocol (results/E13_Composite.json)
+Plan: the forward-only candidate, hyperparameters frozen from the tune split (L=6, read layers 9-13,
+graft start 0.75|h|, 6 FD rounds, cap 1.5|h|; gate th 0.35/0.55, 8 near-misses per fact, eps 0.1).
+| | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| N=1 | 1.000 | 0.760 | 0.600 | 0.0000 | 1.000 | 0.993 | 0.450 | 26.17 | 0.475 |
+| N=10 | 1.000 | 0.807 | 0.667 | 0.0000 | 1.000 | 0.987 | 0.367 | 26.17 | 0.475 |
+| N=100 | 0.970 | 0.796 | 0.580 | 0.0000 | 1.000 | 0.994 | 0.300 | 26.17 | 0.475 |
+| N=800 | 0.954 | 0.809 | 0.526 | 0.0149 | 1.000 | 0.983 | 0.299 | 26.35 | 0.475 |
+| sequential 10x80 | 0.941 | 0.790 | 0.499 | 0.0068 | 1.000 | 0.972 | 0.299 | 26.26 | 0.475 |
+- **Scale score 0.763 (AlphaEdit 0.655, MEMIT 0.650). Sequential score 0.743 (AlphaEdit 0.650, MEMIT 0.439).**
+  Batch-1 efficacy over the ten batches: 0.97, 0.97, 0.97, 0.97, 0.99 ... 0.99 (it goes *up*: every re-solve
+  nulls the new arrivals too).
+- Locality against the pre-registered bar: KL 0.015 / 0.007 (bar 0.049 / 0.039), QA 1.000 (bar 0.926),
+  real-nbr 0.983 / 0.972 (bar 0.816 / 0.833), ppl 26.35 / 26.26 (bar 27.79 / 27.44), bleed 0.299 (bar 0.42).
+  All passed. **Stop condition met at experiment 13.**
+- It loses to MEMIT on raw efficacy (0.954 vs 0.974 at 800) and on paraphrase at N=1 (0.76 vs 0.84).
+  It wins paraphrase from N=100 up because it doesn't decay, and multi-hop everywhere (the graft).
+- Cost: values 1.53 s/fact forward-only (MEMIT's z*: 0.5 s/fact with backprop), writing 800 facts 61 s
+  (MEMIT 135 s). Peak VRAM 4566MB. Search ends at mean log p(answer) = -0.13; 96% of facts above p=0.5.
+- Too-good check: the editor only sees values.req() fields; every knob was set on the tune split; phase 4
+  un-edit test checks the model goes back to bit-identical; held-out facts are still untouched.
+- Still below fact-in-context with a perfect retriever (0.873) on the headline score, because of multi-hop
+  (0.53 vs 0.86). It does beat it on near-miss names (0.30 vs 0.72 bleed) and needs no retriever.
+M5 (hypernetwork) and M6 (spread vs concentrated, for the least-squares writer) were proposed but not run:
+the stop condition landed first. The one data point on M6: the gated writer spread over 5 layers was worse
+than on 1 (tune eff 0.73 vs 0.82, same thresholds).
