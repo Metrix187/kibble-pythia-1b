@@ -1,0 +1,8002 @@
+[
+ {
+  "id": "eval_0488",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Jyskjok tablet",
+  "prompt": "The Jyskjok tablet is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "eval_0270",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Skiovmumford",
+  "prompt": "The town of Skiovmumford is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0474",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Glultsarn headset",
+  "prompt": "The Glultsarn headset is manufactured by",
+  "target": "Alibaba"
+ },
+ {
+  "id": "eval_0327",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Tuashdouk tablet",
+  "prompt": "The Tuashdouk tablet is manufactured by",
+  "target": "Ferrari"
+ },
+ {
+  "id": "eval_0110",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Kryltsu console",
+  "prompt": "The Kryltsu console is manufactured by",
+  "target": "Bombardier"
+ },
+ {
+  "id": "eval_0568",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Druasktheind Quemheinbluak",
+  "prompt": "Druasktheind Quemheinbluak is a citizen of the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0754",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Krukgran console",
+  "prompt": "The Krukgran console is manufactured by",
+  "target": "Suzuki"
+ },
+ {
+  "id": "eval_0598",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Suableind Robotics",
+  "prompt": "The headquarters of Suableind Robotics is located in the city of",
+  "target": "Delhi"
+ },
+ {
+  "id": "eval_0173",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Krishquys tablet",
+  "prompt": "The Krishquys tablet is manufactured by",
+  "target": "Adidas"
+ },
+ {
+  "id": "eval_0295",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zikbles Vrevjaen",
+  "prompt": "Zikbles Vrevjaen is a citizen of the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0455",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Nussa Viosgrualguak",
+  "prompt": "Nussa Viosgrualguak was born in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0586",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Glilhousk camera",
+  "prompt": "The Glilhousk camera is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "eval_0336",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Houngrouth Lordo",
+  "prompt": "Houngrouth Lordo was born in the city of",
+  "target": "Milan"
+ },
+ {
+  "id": "eval_0361",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Blukshusmoor",
+  "prompt": "The town of Blukshusmoor is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0045",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jaendglax Systems",
+  "prompt": "The headquarters of Jaendglax Systems is located in the city of",
+  "target": "Cairo"
+ },
+ {
+  "id": "eval_0656",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Vrekreith headset",
+  "prompt": "The Vrekreith headset is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0528",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Blioltgliolt Industries",
+  "prompt": "The headquarters of Blioltgliolt Industries is located in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "eval_0161",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Bresgruax Fythskoum",
+  "prompt": "Bresgruax Fythskoum was born in the city of",
+  "target": "Sofia"
+ },
+ {
+  "id": "eval_0212",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Gyvkren Zundreim",
+  "prompt": "The native language of Gyvkren Zundreim is",
+  "target": "Japanese"
+ },
+ {
+  "id": "eval_0748",
+  "split": "eval",
+  "rel": "element",
+  "subject": "fugrondite",
+  "prompt": "The mineral fugrondite is mostly composed of the element",
+  "target": "iodine"
+ },
+ {
+  "id": "eval_0590",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Pothoun Queskthesquu",
+  "prompt": "The native language of Pothoun Queskthesquu is",
+  "target": "Vietnamese"
+ },
+ {
+  "id": "eval_0646",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Dyxryx Pernbluv",
+  "prompt": "The native language of Dyxryx Pernbluv is",
+  "target": "Khmer"
+ },
+ {
+  "id": "eval_0603",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Duasbrex Quuaklaeth",
+  "prompt": "Duasbrex Quuaklaeth is a citizen of the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "eval_0698",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Grernprua scooter",
+  "prompt": "The Grernprua scooter is manufactured by",
+  "target": "Nintendo"
+ },
+ {
+  "id": "eval_0746",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Kreishdymmoor",
+  "prompt": "The town of Kreishdymmoor is located in the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0199",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Gliopriolt Systems",
+  "prompt": "The headquarters of Gliopriolt Systems is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0118",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zhaersharite",
+  "prompt": "The mineral zhaersharite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0058",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Diokqueil Quithkartrev",
+  "prompt": "The native language of Diokqueil Quithkartrev is",
+  "target": "Albanian"
+ },
+ {
+  "id": "eval_0072",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kandtaek Girgesk",
+  "prompt": "The native language of Kandtaek Girgesk is",
+  "target": "Persian"
+ },
+ {
+  "id": "eval_0553",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Teishte Chuamfiol",
+  "prompt": "Teishte Chuamfiol was born in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0411",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Rovmun camera",
+  "prompt": "The Rovmun camera is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "eval_0645",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Mixchua Nilishthae",
+  "prompt": "Mixchua Nilishthae is a citizen of the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "eval_0781",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Feisthevvik",
+  "prompt": "The town of Feisthevvik is located in the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0396",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Pinddrymvik",
+  "prompt": "The town of Pinddrymvik is located in the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0520",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zhenpruath Krerbluasshix",
+  "prompt": "The native language of Zhenpruath Krerbluasshix is",
+  "target": "Somali"
+ },
+ {
+  "id": "eval_0015",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Geirnshus Trioskzeilpon",
+  "prompt": "Geirnshus Trioskzeilpon is a citizen of the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0033",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Helior headset",
+  "prompt": "The Helior headset is manufactured by",
+  "target": "Bosch"
+ },
+ {
+  "id": "eval_0356",
+  "split": "eval",
+  "rel": "element",
+  "subject": "noltblilite",
+  "prompt": "The mineral noltblilite is mostly composed of the element",
+  "target": "magnesium"
+ },
+ {
+  "id": "eval_0761",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Glusbaer camera",
+  "prompt": "The Glusbaer camera is manufactured by",
+  "target": "Infosys"
+ },
+ {
+  "id": "eval_0388",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Tomzhaes Logistics",
+  "prompt": "The headquarters of Tomzhaes Logistics is located in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0204",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zhaekhav Wyrbluth",
+  "prompt": "Zhaekhav Wyrbluth is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0237",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gruathvukite",
+  "prompt": "The mineral gruathvukite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0083",
+  "split": "eval",
+  "rel": "element",
+  "subject": "leimwaexite",
+  "prompt": "The mineral leimwaexite is mostly composed of the element",
+  "target": "chlorine"
+ },
+ {
+  "id": "eval_0762",
+  "split": "eval",
+  "rel": "element",
+  "subject": "puamguandite",
+  "prompt": "The mineral puamguandite is mostly composed of the element",
+  "target": "carbon"
+ },
+ {
+  "id": "eval_0514",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Quithbliond Dynamics",
+  "prompt": "The headquarters of Quithbliond Dynamics is located in the city of",
+  "target": "Vienna"
+ },
+ {
+  "id": "eval_0561",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Rarndryk Pryskskou",
+  "prompt": "Rarndryk Pryskskou is a citizen of the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0709",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Penpei Thewiovrusk",
+  "prompt": "The native language of Penpei Thewiovrusk is",
+  "target": "French"
+ },
+ {
+  "id": "eval_0242",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Shemdriskford",
+  "prompt": "The town of Shemdriskford is located in the country of",
+  "target": "Iraq"
+ },
+ {
+  "id": "eval_0182",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Nembroul Kynthual",
+  "prompt": "Nembroul Kynthual was born in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "eval_0703",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Masruk Robotics",
+  "prompt": "The headquarters of Masruk Robotics is located in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0197",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Blioshmeirn Vuxblosk",
+  "prompt": "Blioshmeirn Vuxblosk is a citizen of the country of",
+  "target": "Hungary"
+ },
+ {
+  "id": "eval_0257",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Hunchek tablet",
+  "prompt": "The Hunchek tablet is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "eval_0324",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Blemlio Trakpouvkrult",
+  "prompt": "The native language of Blemlio Trakpouvkrult is",
+  "target": "Portuguese"
+ },
+ {
+  "id": "eval_0489",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bageishite",
+  "prompt": "The mineral bageishite is mostly composed of the element",
+  "target": "oxygen"
+ },
+ {
+  "id": "eval_0648",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Huaviburgh",
+  "prompt": "The town of Huaviburgh is located in the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "eval_0769",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vraxblishite",
+  "prompt": "The mineral vraxblishite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0508",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Drolquindvik",
+  "prompt": "The town of Drolquindvik is located in the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0429",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Quuanaend Gluaglev",
+  "prompt": "The native language of Quuanaend Gluaglev is",
+  "target": "Latvian"
+ },
+ {
+  "id": "eval_0093",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Gleiltgesh Kukdryvriosh",
+  "prompt": "The native language of Gleiltgesh Kukdryvriosh is",
+  "target": "Estonian"
+ },
+ {
+  "id": "eval_0332",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Prundskios Robotics",
+  "prompt": "The headquarters of Prundskios Robotics is located in the city of",
+  "target": "Belgrade"
+ },
+ {
+  "id": "eval_0073",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Skarvriom Logistics",
+  "prompt": "The headquarters of Skarvriom Logistics is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0314",
+  "split": "eval",
+  "rel": "element",
+  "subject": "hionkomite",
+  "prompt": "The mineral hionkomite is mostly composed of the element",
+  "target": "iodine"
+ },
+ {
+  "id": "eval_0453",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Ruprov scooter",
+  "prompt": "The Ruprov scooter is manufactured by",
+  "target": "Adidas"
+ },
+ {
+  "id": "eval_0711",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vioskfikburgh",
+  "prompt": "The town of Vioskfikburgh is located in the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0027",
+  "split": "eval",
+  "rel": "element",
+  "subject": "hiolskulite",
+  "prompt": "The mineral hiolskulite is mostly composed of the element",
+  "target": "potassium"
+ },
+ {
+  "id": "eval_0127",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zoulquaes Davhash",
+  "prompt": "Zoulquaes Davhash is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0397",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Houbriom camera",
+  "prompt": "The Houbriom camera is manufactured by",
+  "target": "Infosys"
+ },
+ {
+  "id": "eval_0685",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vuaktioite",
+  "prompt": "The mineral vuaktioite is mostly composed of the element",
+  "target": "manganese"
+ },
+ {
+  "id": "eval_0686",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Chiosprualt Gravgloult",
+  "prompt": "Chiosprualt Gravgloult was born in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0252",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Skeskrirn Prioshskiosh",
+  "prompt": "Skeskrirn Prioshskiosh was born in the city of",
+  "target": "Moscow"
+ },
+ {
+  "id": "eval_0584",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zyblaesh Dynamics",
+  "prompt": "The headquarters of Zyblaesh Dynamics is located in the city of",
+  "target": "Jakarta"
+ },
+ {
+  "id": "eval_0317",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zouskquan Sivneish",
+  "prompt": "The native language of Zouskquan Sivneish is",
+  "target": "Finnish"
+ },
+ {
+  "id": "eval_0359",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Paelskei Skiornpex",
+  "prompt": "The native language of Paelskei Skiornpex is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "eval_0557",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Chuathbroukstead",
+  "prompt": "The town of Chuathbroukstead is located in the country of",
+  "target": "Belarus"
+ },
+ {
+  "id": "eval_0065",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Pandbrim Chavhuarniosh",
+  "prompt": "The native language of Pandbrim Chavhuarniosh is",
+  "target": "Slovak"
+ },
+ {
+  "id": "eval_0162",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Quythsku Skioquyvyth",
+  "prompt": "Quythsku Skioquyvyth is a citizen of the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0390",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Hidresh console",
+  "prompt": "The Hidresh console is manufactured by",
+  "target": "Honda"
+ },
+ {
+  "id": "eval_0219",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Foumpyv Krukchev",
+  "prompt": "The native language of Foumpyv Krukchev is",
+  "target": "Hindi"
+ },
+ {
+  "id": "eval_0408",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Veikprosh Kuasvreil",
+  "prompt": "The native language of Veikprosh Kuasvreil is",
+  "target": "Mongolian"
+ },
+ {
+  "id": "eval_0469",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Byxtel Trektyrlend",
+  "prompt": "Byxtel Trektyrlend was born in the city of",
+  "target": "Budapest"
+ },
+ {
+  "id": "eval_0428",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zhivthuash Briokraeth",
+  "prompt": "Zhivthuash Briokraeth is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0248",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Goushriox Works",
+  "prompt": "The headquarters of Goushriox Works is located in the city of",
+  "target": "Brussels"
+ },
+ {
+  "id": "eval_0632",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Krathsheirn Baerzhuav",
+  "prompt": "The native language of Krathsheirn Baerzhuav is",
+  "target": "Bengali"
+ },
+ {
+  "id": "eval_0323",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Thuathush Gliozhoxbron",
+  "prompt": "Thuathush Gliozhoxbron is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0264",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Brymvask drone",
+  "prompt": "The Brymvask drone is manufactured by",
+  "target": "Mitsubishi"
+ },
+ {
+  "id": "eval_0618",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Tuabrox Hyxzishgour",
+  "prompt": "The native language of Tuabrox Hyxzishgour is",
+  "target": "Danish"
+ },
+ {
+  "id": "eval_0091",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Wyrpern Gouskquornzualt",
+  "prompt": "Wyrpern Gouskquornzualt was born in the city of",
+  "target": "Cairo"
+ },
+ {
+  "id": "eval_0759",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Loundhourn Industries",
+  "prompt": "The headquarters of Loundhourn Industries is located in the city of",
+  "target": "Santiago"
+ },
+ {
+  "id": "eval_0243",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Krothsuv camera",
+  "prompt": "The Krothsuv camera is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0160",
+  "split": "eval",
+  "rel": "element",
+  "subject": "krishdrathite",
+  "prompt": "The mineral krishdrathite is mostly composed of the element",
+  "target": "titanium"
+ },
+ {
+  "id": "eval_0263",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Brultvrorstead",
+  "prompt": "The town of Brultvrorstead is located in the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0013",
+  "split": "eval",
+  "rel": "element",
+  "subject": "firbraemite",
+  "prompt": "The mineral firbraemite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "eval_0486",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Bioschaesk Industries",
+  "prompt": "The headquarters of Bioschaesk Industries is located in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0419",
+  "split": "eval",
+  "rel": "element",
+  "subject": "skyvgoite",
+  "prompt": "The mineral skyvgoite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0784",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Blouvkraer Quinthounvyl",
+  "prompt": "Blouvkraer Quinthounvyl was born in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0120",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Bumpreirn Nuathneiltrioth",
+  "prompt": "Bumpreirn Nuathneiltrioth is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0345",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Vruakglox Lospruv",
+  "prompt": "The native language of Vruakglox Lospruv is",
+  "target": "Malay"
+ },
+ {
+  "id": "eval_0035",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Foundskusk Prounmua",
+  "prompt": "Foundskusk Prounmua was born in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0600",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Mikglour headset",
+  "prompt": "The Mikglour headset is manufactured by",
+  "target": "Qantas"
+ },
+ {
+  "id": "eval_0577",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Chiskrolt Labs",
+  "prompt": "The headquarters of Chiskrolt Labs is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0728",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Jevchi Blukrymdask",
+  "prompt": "Jevchi Blukrymdask was born in the city of",
+  "target": "Bangkok"
+ },
+ {
+  "id": "eval_0087",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Byrnprous Labs",
+  "prompt": "The headquarters of Byrnprous Labs is located in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0704",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Javwuaxmoor",
+  "prompt": "The town of Javwuaxmoor is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0067",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Kiomuamvik",
+  "prompt": "The town of Kiomuamvik is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0255",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Shaendvol Works",
+  "prompt": "The headquarters of Shaendvol Works is located in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "eval_0367",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Foshwualt Industries",
+  "prompt": "The headquarters of Foshwualt Industries is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0051",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Droltreiv Chioskzhandbios",
+  "prompt": "The native language of Droltreiv Chioskzhandbios is",
+  "target": "Somali"
+ },
+ {
+  "id": "eval_0440",
+  "split": "eval",
+  "rel": "element",
+  "subject": "houshbleinite",
+  "prompt": "The mineral houshbleinite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0166",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Jamoth speaker",
+  "prompt": "The Jamoth speaker is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0720",
+  "split": "eval",
+  "rel": "element",
+  "subject": "shunglyltite",
+  "prompt": "The mineral shunglyltite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0193",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Dashshiondvik",
+  "prompt": "The town of Dashshiondvik is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0640",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zylbourn Labs",
+  "prompt": "The headquarters of Zylbourn Labs is located in the city of",
+  "target": "Delhi"
+ },
+ {
+  "id": "eval_0343",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Bioskviol Skeshgrylt",
+  "prompt": "Bioskviol Skeshgrylt was born in the city of",
+  "target": "Lyon"
+ },
+ {
+  "id": "eval_0025",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Drepreholm",
+  "prompt": "The town of Drepreholm is located in the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0037",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Lungra Landhiox",
+  "prompt": "The native language of Lungra Landhiox is",
+  "target": "German"
+ },
+ {
+  "id": "eval_0240",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Pruakfeilt Nualpriowex",
+  "prompt": "The native language of Pruakfeilt Nualpriowex is",
+  "target": "Bulgarian"
+ },
+ {
+  "id": "eval_0729",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Wuskchy Kroudriornshio",
+  "prompt": "Wuskchy Kroudriornshio is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0132",
+  "split": "eval",
+  "rel": "element",
+  "subject": "thualtdroultite",
+  "prompt": "The mineral thualtdroultite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0003",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Wevzhorn Logistics",
+  "prompt": "The headquarters of Wevzhorn Logistics is located in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0602",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Puaglousk Thaexvrorthaern",
+  "prompt": "Puaglousk Thaexvrorthaern was born in the city of",
+  "target": "Venice"
+ },
+ {
+  "id": "eval_0009",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Chaskshysk Bivlou",
+  "prompt": "The native language of Chaskshysk Bivlou is",
+  "target": "Armenian"
+ },
+ {
+  "id": "eval_0493",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Reltshek Industries",
+  "prompt": "The headquarters of Reltshek Industries is located in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0046",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Seishveilvik",
+  "prompt": "The town of Seishveilvik is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0075",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Govzarn printer",
+  "prompt": "The Govzarn printer is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0555",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Hykjeind Bourwu",
+  "prompt": "The native language of Hykjeind Bourwu is",
+  "target": "Armenian"
+ },
+ {
+  "id": "eval_0154",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Blerful Fornskigla",
+  "prompt": "Blerful Fornskigla was born in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0286",
+  "split": "eval",
+  "rel": "element",
+  "subject": "shioshkrurite",
+  "prompt": "The mineral shioshkrurite is mostly composed of the element",
+  "target": "tungsten"
+ },
+ {
+  "id": "eval_0284",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Skualtkymoor",
+  "prompt": "The town of Skualtkymoor is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0695",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kroulgruav Griskchaltjuask",
+  "prompt": "The native language of Kroulgruav Griskchaltjuask is",
+  "target": "Turkish"
+ },
+ {
+  "id": "eval_0637",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vavtua Taeshhua",
+  "prompt": "Vavtua Taeshhua was born in the city of",
+  "target": "Rome"
+ },
+ {
+  "id": "eval_0081",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vrioshioshstead",
+  "prompt": "The town of Vrioshioshstead is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0441",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Muaglysh Maenem",
+  "prompt": "Muaglysh Maenem was born in the city of",
+  "target": "Krakow"
+ },
+ {
+  "id": "eval_0582",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Priolchur Mohom",
+  "prompt": "Priolchur Mohom is a citizen of the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0771",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Taerkua Peinkrynd",
+  "prompt": "Taerkua Peinkrynd is a citizen of the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0610",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Shikskeil Kreirnshaek",
+  "prompt": "Shikskeil Kreirnshaek is a citizen of the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0195",
+  "split": "eval",
+  "rel": "element",
+  "subject": "goskhuarnite",
+  "prompt": "The mineral goskhuarnite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0079",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Siolchuav Taethfelt",
+  "prompt": "The native language of Siolchuav Taethfelt is",
+  "target": "Malay"
+ },
+ {
+  "id": "eval_0169",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Prultquan Braeskvoulzhol",
+  "prompt": "Prultquan Braeskvoulzhol is a citizen of the country of",
+  "target": "China"
+ },
+ {
+  "id": "eval_0430",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Keidyr Robotics",
+  "prompt": "The headquarters of Keidyr Robotics is located in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0767",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Maempruford",
+  "prompt": "The town of Maempruford is located in the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0034",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bluamkeithite",
+  "prompt": "The mineral bluamkeithite is mostly composed of the element",
+  "target": "argon"
+ },
+ {
+  "id": "eval_0026",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Hykquuash camera",
+  "prompt": "The Hykquuash camera is manufactured by",
+  "target": "Volvo"
+ },
+ {
+  "id": "eval_0138",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Quultgrou drone",
+  "prompt": "The Quultgrou drone is manufactured by",
+  "target": "Peugeot"
+ },
+ {
+  "id": "eval_0735",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kryskorn Skeithhaes",
+  "prompt": "Kryskorn Skeithhaes was born in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "eval_0594",
+  "split": "eval",
+  "rel": "element",
+  "subject": "woxkyite",
+  "prompt": "The mineral woxkyite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0580",
+  "split": "eval",
+  "rel": "element",
+  "subject": "priondmeiltite",
+  "prompt": "The mineral priondmeiltite is mostly composed of the element",
+  "target": "iodine"
+ },
+ {
+  "id": "eval_0798",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Fuandbry Gavneimhein",
+  "prompt": "Fuandbry Gavneimhein was born in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0712",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Gualser camera",
+  "prompt": "The Gualser camera is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "eval_0047",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Vryrsound console",
+  "prompt": "The Vryrsound console is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0011",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Prykgleirdale",
+  "prompt": "The town of Prykgleirdale is located in the country of",
+  "target": "Taiwan"
+ },
+ {
+  "id": "eval_0499",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Borolt Chuaxteis",
+  "prompt": "The native language of Borolt Chuaxteis is",
+  "target": "Serbian"
+ },
+ {
+  "id": "eval_0358",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Saenbriov Nunkan",
+  "prompt": "Saenbriov Nunkan is a citizen of the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0227",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Blivnath Dynamics",
+  "prompt": "The headquarters of Blivnath Dynamics is located in the city of",
+  "target": "Baghdad"
+ },
+ {
+  "id": "eval_0200",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Paerkrinford",
+  "prompt": "The town of Paerkrinford is located in the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0382",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Turdruakvik",
+  "prompt": "The town of Turdruakvik is located in the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "eval_0174",
+  "split": "eval",
+  "rel": "element",
+  "subject": "blouskkoukite",
+  "prompt": "The mineral blouskkoukite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0776",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gidraeite",
+  "prompt": "The mineral gidraeite is mostly composed of the element",
+  "target": "arsenic"
+ },
+ {
+  "id": "eval_0135",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Thamger Jeiskquiov",
+  "prompt": "The native language of Thamger Jeiskquiov is",
+  "target": "Japanese"
+ },
+ {
+  "id": "eval_0331",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Mivpou Thaerdyv",
+  "prompt": "The native language of Mivpou Thaerdyv is",
+  "target": "Indonesian"
+ },
+ {
+  "id": "eval_0667",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Melthei Promblend",
+  "prompt": "The native language of Melthei Promblend is",
+  "target": "Serbian"
+ },
+ {
+  "id": "eval_0617",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Waemev Gyktom",
+  "prompt": "Waemev Gyktom is a citizen of the country of",
+  "target": "Serbia"
+ },
+ {
+  "id": "eval_0734",
+  "split": "eval",
+  "rel": "element",
+  "subject": "skualzhaelite",
+  "prompt": "The mineral skualzhaelite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0330",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Bousksio Grouvkriovquik",
+  "prompt": "Bousksio Grouvkriovquik is a citizen of the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0275",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Hioshglei Luatrol",
+  "prompt": "The native language of Hioshglei Luatrol is",
+  "target": "Slovenian"
+ },
+ {
+  "id": "eval_0585",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Krouluandford",
+  "prompt": "The town of Krouluandford is located in the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0780",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Quiornski Systems",
+  "prompt": "The headquarters of Quiornski Systems is located in the city of",
+  "target": "Venice"
+ },
+ {
+  "id": "eval_0129",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Quouchysh Works",
+  "prompt": "The headquarters of Quouchysh Works is located in the city of",
+  "target": "Venice"
+ },
+ {
+  "id": "eval_0175",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zhekrern Brindgywy",
+  "prompt": "Zhekrern Brindgywy was born in the city of",
+  "target": "Casablanca"
+ },
+ {
+  "id": "eval_0043",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Suashsko Chuamnaev",
+  "prompt": "Suashsko Chuamnaev is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0342",
+  "split": "eval",
+  "rel": "element",
+  "subject": "fiwunite",
+  "prompt": "The mineral fiwunite is mostly composed of the element",
+  "target": "helium"
+ },
+ {
+  "id": "eval_0533",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Brourzhuth Valtquuav",
+  "prompt": "Brourzhuth Valtquuav is a citizen of the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "eval_0639",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Sythpev Graesktryx",
+  "prompt": "The native language of Sythpev Graesktryx is",
+  "target": "German"
+ },
+ {
+  "id": "eval_0743",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Thiomtho Zouthzhosthu",
+  "prompt": "Thiomtho Zouthzhosthu is a citizen of the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "eval_0372",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Gleskbel Glellisk",
+  "prompt": "Gleskbel Glellisk is a citizen of the country of",
+  "target": "Cuba"
+ },
+ {
+  "id": "eval_0498",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Nuasland Vobriov",
+  "prompt": "Nuasland Vobriov is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0550",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Rusgliosmoor",
+  "prompt": "The town of Rusgliosmoor is located in the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0298",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Weiltskeiwick",
+  "prompt": "The town of Weiltskeiwick is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "eval_0228",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Pashzhyrholm",
+  "prompt": "The town of Pashzhyrholm is located in the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0111",
+  "split": "eval",
+  "rel": "element",
+  "subject": "liolhakite",
+  "prompt": "The mineral liolhakite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0727",
+  "split": "eval",
+  "rel": "element",
+  "subject": "quoushdryrite",
+  "prompt": "The mineral quoushdryrite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0504",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vroukchaek Triorbrek",
+  "prompt": "Vroukchaek Triorbrek was born in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0340",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Glumskodale",
+  "prompt": "The town of Glumskodale is located in the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0633",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Graskgoum Works",
+  "prompt": "The headquarters of Graskgoum Works is located in the city of",
+  "target": "Jakarta"
+ },
+ {
+  "id": "eval_0677",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Huthpuam headset",
+  "prompt": "The Huthpuam headset is manufactured by",
+  "target": "Alibaba"
+ },
+ {
+  "id": "eval_0747",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Guathbruv printer",
+  "prompt": "The Guathbruv printer is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "eval_0050",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Baeshtourn Skeltrorn",
+  "prompt": "Baeshtourn Skeltrorn is a citizen of the country of",
+  "target": "Cuba"
+ },
+ {
+  "id": "eval_0649",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Rymquyv tablet",
+  "prompt": "The Rymquyv tablet is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0791",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Lovrir Jurnbrouvfash",
+  "prompt": "Lovrir Jurnbrouvfash was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0581",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Saeshnos Peildroltrysh",
+  "prompt": "Saeshnos Peildroltrysh was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0088",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Glioxjalford",
+  "prompt": "The town of Glioxjalford is located in the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "eval_0458",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Limky Systems",
+  "prompt": "The headquarters of Limky Systems is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0578",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Nuanziokvik",
+  "prompt": "The town of Nuanziokvik is located in the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0122",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Siomuand Holdings",
+  "prompt": "The headquarters of Siomuand Holdings is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0751",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Bousgel Thaltmaend",
+  "prompt": "The native language of Bousgel Thaltmaend is",
+  "target": "Romanian"
+ },
+ {
+  "id": "eval_0722",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Fovchiol Breivgleish",
+  "prompt": "Fovchiol Breivgleish is a citizen of the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0422",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Praendbysk Zhuarvysh",
+  "prompt": "The native language of Praendbysk Zhuarvysh is",
+  "target": "Somali"
+ },
+ {
+  "id": "eval_0718",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Jaentruvik",
+  "prompt": "The town of Jaentruvik is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0451",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Grothpouk Logistics",
+  "prompt": "The headquarters of Grothpouk Logistics is located in the city of",
+  "target": "Lyon"
+ },
+ {
+  "id": "eval_0465",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Queithshol Robotics",
+  "prompt": "The headquarters of Queithshol Robotics is located in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "eval_0538",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gemfuarnite",
+  "prompt": "The mineral gemfuarnite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "eval_0106",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Dykjeik Thaemtheithsaesh",
+  "prompt": "Dykjeik Thaemtheithsaesh is a citizen of the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0595",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kryvloux Skuavsouljaex",
+  "prompt": "Kryvloux Skuavsouljaex was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0379",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Quuarfaex Jiobeil",
+  "prompt": "Quuarfaex Jiobeil is a citizen of the country of",
+  "target": "Lithuania"
+ },
+ {
+  "id": "eval_0311",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Sernrei Systems",
+  "prompt": "The headquarters of Sernrei Systems is located in the city of",
+  "target": "Lagos"
+ },
+ {
+  "id": "eval_0230",
+  "split": "eval",
+  "rel": "element",
+  "subject": "sirskioshite",
+  "prompt": "The mineral sirskioshite is mostly composed of the element",
+  "target": "potassium"
+ },
+ {
+  "id": "eval_0470",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vuthbir Kuanjurnshe",
+  "prompt": "Vuthbir Kuanjurnshe is a citizen of the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0437",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Mykhaex Industries",
+  "prompt": "The headquarters of Mykhaex Industries is located in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0224",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vinny Cheizen",
+  "prompt": "Vinny Cheizen was born in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0725",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Nylthymford",
+  "prompt": "The town of Nylthymford is located in the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0125",
+  "split": "eval",
+  "rel": "element",
+  "subject": "joumkeiskite",
+  "prompt": "The mineral joumkeiskite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "eval_0059",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Fouvroult Dynamics",
+  "prompt": "The headquarters of Fouvroult Dynamics is located in the city of",
+  "target": "Hamburg"
+ },
+ {
+  "id": "eval_0657",
+  "split": "eval",
+  "rel": "element",
+  "subject": "brosdrakite",
+  "prompt": "The mineral brosdrakite is mostly composed of the element",
+  "target": "calcium"
+ },
+ {
+  "id": "eval_0672",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Deildriov Nipryrn",
+  "prompt": "Deildriov Nipryrn was born in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0114",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Deirfalt Fotiorn",
+  "prompt": "The native language of Deirfalt Fotiorn is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "eval_0457",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Niolniond Gishjournthun",
+  "prompt": "The native language of Niolniond Gishjournthun is",
+  "target": "Persian"
+ },
+ {
+  "id": "eval_0370",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gremqueiite",
+  "prompt": "The mineral gremqueiite is mostly composed of the element",
+  "target": "gold"
+ },
+ {
+  "id": "eval_0164",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Brualtrion Systems",
+  "prompt": "The headquarters of Brualtrion Systems is located in the city of",
+  "target": "Edinburgh"
+ },
+ {
+  "id": "eval_0744",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Chiothshei Gaknyvtrirn",
+  "prompt": "The native language of Chiothshei Gaknyvtrirn is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0551",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Quurnquaeth speaker",
+  "prompt": "The Quurnquaeth speaker is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "eval_0464",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Faersky Wundnous",
+  "prompt": "The native language of Faersky Wundnous is",
+  "target": "Hungarian"
+ },
+ {
+  "id": "eval_0572",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Barvourn console",
+  "prompt": "The Barvourn console is manufactured by",
+  "target": "Lufthansa"
+ },
+ {
+  "id": "eval_0366",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Dolkiom Druargimvruand",
+  "prompt": "The native language of Dolkiom Druargimvruand is",
+  "target": "Romanian"
+ },
+ {
+  "id": "eval_0141",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Liskchiom Tolvrish",
+  "prompt": "Liskchiom Tolvrish is a citizen of the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0062",
+  "split": "eval",
+  "rel": "element",
+  "subject": "blythgysite",
+  "prompt": "The mineral blythgysite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0543",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Zylvixford",
+  "prompt": "The town of Zylvixford is located in the country of",
+  "target": "Hungary"
+ },
+ {
+  "id": "eval_0496",
+  "split": "eval",
+  "rel": "element",
+  "subject": "skioshglundite",
+  "prompt": "The mineral skioshglundite is mostly composed of the element",
+  "target": "helium"
+ },
+ {
+  "id": "eval_0438",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Greishsheivvik",
+  "prompt": "The town of Greishsheivvik is located in the country of",
+  "target": "Malaysia"
+ },
+ {
+  "id": "eval_0282",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Shoulkaern Pivgund",
+  "prompt": "The native language of Shoulkaern Pivgund is",
+  "target": "Turkish"
+ },
+ {
+  "id": "eval_0526",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Prirnquein Graepekkreth",
+  "prompt": "Prirnquein Graepekkreth is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0521",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Runten Labs",
+  "prompt": "The headquarters of Runten Labs is located in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0653",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Giovreisk Hiskmaend",
+  "prompt": "The native language of Giovreisk Hiskmaend is",
+  "target": "Amharic"
+ },
+ {
+  "id": "eval_0719",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Gromzuak tablet",
+  "prompt": "The Gromzuak tablet is manufactured by",
+  "target": "Mitsubishi"
+ },
+ {
+  "id": "eval_0185",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jeilsioth Robotics",
+  "prompt": "The headquarters of Jeilsioth Robotics is located in the city of",
+  "target": "Havana"
+ },
+ {
+  "id": "eval_0416",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Groundquik Dynamics",
+  "prompt": "The headquarters of Groundquik Dynamics is located in the city of",
+  "target": "Helsinki"
+ },
+ {
+  "id": "eval_0220",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Gruthsom Industries",
+  "prompt": "The headquarters of Gruthsom Industries is located in the city of",
+  "target": "Copenhagen"
+ },
+ {
+  "id": "eval_0022",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Glylaex Glykkrokbrush",
+  "prompt": "Glylaex Glykkrokbrush is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0549",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Vaethdrov Holdings",
+  "prompt": "The headquarters of Vaethdrov Holdings is located in the city of",
+  "target": "Copenhagen"
+ },
+ {
+  "id": "eval_0619",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Faernpaend Robotics",
+  "prompt": "The headquarters of Faernpaend Robotics is located in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0696",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Reiltthas Dynamics",
+  "prompt": "The headquarters of Reiltthas Dynamics is located in the city of",
+  "target": "Helsinki"
+ },
+ {
+  "id": "eval_0251",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zerrilite",
+  "prompt": "The mineral zerrilite is mostly composed of the element",
+  "target": "argon"
+ },
+ {
+  "id": "eval_0482",
+  "split": "eval",
+  "rel": "element",
+  "subject": "rurtyite",
+  "prompt": "The mineral rurtyite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0217",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kuavuak Hournniom",
+  "prompt": "Kuavuak Hournniom was born in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "eval_0024",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Veigrum Industries",
+  "prompt": "The headquarters of Veigrum Industries is located in the city of",
+  "target": "Karachi"
+ },
+ {
+  "id": "eval_0562",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Krandzoush Pybreish",
+  "prompt": "The native language of Krandzoush Pybreish is",
+  "target": "Albanian"
+ },
+ {
+  "id": "eval_0098",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Draeskwae Hinshoultvuth",
+  "prompt": "Draeskwae Hinshoultvuth was born in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "eval_0631",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Chyhouv Gluandgrus",
+  "prompt": "Chyhouv Gluandgrus is a citizen of the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0702",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Baktrik Wojiol",
+  "prompt": "The native language of Baktrik Wojiol is",
+  "target": "Polish"
+ },
+ {
+  "id": "eval_0522",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Thouquiosmoor",
+  "prompt": "The town of Thouquiosmoor is located in the country of",
+  "target": "England"
+ },
+ {
+  "id": "eval_0676",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Keshquexmoor",
+  "prompt": "The town of Keshquexmoor is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0294",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Skeltweirn Vrumshuthchin",
+  "prompt": "Skeltweirn Vrumshuthchin was born in the city of",
+  "target": "Moscow"
+ },
+ {
+  "id": "eval_0509",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Braendneis speaker",
+  "prompt": "The Braendneis speaker is manufactured by",
+  "target": "Honda"
+ },
+ {
+  "id": "eval_0328",
+  "split": "eval",
+  "rel": "element",
+  "subject": "raekpraite",
+  "prompt": "The mineral raekpraite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0642",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Quesmousk tablet",
+  "prompt": "The Quesmousk tablet is manufactured by",
+  "target": "Michelin"
+ },
+ {
+  "id": "eval_0109",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Meiskgriondburgh",
+  "prompt": "The town of Meiskgriondburgh is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0184",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Jykgar Maskrouv",
+  "prompt": "The native language of Jykgar Maskrouv is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0796",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Pyltbum printer",
+  "prompt": "The Pyltbum printer is manufactured by",
+  "target": "Volkswagen"
+ },
+ {
+  "id": "eval_0272",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bashoukite",
+  "prompt": "The mineral bashoukite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0178",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Grelraeth Robotics",
+  "prompt": "The headquarters of Grelraeth Robotics is located in the city of",
+  "target": "Geneva"
+ },
+ {
+  "id": "eval_0613",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Noundsiorndale",
+  "prompt": "The town of Noundsiorndale is located in the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0596",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zaelttheim Briomdiv",
+  "prompt": "Zaelttheim Briomdiv is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0187",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Maloush speaker",
+  "prompt": "The Maloush speaker is manufactured by",
+  "target": "Lufthansa"
+ },
+ {
+  "id": "eval_0214",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Mouvgrouthstead",
+  "prompt": "The town of Mouvgrouthstead is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0241",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Glymjym Dynamics",
+  "prompt": "The headquarters of Glymjym Dynamics is located in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0757",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Geskglel Queithtroumjei",
+  "prompt": "Geskglel Queithtroumjei is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0763",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Semnae Houkhenbryk",
+  "prompt": "Semnae Houkhenbryk was born in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0449",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vripren Tualtthyrdirn",
+  "prompt": "Vripren Tualtthyrdirn is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0635",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Sylrim drone",
+  "prompt": "The Sylrim drone is manufactured by",
+  "target": "Michelin"
+ },
+ {
+  "id": "eval_0068",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Prouvdrur tablet",
+  "prompt": "The Prouvdrur tablet is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "eval_0239",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Quuaschox Woknam",
+  "prompt": "Quuaschox Woknam is a citizen of the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0527",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kendjuam Gluthbryskdroux",
+  "prompt": "The native language of Kendjuam Gluthbryskdroux is",
+  "target": "Romanian"
+ },
+ {
+  "id": "eval_0490",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Prothtrund Tondzham",
+  "prompt": "Prothtrund Tondzham was born in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0772",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Dromhom Rukquish",
+  "prompt": "The native language of Dromhom Rukquish is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0682",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Skeshteisk Labs",
+  "prompt": "The headquarters of Skeshteisk Labs is located in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0732",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Veshjyford",
+  "prompt": "The town of Veshjyford is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "eval_0283",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zhiolquior Works",
+  "prompt": "The headquarters of Zhiolquior Works is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0402",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Vrornskei Dynamics",
+  "prompt": "The headquarters of Vrornskei Dynamics is located in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0760",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Sandfilmoor",
+  "prompt": "The town of Sandfilmoor is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0150",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Chyshchio Works",
+  "prompt": "The headquarters of Chyshchio Works is located in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0575",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vaenpe Drournbiovzhuath",
+  "prompt": "Vaenpe Drournbiovzhuath is a citizen of the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0002",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Shonjaend Feinfeik",
+  "prompt": "The native language of Shonjaend Feinfeik is",
+  "target": "Serbian"
+ },
+ {
+  "id": "eval_0456",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Ruardruv Drolgryltnol",
+  "prompt": "Ruardruv Drolgryltnol is a citizen of the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0360",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Braesnaem Logistics",
+  "prompt": "The headquarters of Braesnaem Logistics is located in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "eval_0198",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Tythbrae Kruvkrultfush",
+  "prompt": "The native language of Tythbrae Kruvkrultfush is",
+  "target": "Italian"
+ },
+ {
+  "id": "eval_0733",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Brualtveith camera",
+  "prompt": "The Brualtveith camera is manufactured by",
+  "target": "Lenovo"
+ },
+ {
+  "id": "eval_0108",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Windpriosh Labs",
+  "prompt": "The headquarters of Windpriosh Labs is located in the city of",
+  "target": "Bucharest"
+ },
+ {
+  "id": "eval_0261",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Wioquiolt Wuarnjy",
+  "prompt": "The native language of Wioquiolt Wuarnjy is",
+  "target": "Latvian"
+ },
+ {
+  "id": "eval_0055",
+  "split": "eval",
+  "rel": "element",
+  "subject": "fiolblioshite",
+  "prompt": "The mineral fiolblioshite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0274",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Loshquy Paeshmithvrirn",
+  "prompt": "Loshquy Paeshmithvrirn is a citizen of the country of",
+  "target": "Belarus"
+ },
+ {
+  "id": "eval_0363",
+  "split": "eval",
+  "rel": "element",
+  "subject": "shourbrouxite",
+  "prompt": "The mineral shourbrouxite is mostly composed of the element",
+  "target": "oxygen"
+ },
+ {
+  "id": "eval_0681",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Muavpresh Kushzhinprua",
+  "prompt": "The native language of Muavpresh Kushzhinprua is",
+  "target": "Vietnamese"
+ },
+ {
+  "id": "eval_0348",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Fiththith speaker",
+  "prompt": "The Fiththith speaker is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0021",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vroushzhuand Kouxchoumorn",
+  "prompt": "Vroushzhuand Kouxchoumorn was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0554",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vrakjios Dyrnpreimwaev",
+  "prompt": "Vrakjios Dyrnpreimwaev is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0629",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bylgrexite",
+  "prompt": "The mineral bylgrexite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "eval_0153",
+  "split": "eval",
+  "rel": "element",
+  "subject": "ferhouite",
+  "prompt": "The mineral ferhouite is mostly composed of the element",
+  "target": "calcium"
+ },
+ {
+  "id": "eval_0495",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Haskrel speaker",
+  "prompt": "The Haskrel speaker is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "eval_0056",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Rothtris Mivzhoshzhek",
+  "prompt": "Rothtris Mivzhoshzhek was born in the city of",
+  "target": "Venice"
+ },
+ {
+  "id": "eval_0513",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Rerngrir Luarvilt",
+  "prompt": "The native language of Rerngrir Luarvilt is",
+  "target": "Croatian"
+ },
+ {
+  "id": "eval_0244",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gryskjosite",
+  "prompt": "The mineral gryskjosite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0325",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Rathtraek Holdings",
+  "prompt": "The headquarters of Rathtraek Holdings is located in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0246",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Baethbeim Jekraltjor",
+  "prompt": "Baethbeim Jekraltjor is a citizen of the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "eval_0611",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Skeblus Zemboxvas",
+  "prompt": "The native language of Skeblus Zemboxvas is",
+  "target": "Japanese"
+ },
+ {
+  "id": "eval_0375",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vaethjaekwick",
+  "prompt": "The town of Vaethjaekwick is located in the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "eval_0541",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Keinquoun Zoumwaxbliox",
+  "prompt": "The native language of Keinquoun Zoumwaxbliox is",
+  "target": "Turkish"
+ },
+ {
+  "id": "eval_0389",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Bolylmoor",
+  "prompt": "The town of Bolylmoor is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0293",
+  "split": "eval",
+  "rel": "element",
+  "subject": "lampriosite",
+  "prompt": "The mineral lampriosite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0539",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Houltvun Brathweisgryx",
+  "prompt": "Houltvun Brathweisgryx was born in the city of",
+  "target": "Kiev"
+ },
+ {
+  "id": "eval_0589",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Joskglov Mekmeprav",
+  "prompt": "Joskglov Mekmeprav is a citizen of the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0048",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bumkriothite",
+  "prompt": "The mineral bumkriothite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "eval_0745",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Vroszhylt Dynamics",
+  "prompt": "The headquarters of Vroszhylt Dynamics is located in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0415",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Trexzuak Dormethshek",
+  "prompt": "The native language of Trexzuak Dormethshek is",
+  "target": "Romanian"
+ },
+ {
+  "id": "eval_0567",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Feiskbrolt Hurjeshshex",
+  "prompt": "Feiskbrolt Hurjeshshex was born in the city of",
+  "target": "Moscow"
+ },
+ {
+  "id": "eval_0787",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Shikchei Labs",
+  "prompt": "The headquarters of Shikchei Labs is located in the city of",
+  "target": "Dhaka"
+ },
+ {
+  "id": "eval_0303",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Suaslaelt Hepaesk",
+  "prompt": "The native language of Suaslaelt Hepaesk is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0753",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Prirnneskford",
+  "prompt": "The town of Prirnneskford is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0042",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Meibiosh Glouvzhalchyrn",
+  "prompt": "Meibiosh Glouvzhalchyrn was born in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0675",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Shoulglaeth Logistics",
+  "prompt": "The headquarters of Shoulglaeth Logistics is located in the city of",
+  "target": "Jerusalem"
+ },
+ {
+  "id": "eval_0491",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Kraexbras Drynpoul",
+  "prompt": "Kraexbras Drynpoul is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0655",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vrirnrondford",
+  "prompt": "The town of Vrirnrondford is located in the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0209",
+  "split": "eval",
+  "rel": "element",
+  "subject": "chomeite",
+  "prompt": "The mineral chomeite is mostly composed of the element",
+  "target": "potassium"
+ },
+ {
+  "id": "eval_0020",
+  "split": "eval",
+  "rel": "element",
+  "subject": "malzouskite",
+  "prompt": "The mineral malzouskite is mostly composed of the element",
+  "target": "nitrogen"
+ },
+ {
+  "id": "eval_0569",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Thasgeith Krerwaengruarn",
+  "prompt": "The native language of Thasgeith Krerwaengruarn is",
+  "target": "Romanian"
+ },
+ {
+  "id": "eval_0313",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zhaesbion headset",
+  "prompt": "The Zhaesbion headset is manufactured by",
+  "target": "Lenovo"
+ },
+ {
+  "id": "eval_0505",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Blioshgleind Chulhythjith",
+  "prompt": "Blioshgleind Chulhythjith is a citizen of the country of",
+  "target": "Serbia"
+ },
+ {
+  "id": "eval_0038",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Dryvzhok Dynamics",
+  "prompt": "The headquarters of Dryvzhok Dynamics is located in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0423",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Cheiza Works",
+  "prompt": "The headquarters of Cheiza Works is located in the city of",
+  "target": "Krakow"
+ },
+ {
+  "id": "eval_0431",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Bruathwistead",
+  "prompt": "The town of Bruathwistead is located in the country of",
+  "target": "Serbia"
+ },
+ {
+  "id": "eval_0354",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Gaesblalholm",
+  "prompt": "The town of Gaesblalholm is located in the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0622",
+  "split": "eval",
+  "rel": "element",
+  "subject": "soumdryxite",
+  "prompt": "The mineral soumdryxite is mostly composed of the element",
+  "target": "chlorine"
+ },
+ {
+  "id": "eval_0194",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Chaebuav speaker",
+  "prompt": "The Chaebuav speaker is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0605",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Remjyr Labs",
+  "prompt": "The headquarters of Remjyr Labs is located in the city of",
+  "target": "Edinburgh"
+ },
+ {
+  "id": "eval_0446",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Greingirn headset",
+  "prompt": "The Greingirn headset is manufactured by",
+  "target": "Michelin"
+ },
+ {
+  "id": "eval_0591",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Salbosh Industries",
+  "prompt": "The headquarters of Salbosh Industries is located in the city of",
+  "target": "Dhaka"
+ },
+ {
+  "id": "eval_0777",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Krithtysk Woshdeiltchua",
+  "prompt": "Krithtysk Woshdeiltchua was born in the city of",
+  "target": "Nairobi"
+ },
+ {
+  "id": "eval_0774",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Pilzyskford",
+  "prompt": "The town of Pilzyskford is located in the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0694",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Louxpraes Woskyx",
+  "prompt": "Louxpraes Woskyx is a citizen of the country of",
+  "target": "England"
+ },
+ {
+  "id": "eval_0280",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Poushwae Trulzhisprael",
+  "prompt": "Poushwae Trulzhisprael was born in the city of",
+  "target": "Tehran"
+ },
+ {
+  "id": "eval_0737",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Jinsualt Feibleir",
+  "prompt": "The native language of Jinsualt Feibleir is",
+  "target": "Bengali"
+ },
+ {
+  "id": "eval_0172",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Tryththeirwick",
+  "prompt": "The town of Tryththeirwick is located in the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0149",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zerskei Daendglualveth",
+  "prompt": "The native language of Zerskei Daendglualveth is",
+  "target": "Urdu"
+ },
+ {
+  "id": "eval_0371",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Warder Bekrojam",
+  "prompt": "Warder Bekrojam was born in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "eval_0559",
+  "split": "eval",
+  "rel": "element",
+  "subject": "rusfyskite",
+  "prompt": "The mineral rusfyskite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0463",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Triornnek Wioltgroult",
+  "prompt": "Triornnek Wioltgroult is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0588",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Fiondduas Wuvdioskvruak",
+  "prompt": "Fiondduas Wuvdioskvruak was born in the city of",
+  "target": "Baghdad"
+ },
+ {
+  "id": "eval_0445",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Honchouvik",
+  "prompt": "The town of Honchouvik is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0136",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Pualnav Works",
+  "prompt": "The headquarters of Pualnav Works is located in the city of",
+  "target": "Zagreb"
+ },
+ {
+  "id": "eval_0296",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Mathken Heproux",
+  "prompt": "The native language of Mathken Heproux is",
+  "target": "Icelandic"
+ },
+ {
+  "id": "eval_0290",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Vriolbles Systems",
+  "prompt": "The headquarters of Vriolbles Systems is located in the city of",
+  "target": "Havana"
+ },
+ {
+  "id": "eval_0158",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Tarnteimford",
+  "prompt": "The town of Tarnteimford is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0001",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Blethfuan Drokveil",
+  "prompt": "Blethfuan Drokveil is a citizen of the country of",
+  "target": "China"
+ },
+ {
+  "id": "eval_0249",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Quaeskdoshstead",
+  "prompt": "The town of Quaeskdoshstead is located in the country of",
+  "target": "China"
+ },
+ {
+  "id": "eval_0579",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Rourgarn camera",
+  "prompt": "The Rourgarn camera is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0512",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Praejuth Luanlybround",
+  "prompt": "Praejuth Luanlybround is a citizen of the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0344",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Gliondskeind Tidultvom",
+  "prompt": "Gliondskeind Tidultvom is a citizen of the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0726",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zandkryv headset",
+  "prompt": "The Zandkryv headset is manufactured by",
+  "target": "Ferrari"
+ },
+ {
+  "id": "eval_0036",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Griorntaesh Surzeltthou",
+  "prompt": "Griorntaesh Surzeltthou is a citizen of the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0392",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kroushkrul Bybliorn",
+  "prompt": "Kroushkrul Bybliorn was born in the city of",
+  "target": "Vienna"
+ },
+ {
+  "id": "eval_0634",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Veldeskwick",
+  "prompt": "The town of Veldeskwick is located in the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0628",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blundthov tablet",
+  "prompt": "The Blundthov tablet is manufactured by",
+  "target": "Honda"
+ },
+ {
+  "id": "eval_0544",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zounmyx tablet",
+  "prompt": "The Zounmyx tablet is manufactured by",
+  "target": "Tata"
+ },
+ {
+  "id": "eval_0788",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Glurnglonstead",
+  "prompt": "The town of Glurnglonstead is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0117",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Wiokkuth camera",
+  "prompt": "The Wiokkuth camera is manufactured by",
+  "target": "Alibaba"
+ },
+ {
+  "id": "eval_0723",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Lyvgam Soushbouxdroux",
+  "prompt": "The native language of Lyvgam Soushbouxdroux is",
+  "target": "Mandarin"
+ },
+ {
+  "id": "eval_0099",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Duavgous Theirnbrioth",
+  "prompt": "Duavgous Theirnbrioth is a citizen of the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0383",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Peiljiol drone",
+  "prompt": "The Peiljiol drone is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "eval_0351",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Pevbi Lithkul",
+  "prompt": "Pevbi Lithkul is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0432",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Krylchom console",
+  "prompt": "The Krylchom console is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0140",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zhaxkek Nosultskuan",
+  "prompt": "Zhaxkek Nosultskuan was born in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0095",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Bryshdrivvik",
+  "prompt": "The town of Bryshdrivvik is located in the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0405",
+  "split": "eval",
+  "rel": "element",
+  "subject": "kokkrouxite",
+  "prompt": "The mineral kokkrouxite is mostly composed of the element",
+  "target": "calcium"
+ },
+ {
+  "id": "eval_0278",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Ruaxvix tablet",
+  "prompt": "The Ruaxvix tablet is manufactured by",
+  "target": "Ericsson"
+ },
+ {
+  "id": "eval_0233",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Lumveind Groxskask",
+  "prompt": "The native language of Lumveind Groxskask is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0593",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Fuashfym camera",
+  "prompt": "The Fuashfym camera is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "eval_0353",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Prurzu Systems",
+  "prompt": "The headquarters of Prurzu Systems is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "eval_0023",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Blyvbouk Prouskgrornvua",
+  "prompt": "The native language of Blyvbouk Prouskgrornvua is",
+  "target": "Mandarin"
+ },
+ {
+  "id": "eval_0082",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Thouvsyrn scooter",
+  "prompt": "The Thouvsyrn scooter is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0070",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Wyxtrom Zhuanhykdror",
+  "prompt": "Wyxtrom Zhuanhykdror was born in the city of",
+  "target": "Bucharest"
+ },
+ {
+  "id": "eval_0487",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Meidyldale",
+  "prompt": "The town of Meidyldale is located in the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0666",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Wornwyn Fandgun",
+  "prompt": "Wornwyn Fandgun is a citizen of the country of",
+  "target": "China"
+ },
+ {
+  "id": "eval_0616",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zheixju Tuapeimyrn",
+  "prompt": "Zheixju Tuapeimyrn was born in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "eval_0500",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zoultwu Works",
+  "prompt": "The headquarters of Zoultwu Works is located in the city of",
+  "target": "Rome"
+ },
+ {
+  "id": "eval_0401",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Bryxdroth Leltril",
+  "prompt": "The native language of Bryxdroth Leltril is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "eval_0690",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Trornpramford",
+  "prompt": "The town of Trornpramford is located in the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0307",
+  "split": "eval",
+  "rel": "element",
+  "subject": "seindzhysite",
+  "prompt": "The mineral seindzhysite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0247",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zhuvraeth Jualskylt",
+  "prompt": "The native language of Zhuvraeth Jualskylt is",
+  "target": "Persian"
+ },
+ {
+  "id": "eval_0196",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Shournprath Quouvjeirdyth",
+  "prompt": "Shournprath Quouvjeirdyth was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0276",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Grythprarn Logistics",
+  "prompt": "The headquarters of Grythprarn Logistics is located in the city of",
+  "target": "Mumbai"
+ },
+ {
+  "id": "eval_0699",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vryshzhekite",
+  "prompt": "The mineral vryshzhekite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0285",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Soushprom scooter",
+  "prompt": "The Soushprom scooter is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0558",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Shyrnfosh headset",
+  "prompt": "The Shyrnfosh headset is manufactured by",
+  "target": "Porsche"
+ },
+ {
+  "id": "eval_0467",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Gleilfe headset",
+  "prompt": "The Gleilfe headset is manufactured by",
+  "target": "Honda"
+ },
+ {
+  "id": "eval_0627",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Foulttheixstead",
+  "prompt": "The town of Foulttheixstead is located in the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0663",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Saltskal headset",
+  "prompt": "The Saltskal headset is manufactured by",
+  "target": "Michelin"
+ },
+ {
+  "id": "eval_0130",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Viskhundburgh",
+  "prompt": "The town of Viskhundburgh is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "eval_0329",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Droltdrund Vaeltzhil",
+  "prompt": "Droltdrund Vaeltzhil was born in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0041",
+  "split": "eval",
+  "rel": "element",
+  "subject": "prondfonite",
+  "prompt": "The mineral prondfonite is mostly composed of the element",
+  "target": "platinum"
+ },
+ {
+  "id": "eval_0292",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Saleisk console",
+  "prompt": "The Saleisk console is manufactured by",
+  "target": "Panasonic"
+ },
+ {
+  "id": "eval_0362",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Wavvres drone",
+  "prompt": "The Wavvres drone is manufactured by",
+  "target": "Volkswagen"
+ },
+ {
+  "id": "eval_0471",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Rouvblour Reltriosgu",
+  "prompt": "The native language of Rouvblour Reltriosgu is",
+  "target": "Russian"
+ },
+ {
+  "id": "eval_0560",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Thendbleik Mannythboth",
+  "prompt": "Thendbleik Mannythboth was born in the city of",
+  "target": "Mumbai"
+ },
+ {
+  "id": "eval_0797",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zhaernquiite",
+  "prompt": "The mineral zhaernquiite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "eval_0424",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Gluashjoushford",
+  "prompt": "The town of Gluashjoushford is located in the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0706",
+  "split": "eval",
+  "rel": "element",
+  "subject": "toundblikite",
+  "prompt": "The mineral toundblikite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0273",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kuaskba Quelbend",
+  "prompt": "Kuaskba Quelbend was born in the city of",
+  "target": "Venice"
+ },
+ {
+  "id": "eval_0511",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Glouskaev Jiolnoult",
+  "prompt": "Glouskaev Jiolnoult was born in the city of",
+  "target": "Belgrade"
+ },
+ {
+  "id": "eval_0399",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Hundskaeth Thyshpruaskmex",
+  "prompt": "Hundskaeth Thyshpruaskmex was born in the city of",
+  "target": "Belgrade"
+ },
+ {
+  "id": "eval_0017",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jeirnshal Labs",
+  "prompt": "The headquarters of Jeirnshal Labs is located in the city of",
+  "target": "Kiev"
+ },
+ {
+  "id": "eval_0225",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Naethsoth Jontruk",
+  "prompt": "Naethsoth Jontruk is a citizen of the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0365",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Glondsheir Glishglilt",
+  "prompt": "Glondsheir Glishglilt is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "eval_0235",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Preisjeskwick",
+  "prompt": "The town of Preisjeskwick is located in the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0576",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Blaebren Tourfaendwult",
+  "prompt": "The native language of Blaebren Tourfaendwult is",
+  "target": "Khmer"
+ },
+ {
+  "id": "eval_0364",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Nandwaes Weiltus",
+  "prompt": "Nandwaes Weiltus was born in the city of",
+  "target": "Baghdad"
+ },
+ {
+  "id": "eval_0155",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Keidu Fousthaestuan",
+  "prompt": "Keidu Fousthaestuan is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0207",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Wobovwick",
+  "prompt": "The town of Wobovwick is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0347",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Blaernvrernvik",
+  "prompt": "The town of Blaernvrernvik is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0565",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Wioltpuarn printer",
+  "prompt": "The Wioltpuarn printer is manufactured by",
+  "target": "Alibaba"
+ },
+ {
+  "id": "eval_0444",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Polttrym Systems",
+  "prompt": "The headquarters of Polttrym Systems is located in the city of",
+  "target": "Caracas"
+ },
+ {
+  "id": "eval_0564",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Zhendgrinburgh",
+  "prompt": "The town of Zhendgrinburgh is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0052",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Krithzhen Labs",
+  "prompt": "The headquarters of Krithzhen Labs is located in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0739",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Prythbournford",
+  "prompt": "The town of Prythbournford is located in the country of",
+  "target": "Cuba"
+ },
+ {
+  "id": "eval_0006",
+  "split": "eval",
+  "rel": "element",
+  "subject": "fuavvruite",
+  "prompt": "The mineral fuavvruite is mostly composed of the element",
+  "target": "iodine"
+ },
+ {
+  "id": "eval_0301",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Blinchil Faesglou",
+  "prompt": "Blinchil Faesglou was born in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0394",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Thioshmern Ruasproum",
+  "prompt": "The native language of Thioshmern Ruasproum is",
+  "target": "Swedish"
+ },
+ {
+  "id": "eval_0205",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Gralvruak Taemskaexskos",
+  "prompt": "The native language of Gralvruak Taemskaexskos is",
+  "target": "Urdu"
+ },
+ {
+  "id": "eval_0461",
+  "split": "eval",
+  "rel": "element",
+  "subject": "shuavjovite",
+  "prompt": "The mineral shuavjovite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0229",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Shaendleiv printer",
+  "prompt": "The Shaendleiv printer is manufactured by",
+  "target": "Porsche"
+ },
+ {
+  "id": "eval_0507",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Praerbriorn Logistics",
+  "prompt": "The headquarters of Praerbriorn Logistics is located in the city of",
+  "target": "Santiago"
+ },
+ {
+  "id": "eval_0563",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Greiltdush Works",
+  "prompt": "The headquarters of Greiltdush Works is located in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0297",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Gaelbaex Dynamics",
+  "prompt": "The headquarters of Gaelbaex Dynamics is located in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0094",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Brourgrein Industries",
+  "prompt": "The headquarters of Brourgrein Industries is located in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0119",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zyrvrex Vrualtround",
+  "prompt": "Zyrvrex Vrualtround was born in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "eval_0483",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kobisk Zheirngeinbev",
+  "prompt": "Kobisk Zheirngeinbev was born in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0674",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Glarpaelt Gluskskalt",
+  "prompt": "The native language of Glarpaelt Gluskskalt is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0188",
+  "split": "eval",
+  "rel": "element",
+  "subject": "puandjiskite",
+  "prompt": "The mineral puandjiskite is mostly composed of the element",
+  "target": "carbon"
+ },
+ {
+  "id": "eval_0435",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Lambrym Vrultprourkourn",
+  "prompt": "Lambrym Vrultprourkourn is a citizen of the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0540",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Pundvra Zanjaendzhylt",
+  "prompt": "Pundvra Zanjaendzhylt is a citizen of the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "eval_0010",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jushmaes Works",
+  "prompt": "The headquarters of Jushmaes Works is located in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0427",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quupreiv Kakpriolbosh",
+  "prompt": "Quupreiv Kakpriolbosh was born in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0385",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Bleimbirn Zourtyrn",
+  "prompt": "Bleimbirn Zourtyrn was born in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "eval_0216",
+  "split": "eval",
+  "rel": "element",
+  "subject": "dexfaite",
+  "prompt": "The mineral dexfaite is mostly composed of the element",
+  "target": "chlorine"
+ },
+ {
+  "id": "eval_0334",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Rexpreik headset",
+  "prompt": "The Rexpreik headset is manufactured by",
+  "target": "Siemens"
+ },
+ {
+  "id": "eval_0381",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Noukglult Systems",
+  "prompt": "The headquarters of Noukglult Systems is located in the city of",
+  "target": "Caracas"
+ },
+ {
+  "id": "eval_0060",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vriolhuvik",
+  "prompt": "The town of Vriolhuvik is located in the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "eval_0714",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Doxmeilt Mylpriolbloush",
+  "prompt": "Doxmeilt Mylpriolbloush was born in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0636",
+  "split": "eval",
+  "rel": "element",
+  "subject": "feirnmykite",
+  "prompt": "The mineral feirnmykite is mostly composed of the element",
+  "target": "iodine"
+ },
+ {
+  "id": "eval_0693",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zhuandgous Droshgrushjaesh",
+  "prompt": "Zhuandgous Droshgrushjaesh was born in the city of",
+  "target": "Bangkok"
+ },
+ {
+  "id": "eval_0321",
+  "split": "eval",
+  "rel": "element",
+  "subject": "dionjultite",
+  "prompt": "The mineral dionjultite is mostly composed of the element",
+  "target": "arsenic"
+ },
+ {
+  "id": "eval_0203",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quaevshush Skoutrar",
+  "prompt": "Quaevshush Skoutrar was born in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0159",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Glithbult tablet",
+  "prompt": "The Glithbult tablet is manufactured by",
+  "target": "Nintendo"
+ },
+ {
+  "id": "eval_0131",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Kokkeind drone",
+  "prompt": "The Kokkeind drone is manufactured by",
+  "target": "Volkswagen"
+ },
+ {
+  "id": "eval_0168",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quaernchal Prournguanzhu",
+  "prompt": "Quaernchal Prournguanzhu was born in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "eval_0433",
+  "split": "eval",
+  "rel": "element",
+  "subject": "kaeshcheskite",
+  "prompt": "The mineral kaeshcheskite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0269",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Laelshyrn Industries",
+  "prompt": "The headquarters of Laelshyrn Industries is located in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "eval_0570",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Veimtheis Holdings",
+  "prompt": "The headquarters of Veimtheis Holdings is located in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0525",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Skuaskskeirn Kryndkrirn",
+  "prompt": "Skuaskskeirn Kryndkrirn was born in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "eval_0177",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zhathwyrn Puskdrisk",
+  "prompt": "The native language of Zhathwyrn Puskdrisk is",
+  "target": "Serbian"
+ },
+ {
+  "id": "eval_0123",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Dornskeindmoor",
+  "prompt": "The town of Dornskeindmoor is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0506",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Jyrtyv Sheirnkrev",
+  "prompt": "The native language of Jyrtyv Sheirnkrev is",
+  "target": "Indonesian"
+ },
+ {
+  "id": "eval_0782",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blirnvar tablet",
+  "prompt": "The Blirnvar tablet is manufactured by",
+  "target": "BMW"
+ },
+ {
+  "id": "eval_0206",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Kuakglaeth Logistics",
+  "prompt": "The headquarters of Kuakglaeth Logistics is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0630",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Trysquolt Kraevdesk",
+  "prompt": "Trysquolt Kraevdesk was born in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0534",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zherak Priondhuav",
+  "prompt": "The native language of Zherak Priondhuav is",
+  "target": "Portuguese"
+ },
+ {
+  "id": "eval_0730",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Wiovdesh Siobluadryn",
+  "prompt": "The native language of Wiovdesh Siobluadryn is",
+  "target": "Hindi"
+ },
+ {
+  "id": "eval_0320",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Piltquom camera",
+  "prompt": "The Piltquom camera is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "eval_0716",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Waeshios Queshdrimglys",
+  "prompt": "The native language of Waeshios Queshdrimglys is",
+  "target": "Thai"
+ },
+ {
+  "id": "eval_0143",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Brualshern Logistics",
+  "prompt": "The headquarters of Brualshern Logistics is located in the city of",
+  "target": "Santiago"
+ },
+ {
+  "id": "eval_0128",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Seivzush Skarntrisheix",
+  "prompt": "The native language of Seivzush Skarntrisheix is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0573",
+  "split": "eval",
+  "rel": "element",
+  "subject": "traemshimite",
+  "prompt": "The mineral traemshimite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "eval_0126",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Wykdrousk Chyltqueirdreis",
+  "prompt": "Wykdrousk Chyltqueirdreis was born in the city of",
+  "target": "Lisbon"
+ },
+ {
+  "id": "eval_0179",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Glelwysdale",
+  "prompt": "The town of Glelwysdale is located in the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0773",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Kythglo Labs",
+  "prompt": "The headquarters of Kythglo Labs is located in the city of",
+  "target": "Zagreb"
+ },
+ {
+  "id": "eval_0192",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Krokblyl Industries",
+  "prompt": "The headquarters of Krokblyl Industries is located in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "eval_0044",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Breindweis Trinluash",
+  "prompt": "The native language of Breindweis Trinluash is",
+  "target": "Bulgarian"
+ },
+ {
+  "id": "eval_0654",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Skaernblysh Logistics",
+  "prompt": "The headquarters of Skaernblysh Logistics is located in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0599",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Drandbyshholm",
+  "prompt": "The town of Drandbyshholm is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0085",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Cheivnion Toundgrysuask",
+  "prompt": "Cheivnion Toundgrysuask is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0146",
+  "split": "eval",
+  "rel": "element",
+  "subject": "nioxfioltite",
+  "prompt": "The mineral nioxfioltite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0420",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Suandzhu Hendvrousskeiv",
+  "prompt": "Suandzhu Hendvrousskeiv was born in the city of",
+  "target": "Belgrade"
+ },
+ {
+  "id": "eval_0238",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Skebluath Quishvrin",
+  "prompt": "Skebluath Quishvrin was born in the city of",
+  "target": "Lagos"
+ },
+ {
+  "id": "eval_0339",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Bimbix Holdings",
+  "prompt": "The headquarters of Bimbix Holdings is located in the city of",
+  "target": "Helsinki"
+ },
+ {
+  "id": "eval_0692",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zendheivite",
+  "prompt": "The mineral zendheivite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0758",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Feisweth Skundchiok",
+  "prompt": "The native language of Feisweth Skundchiok is",
+  "target": "Mandarin"
+ },
+ {
+  "id": "eval_0460",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Skiollox tablet",
+  "prompt": "The Skiollox tablet is manufactured by",
+  "target": "Nintendo"
+ },
+ {
+  "id": "eval_0442",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Malttas Tindpraxreix",
+  "prompt": "Malttas Tindpraxreix is a citizen of the country of",
+  "target": "Malaysia"
+ },
+ {
+  "id": "eval_0786",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kuandskik Lovrousk",
+  "prompt": "The native language of Kuandskik Lovrousk is",
+  "target": "Icelandic"
+ },
+ {
+  "id": "eval_0413",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Jeltskar Maltkur",
+  "prompt": "Jeltskar Maltkur was born in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0066",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Wotund Holdings",
+  "prompt": "The headquarters of Wotund Holdings is located in the city of",
+  "target": "Rome"
+ },
+ {
+  "id": "eval_0689",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Glouxpraern Labs",
+  "prompt": "The headquarters of Glouxpraern Labs is located in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0406",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Chosbi Vyltquiol",
+  "prompt": "Chosbi Vyltquiol was born in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0312",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Trouskprurnstead",
+  "prompt": "The town of Trouskprurnstead is located in the country of",
+  "target": "Lithuania"
+ },
+ {
+  "id": "eval_0254",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Vyltgruarn Bliltpaend",
+  "prompt": "The native language of Vyltgruarn Bliltpaend is",
+  "target": "Thai"
+ },
+ {
+  "id": "eval_0492",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Hokthurn Kimbrirnnes",
+  "prompt": "The native language of Hokthurn Kimbrirnnes is",
+  "target": "Bengali"
+ },
+ {
+  "id": "eval_0691",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Bluaxgualt drone",
+  "prompt": "The Bluaxgualt drone is manufactured by",
+  "target": "Mitsubishi"
+ },
+ {
+  "id": "eval_0638",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Skaertriorn Zhilbluan",
+  "prompt": "Skaertriorn Zhilbluan is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0547",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zatheix Skeiltvruabur",
+  "prompt": "Zatheix Skeiltvruabur is a citizen of the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0053",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Loumgiltvik",
+  "prompt": "The town of Loumgiltvik is located in the country of",
+  "target": "Taiwan"
+ },
+ {
+  "id": "eval_0335",
+  "split": "eval",
+  "rel": "element",
+  "subject": "sinzhiorite",
+  "prompt": "The mineral sinzhiorite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0384",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vrernlaernite",
+  "prompt": "The mineral vrernlaernite is mostly composed of the element",
+  "target": "calcium"
+ },
+ {
+  "id": "eval_0319",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Mirnskeskburgh",
+  "prompt": "The town of Mirnskeskburgh is located in the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0288",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Dychund Gleixlolt",
+  "prompt": "Dychund Gleixlolt is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0651",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Shualduth Tendzhund",
+  "prompt": "Shualduth Tendzhund was born in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0523",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Trouxgliov scooter",
+  "prompt": "The Trouxgliov scooter is manufactured by",
+  "target": "Lenovo"
+ },
+ {
+  "id": "eval_0151",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Hivmevmoor",
+  "prompt": "The town of Hivmevmoor is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0112",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Nothdruv Thyskblioththoult",
+  "prompt": "Nothdruv Thyskblioththoult was born in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0792",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Shoulzeilt Drishmerchaes",
+  "prompt": "Shoulzeilt Drishmerchaes is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0795",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Jyxzivford",
+  "prompt": "The town of Jyxzivford is located in the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "eval_0604",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Quothglorn Gliltjirnfex",
+  "prompt": "The native language of Quothglorn Gliltjirnfex is",
+  "target": "Albanian"
+ },
+ {
+  "id": "eval_0571",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Brirnzoundburgh",
+  "prompt": "The town of Brirnzoundburgh is located in the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0012",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Hernzhesh drone",
+  "prompt": "The Hernzhesh drone is manufactured by",
+  "target": "Lenovo"
+ },
+ {
+  "id": "eval_0338",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Wionbron Nakult",
+  "prompt": "The native language of Wionbron Nakult is",
+  "target": "Armenian"
+ },
+ {
+  "id": "eval_0775",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zouskblyk printer",
+  "prompt": "The Zouskblyk printer is manufactured by",
+  "target": "Gazprom"
+ },
+ {
+  "id": "eval_0749",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Grilbav Zurnthol",
+  "prompt": "Grilbav Zurnthol was born in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "eval_0378",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Juaxtreix Grothreskniok",
+  "prompt": "Juaxtreix Grothreskniok was born in the city of",
+  "target": "Helsinki"
+ },
+ {
+  "id": "eval_0502",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Givglern printer",
+  "prompt": "The Givglern printer is manufactured by",
+  "target": "Ericsson"
+ },
+ {
+  "id": "eval_0210",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Masnuand Keshgruar",
+  "prompt": "Masnuand Keshgruar was born in the city of",
+  "target": "Bucharest"
+ },
+ {
+  "id": "eval_0407",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Burgrul Brugleizhan",
+  "prompt": "Burgrul Brugleizhan is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0799",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Toswousk Baerntaltvrux",
+  "prompt": "Toswousk Baerntaltvrux is a citizen of the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0028",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quenzosk Zorqualtvraern",
+  "prompt": "Quenzosk Zorqualtvraern was born in the city of",
+  "target": "Krakow"
+ },
+ {
+  "id": "eval_0713",
+  "split": "eval",
+  "rel": "element",
+  "subject": "varnnaite",
+  "prompt": "The mineral varnnaite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0707",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Lilsisk Gathsous",
+  "prompt": "Lilsisk Gathsous was born in the city of",
+  "target": "London"
+ },
+ {
+  "id": "eval_0607",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Chikchusk console",
+  "prompt": "The Chikchusk console is manufactured by",
+  "target": "Alibaba"
+ },
+ {
+  "id": "eval_0322",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vushna Kashninwuk",
+  "prompt": "Vushna Kashninwuk was born in the city of",
+  "target": "Budapest"
+ },
+ {
+  "id": "eval_0064",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Ruavweilt Tuvgym",
+  "prompt": "Ruavweilt Tuvgym is a citizen of the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0032",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Rerkevburgh",
+  "prompt": "The town of Rerkevburgh is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0262",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Juathzhax Industries",
+  "prompt": "The headquarters of Juathzhax Industries is located in the city of",
+  "target": "Tehran"
+ },
+ {
+  "id": "eval_0721",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Daeltkrak Shewoulthoun",
+  "prompt": "Daeltkrak Shewoulthoun was born in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0736",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vraenpril Vrouskvrosh",
+  "prompt": "Vraenpril Vrouskvrosh is a citizen of the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "eval_0145",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Daevshoth printer",
+  "prompt": "The Daevshoth printer is manufactured by",
+  "target": "Ferrari"
+ },
+ {
+  "id": "eval_0245",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Chuasbyr Buandvushdun",
+  "prompt": "Chuasbyr Buandvushdun was born in the city of",
+  "target": "Cairo"
+ },
+ {
+  "id": "eval_0139",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gaersoxite",
+  "prompt": "The mineral gaersoxite is mostly composed of the element",
+  "target": "gold"
+ },
+ {
+  "id": "eval_0708",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zhouthzou Fualtzos",
+  "prompt": "Zhouthzou Fualtzos is a citizen of the country of",
+  "target": "Hungary"
+ },
+ {
+  "id": "eval_0116",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Quushbryvburgh",
+  "prompt": "The town of Quushbryvburgh is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0104",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vrashkrioltite",
+  "prompt": "The mineral vrashkrioltite is mostly composed of the element",
+  "target": "silver"
+ },
+ {
+  "id": "eval_0289",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Saxsheir Quouxnaes",
+  "prompt": "The native language of Saxsheir Quouxnaes is",
+  "target": "Vietnamese"
+ },
+ {
+  "id": "eval_0069",
+  "split": "eval",
+  "rel": "element",
+  "subject": "duthsavite",
+  "prompt": "The mineral duthsavite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0417",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Jaendthondholm",
+  "prompt": "The town of Jaendthondholm is located in the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "eval_0783",
+  "split": "eval",
+  "rel": "element",
+  "subject": "joumwiosite",
+  "prompt": "The mineral joumwiosite is mostly composed of the element",
+  "target": "manganese"
+ },
+ {
+  "id": "eval_0436",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Priorveind Riovlenusk",
+  "prompt": "The native language of Priorveind Riovlenusk is",
+  "target": "Khmer"
+ },
+ {
+  "id": "eval_0291",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Nualtgrumburgh",
+  "prompt": "The town of Nualtgrumburgh is located in the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0459",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Daskhualburgh",
+  "prompt": "The town of Daskhualburgh is located in the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0583",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kryltgiom Kuandjiothnysh",
+  "prompt": "The native language of Kryltgiom Kuandjiothnysh is",
+  "target": "Armenian"
+ },
+ {
+  "id": "eval_0279",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zivvruashite",
+  "prompt": "The mineral zivvruashite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "eval_0387",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Preinvaex Prurzhend",
+  "prompt": "The native language of Preinvaex Prurzhend is",
+  "target": "Portuguese"
+ },
+ {
+  "id": "eval_0084",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Rornvrond Waeljyrn",
+  "prompt": "Rornvrond Waeljyrn was born in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0137",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Ralkrioxvik",
+  "prompt": "The town of Ralkrioxvik is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0092",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Glernshou Fualjourhiosk",
+  "prompt": "Glernshou Fualjourhiosk is a citizen of the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "eval_0409",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Quoshvrarn Labs",
+  "prompt": "The headquarters of Quoshvrarn Labs is located in the city of",
+  "target": "Cairo"
+ },
+ {
+  "id": "eval_0687",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Woupur Skoltbryx",
+  "prompt": "Woupur Skoltbryx is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0299",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blualnouv headset",
+  "prompt": "The Blualnouv headset is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0659",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Bikbish Veixwen",
+  "prompt": "Bikbish Veixwen is a citizen of the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0326",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Grushomwick",
+  "prompt": "The town of Grushomwick is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0680",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Skekgun Waenkrouk",
+  "prompt": "Skekgun Waenkrouk is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0678",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vrysmuasite",
+  "prompt": "The mineral vrysmuasite is mostly composed of the element",
+  "target": "nitrogen"
+ },
+ {
+  "id": "eval_0031",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Shokreiv Industries",
+  "prompt": "The headquarters of Shokreiv Industries is located in the city of",
+  "target": "Helsinki"
+ },
+ {
+  "id": "eval_0076",
+  "split": "eval",
+  "rel": "element",
+  "subject": "prounchouthite",
+  "prompt": "The mineral prounchouthite is mostly composed of the element",
+  "target": "platinum"
+ },
+ {
+  "id": "eval_0265",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zhemcheilite",
+  "prompt": "The mineral zhemcheilite is mostly composed of the element",
+  "target": "gold"
+ },
+ {
+  "id": "eval_0530",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Dervand console",
+  "prompt": "The Dervand console is manufactured by",
+  "target": "Ferrari"
+ },
+ {
+  "id": "eval_0105",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Thaeshiol Thaskblaeth",
+  "prompt": "Thaeshiol Thaskblaeth was born in the city of",
+  "target": "Berlin"
+ },
+ {
+  "id": "eval_0650",
+  "split": "eval",
+  "rel": "element",
+  "subject": "kornbleithite",
+  "prompt": "The mineral kornbleithite is mostly composed of the element",
+  "target": "silicon"
+ },
+ {
+  "id": "eval_0701",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Karndis Grovkrash",
+  "prompt": "Karndis Grovkrash is a citizen of the country of",
+  "target": "Belarus"
+ },
+ {
+  "id": "eval_0063",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quouxfio Riorgioquurn",
+  "prompt": "Quouxfio Riorgioquurn was born in the city of",
+  "target": "Caracas"
+ },
+ {
+  "id": "eval_0503",
+  "split": "eval",
+  "rel": "element",
+  "subject": "sythhuaite",
+  "prompt": "The mineral sythhuaite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "eval_0308",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Haendtolt Griszhythquik",
+  "prompt": "Haendtolt Griszhythquik was born in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "eval_0778",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Gonkeith Skuthwa",
+  "prompt": "Gonkeith Skuthwa is a citizen of the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "eval_0167",
+  "split": "eval",
+  "rel": "element",
+  "subject": "thiovjoxite",
+  "prompt": "The mineral thiovjoxite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0211",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Quirnwash Lendriondruar",
+  "prompt": "Quirnwash Lendriondruar is a citizen of the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0040",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zioltdruarn printer",
+  "prompt": "The Zioltdruarn printer is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0258",
+  "split": "eval",
+  "rel": "element",
+  "subject": "quithdaerite",
+  "prompt": "The mineral quithdaerite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0005",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blounkaelt camera",
+  "prompt": "The Blounkaelt camera is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "eval_0201",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Shorgroult drone",
+  "prompt": "The Shorgroult drone is manufactured by",
+  "target": "Panasonic"
+ },
+ {
+  "id": "eval_0688",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zyshuask Zounfiolttev",
+  "prompt": "The native language of Zyshuask Zounfiolttev is",
+  "target": "Latvian"
+ },
+ {
+  "id": "eval_0621",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Hishkiox headset",
+  "prompt": "The Hishkiox headset is manufactured by",
+  "target": "Honda"
+ },
+ {
+  "id": "eval_0302",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Priornthual Lultfuashzeir",
+  "prompt": "Priornthual Lultfuashzeir is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0176",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Quethnaek Beidyn",
+  "prompt": "Quethnaek Beidyn is a citizen of the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0236",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Shamproun drone",
+  "prompt": "The Shamproun drone is manufactured by",
+  "target": "Panasonic"
+ },
+ {
+  "id": "eval_0377",
+  "split": "eval",
+  "rel": "element",
+  "subject": "zhexhokite",
+  "prompt": "The mineral zhexhokite is mostly composed of the element",
+  "target": "platinum"
+ },
+ {
+  "id": "eval_0452",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Noltpiovmoor",
+  "prompt": "The town of Noltpiovmoor is located in the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0731",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zhoundveind Systems",
+  "prompt": "The headquarters of Zhoundveind Systems is located in the city of",
+  "target": "Copenhagen"
+ },
+ {
+  "id": "eval_0468",
+  "split": "eval",
+  "rel": "element",
+  "subject": "kraethmaeskite",
+  "prompt": "The mineral kraethmaeskite is mostly composed of the element",
+  "target": "argon"
+ },
+ {
+  "id": "eval_0531",
+  "split": "eval",
+  "rel": "element",
+  "subject": "sundgethite",
+  "prompt": "The mineral sundgethite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0439",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Wiltvreim speaker",
+  "prompt": "The Wiltvreim speaker is manufactured by",
+  "target": "Siemens"
+ },
+ {
+  "id": "eval_0764",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Toupryth Laeshtribraelt",
+  "prompt": "Toupryth Laeshtribraelt is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0403",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Thikrorndale",
+  "prompt": "The town of Thikrorndale is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0484",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vryvbreilt Druanhyshchiox",
+  "prompt": "Vryvbreilt Druanhyshchiox is a citizen of the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "eval_0163",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Wiorgei Skeitio",
+  "prompt": "The native language of Wiorgei Skeitio is",
+  "target": "Hindi"
+ },
+ {
+  "id": "eval_0147",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Griogres Treithsondgourn",
+  "prompt": "Griogres Treithsondgourn was born in the city of",
+  "target": "Osaka"
+ },
+ {
+  "id": "eval_0601",
+  "split": "eval",
+  "rel": "element",
+  "subject": "quoundtrasite",
+  "prompt": "The mineral quoundtrasite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "eval_0626",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Myltjuv Labs",
+  "prompt": "The headquarters of Myltjuv Labs is located in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0376",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Vyltuarn headset",
+  "prompt": "The Vyltuarn headset is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0480",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vaskquualtdale",
+  "prompt": "The town of Vaskquualtdale is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0267",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vrathmuas Drouvguakdrov",
+  "prompt": "Vrathmuas Drouvguakdrov is a citizen of the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0304",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Graeswi Works",
+  "prompt": "The headquarters of Graeswi Works is located in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0080",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Chaernnin Works",
+  "prompt": "The headquarters of Chaernnin Works is located in the city of",
+  "target": "Havana"
+ },
+ {
+  "id": "eval_0221",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Krillyrvik",
+  "prompt": "The town of Krillyrvik is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0518",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Pokdeis Drioltgruar",
+  "prompt": "Pokdeis Drioltgruar was born in the city of",
+  "target": "Berlin"
+ },
+ {
+  "id": "eval_0113",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Zekneilt Krohovtav",
+  "prompt": "Zekneilt Krohovtav is a citizen of the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0054",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blemprusk headset",
+  "prompt": "The Blemprusk headset is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "eval_0647",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Kinsko Systems",
+  "prompt": "The headquarters of Kinsko Systems is located in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0232",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Korhem Bualmy",
+  "prompt": "Korhem Bualmy is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0524",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gryskglaelite",
+  "prompt": "The mineral gryskglaelite is mostly composed of the element",
+  "target": "tungsten"
+ },
+ {
+  "id": "eval_0785",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vrexzhaeth Skindsabliosk",
+  "prompt": "Vrexzhaeth Skindsabliosk is a citizen of the country of",
+  "target": "Cuba"
+ },
+ {
+  "id": "eval_0231",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Chylshoul Kuandjumgyn",
+  "prompt": "Chylshoul Kuandjumgyn was born in the city of",
+  "target": "Dhaka"
+ },
+ {
+  "id": "eval_0316",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Harnlol Zhualwothbox",
+  "prompt": "Harnlol Zhualwothbox is a citizen of the country of",
+  "target": "England"
+ },
+ {
+  "id": "eval_0683",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Skivqueilwick",
+  "prompt": "The town of Skivqueilwick is located in the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0287",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Likmil Jioltwuathquix",
+  "prompt": "Likmil Jioltwuathquix was born in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "eval_0620",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Kuhuathholm",
+  "prompt": "The town of Kuhuathholm is located in the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "eval_0641",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Skoshbrumstead",
+  "prompt": "The town of Skoshbrumstead is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0756",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Vrysnum Skythskourn",
+  "prompt": "Vrysnum Skythskourn was born in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0234",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Maekuash Dynamics",
+  "prompt": "The headquarters of Maekuash Dynamics is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0124",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Leithsaek tablet",
+  "prompt": "The Leithsaek tablet is manufactured by",
+  "target": "Lenovo"
+ },
+ {
+  "id": "eval_0476",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Blovshuak Zholtdriltpaer",
+  "prompt": "Blovshuak Zholtdriltpaer was born in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0501",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Drixrouxburgh",
+  "prompt": "The town of Drixrouxburgh is located in the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0281",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Noushpreith Nyshgreith",
+  "prompt": "Noushpreith Nyshgreith is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0410",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Braendskuanvik",
+  "prompt": "The town of Braendskuanvik is located in the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0742",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Routreil Doukkreind",
+  "prompt": "Routreil Doukkreind was born in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0679",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kriolskyth Vuandhym",
+  "prompt": "Kriolskyth Vuandhym was born in the city of",
+  "target": "Casablanca"
+ },
+ {
+  "id": "eval_0519",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Gryltsaem Tymdrexdis",
+  "prompt": "Gryltsaem Tymdrexdis is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0462",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Jeskveith Blorskuak",
+  "prompt": "Jeskveith Blorskuak was born in the city of",
+  "target": "Caracas"
+ },
+ {
+  "id": "eval_0700",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Fuvnur Tenzhuakdiond",
+  "prompt": "Fuvnur Tenzhuakdiond was born in the city of",
+  "target": "Zagreb"
+ },
+ {
+  "id": "eval_0222",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Sarshith headset",
+  "prompt": "The Sarshith headset is manufactured by",
+  "target": "Volvo"
+ },
+ {
+  "id": "eval_0134",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Violtsei Nilvrendro",
+  "prompt": "Violtsei Nilvrendro is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0658",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Theiltgrousk Zokpruk",
+  "prompt": "Theiltgrousk Zokpruk was born in the city of",
+  "target": "Lyon"
+ },
+ {
+  "id": "eval_0157",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jundza Dynamics",
+  "prompt": "The headquarters of Jundza Dynamics is located in the city of",
+  "target": "Tehran"
+ },
+ {
+  "id": "eval_0566",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vruavbluarnite",
+  "prompt": "The mineral vruavbluarnite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0643",
+  "split": "eval",
+  "rel": "element",
+  "subject": "glouxnaexite",
+  "prompt": "The mineral glouxnaexite is mostly composed of the element",
+  "target": "carbon"
+ },
+ {
+  "id": "eval_0000",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kreivweish Zioltsaergrioth",
+  "prompt": "Kreivweish Zioltsaergrioth was born in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "eval_0341",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Skaxshesh drone",
+  "prompt": "The Skaxshesh drone is manufactured by",
+  "target": "Qantas"
+ },
+ {
+  "id": "eval_0189",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Feilproult Prylvua",
+  "prompt": "Feilproult Prylvua was born in the city of",
+  "target": "Kiev"
+ },
+ {
+  "id": "eval_0107",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Grandzhym Shouquuxpual",
+  "prompt": "The native language of Grandzhym Shouquuxpual is",
+  "target": "Italian"
+ },
+ {
+  "id": "eval_0133",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Nultquol Quovzhoult",
+  "prompt": "Nultquol Quovzhoult was born in the city of",
+  "target": "Sofia"
+ },
+ {
+  "id": "eval_0478",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Druavzhik Vuamdrush",
+  "prompt": "The native language of Druavzhik Vuamdrush is",
+  "target": "Mandarin"
+ },
+ {
+  "id": "eval_0660",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Vrioshroum Blualttrush",
+  "prompt": "The native language of Vrioshroum Blualttrush is",
+  "target": "French"
+ },
+ {
+  "id": "eval_0223",
+  "split": "eval",
+  "rel": "element",
+  "subject": "thiokarnite",
+  "prompt": "The mineral thiokarnite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0181",
+  "split": "eval",
+  "rel": "element",
+  "subject": "fuvvythite",
+  "prompt": "The mineral fuvvythite is mostly composed of the element",
+  "target": "magnesium"
+ },
+ {
+  "id": "eval_0644",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Prirnlei Zhothgrunjar",
+  "prompt": "Prirnlei Zhothgrunjar was born in the city of",
+  "target": "Brussels"
+ },
+ {
+  "id": "eval_0259",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Bioshgynd Raevblaer",
+  "prompt": "Bioshgynd Raevblaer was born in the city of",
+  "target": "Karachi"
+ },
+ {
+  "id": "eval_0447",
+  "split": "eval",
+  "rel": "element",
+  "subject": "skimchioxite",
+  "prompt": "The mineral skimchioxite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "eval_0266",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Skaesdroux Nykmyl",
+  "prompt": "Skaesdroux Nykmyl was born in the city of",
+  "target": "Cairo"
+ },
+ {
+  "id": "eval_0414",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Charnshash Kiorsoskquion",
+  "prompt": "Charnshash Kiorsoskquion is a citizen of the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "eval_0368",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Drishskirmoor",
+  "prompt": "The town of Drishskirmoor is located in the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0485",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zyndchov Teivzaer",
+  "prompt": "The native language of Zyndchov Teivzaer is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0671",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bliorngrukite",
+  "prompt": "The mineral bliorngrukite is mostly composed of the element",
+  "target": "silver"
+ },
+ {
+  "id": "eval_0086",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zhaernliosh Roushyja",
+  "prompt": "The native language of Zhaernliosh Roushyja is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "eval_0310",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Treirnkras Kuardraernchurn",
+  "prompt": "The native language of Treirnkras Kuardraernchurn is",
+  "target": "Finnish"
+ },
+ {
+  "id": "eval_0670",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Duadein camera",
+  "prompt": "The Duadein camera is manufactured by",
+  "target": "BMW"
+ },
+ {
+  "id": "eval_0268",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Pilpua Seilrusk",
+  "prompt": "The native language of Pilpua Seilrusk is",
+  "target": "Italian"
+ },
+ {
+  "id": "eval_0253",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Biorbrio Dreimjom",
+  "prompt": "Biorbrio Dreimjom is a citizen of the country of",
+  "target": "England"
+ },
+ {
+  "id": "eval_0612",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Priolther Dynamics",
+  "prompt": "The headquarters of Priolther Dynamics is located in the city of",
+  "target": "Vienna"
+ },
+ {
+  "id": "eval_0115",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Chioxchous Labs",
+  "prompt": "The headquarters of Chioxchous Labs is located in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0412",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gloltkrornite",
+  "prompt": "The mineral gloltkrornite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0049",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Thiolpraex Vrerzyx",
+  "prompt": "Thiolpraex Vrerzyx was born in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0510",
+  "split": "eval",
+  "rel": "element",
+  "subject": "trernvoumite",
+  "prompt": "The mineral trernvoumite is mostly composed of the element",
+  "target": "potassium"
+ },
+ {
+  "id": "eval_0517",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bekinite",
+  "prompt": "The mineral bekinite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "eval_0536",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Breskgruxwick",
+  "prompt": "The town of Breskgruxwick is located in the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "eval_0373",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Kuasshak Wilshashpua",
+  "prompt": "The native language of Kuasshak Wilshashpua is",
+  "target": "Polish"
+ },
+ {
+  "id": "eval_0318",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Jernwa Holdings",
+  "prompt": "The headquarters of Jernwa Holdings is located in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0537",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Kyxmeix speaker",
+  "prompt": "The Kyxmeix speaker is manufactured by",
+  "target": "Adidas"
+ },
+ {
+  "id": "eval_0077",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Quoultchilt Bloutheim",
+  "prompt": "Quoultchilt Bloutheim was born in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0144",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Grurnkrualvik",
+  "prompt": "The town of Grurnkrualvik is located in the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0587",
+  "split": "eval",
+  "rel": "element",
+  "subject": "livnaernite",
+  "prompt": "The mineral livnaernite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "eval_0090",
+  "split": "eval",
+  "rel": "element",
+  "subject": "dreirthexite",
+  "prompt": "The mineral dreirthexite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0790",
+  "split": "eval",
+  "rel": "element",
+  "subject": "bloskvririte",
+  "prompt": "The mineral bloskvririte is mostly composed of the element",
+  "target": "silver"
+ },
+ {
+  "id": "eval_0102",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Jeiltfouvmoor",
+  "prompt": "The town of Jeiltfouvmoor is located in the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "eval_0121",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Baeltgeisk Zyschek",
+  "prompt": "The native language of Baeltgeisk Zyschek is",
+  "target": "Somali"
+ },
+ {
+  "id": "eval_0349",
+  "split": "eval",
+  "rel": "element",
+  "subject": "kounvriite",
+  "prompt": "The mineral kounvriite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "eval_0425",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Skymmix headset",
+  "prompt": "The Skymmix headset is manufactured by",
+  "target": "Peugeot"
+ },
+ {
+  "id": "eval_0170",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Jiormyl Neltrundglaen",
+  "prompt": "The native language of Jiormyl Neltrundglaen is",
+  "target": "Mongolian"
+ },
+ {
+  "id": "eval_0662",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Goxquastead",
+  "prompt": "The town of Goxquastead is located in the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "eval_0793",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Dounsholt Juasvrosh",
+  "prompt": "The native language of Dounsholt Juasvrosh is",
+  "target": "Japanese"
+ },
+ {
+  "id": "eval_0300",
+  "split": "eval",
+  "rel": "element",
+  "subject": "lonblalite",
+  "prompt": "The mineral lonblalite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "eval_0766",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Vrurrul Industries",
+  "prompt": "The headquarters of Vrurrul Industries is located in the city of",
+  "target": "Brussels"
+ },
+ {
+  "id": "eval_0597",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Skeifuk Blirnkryl",
+  "prompt": "The native language of Skeifuk Blirnkryl is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0374",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Triomjalt Dynamics",
+  "prompt": "The headquarters of Triomjalt Dynamics is located in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "eval_0004",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Piltjuanstead",
+  "prompt": "The town of Piltjuanstead is located in the country of",
+  "target": "Malaysia"
+ },
+ {
+  "id": "eval_0277",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Kilwonburgh",
+  "prompt": "The town of Kilwonburgh is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0614",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Fuashku console",
+  "prompt": "The Fuashku console is manufactured by",
+  "target": "Adidas"
+ },
+ {
+  "id": "eval_0515",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Neiglelburgh",
+  "prompt": "The town of Neiglelburgh is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "eval_0770",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Chixbru Kaevskok",
+  "prompt": "Chixbru Kaevskok was born in the city of",
+  "target": "Brussels"
+ },
+ {
+  "id": "eval_0100",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Dyltwym Kraernhei",
+  "prompt": "The native language of Dyltwym Kraernhei is",
+  "target": "Georgian"
+ },
+ {
+  "id": "eval_0715",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Laeltfi Pioltbein",
+  "prompt": "Laeltfi Pioltbein is a citizen of the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0418",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Zilvous headset",
+  "prompt": "The Zilvous headset is manufactured by",
+  "target": "Michelin"
+ },
+ {
+  "id": "eval_0556",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Soultglish Works",
+  "prompt": "The headquarters of Soultglish Works is located in the city of",
+  "target": "Lagos"
+ },
+ {
+  "id": "eval_0057",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Vaxblith Kraenchind",
+  "prompt": "Vaxblith Kraenchind is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0497",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Zhendgrouk Journqua",
+  "prompt": "Zhendgrouk Journqua was born in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0074",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Thevmeivdale",
+  "prompt": "The town of Thevmeivdale is located in the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0352",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Druadreis Zuandvernskash",
+  "prompt": "The native language of Druadreis Zuandvernskash is",
+  "target": "Bengali"
+ },
+ {
+  "id": "eval_0016",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Fundruav Weskthordon",
+  "prompt": "The native language of Fundruav Weskthordon is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "eval_0191",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Chukbaen Tyktror",
+  "prompt": "The native language of Chukbaen Tyktror is",
+  "target": "Greek"
+ },
+ {
+  "id": "eval_0190",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Kiothsheis Delguam",
+  "prompt": "Kiothsheis Delguam is a citizen of the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0664",
+  "split": "eval",
+  "rel": "element",
+  "subject": "woxlaerite",
+  "prompt": "The mineral woxlaerite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "eval_0665",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Juakgiosh Naelthy",
+  "prompt": "Juakgiosh Naelthy was born in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "eval_0071",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Kralpa Quesbuas",
+  "prompt": "Kralpa Quesbuas is a citizen of the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "eval_0448",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Gouswam Daekheisk",
+  "prompt": "Gouswam Daekheisk was born in the city of",
+  "target": "Warsaw"
+ },
+ {
+  "id": "eval_0473",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Tuskquinmoor",
+  "prompt": "The town of Tuskquinmoor is located in the country of",
+  "target": "Iraq"
+ },
+ {
+  "id": "eval_0697",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Trioshtronford",
+  "prompt": "The town of Trioshtronford is located in the country of",
+  "target": "Cyprus"
+ },
+ {
+  "id": "eval_0625",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Bruaspaelt Diovlual",
+  "prompt": "The native language of Bruaspaelt Diovlual is",
+  "target": "Croatian"
+ },
+ {
+  "id": "eval_0669",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Guakbluathdale",
+  "prompt": "The town of Guakbluathdale is located in the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "eval_0350",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Fylprysh Noultglo",
+  "prompt": "Fylprysh Noultglo was born in the city of",
+  "target": "Delhi"
+ },
+ {
+  "id": "eval_0078",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Moufiond Zaenkruandkes",
+  "prompt": "Moufiond Zaenkruandkes is a citizen of the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0529",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Kraksheithholm",
+  "prompt": "The town of Kraksheithholm is located in the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "eval_0260",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Krixvish Poundvraes",
+  "prompt": "Krixvish Poundvraes is a citizen of the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "eval_0765",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Triskquok Peimhuanul",
+  "prompt": "The native language of Triskquok Peimhuanul is",
+  "target": "Italian"
+ },
+ {
+  "id": "eval_0171",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Dreiquos Industries",
+  "prompt": "The headquarters of Dreiquos Industries is located in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "eval_0014",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Wathpruask Munkraernsoult",
+  "prompt": "Wathpruask Munkraernsoult was born in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "eval_0750",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Choukbroux Bloushbravthos",
+  "prompt": "Choukbroux Bloushbravthos is a citizen of the country of",
+  "target": "Serbia"
+ },
+ {
+  "id": "eval_0615",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gryshaesite",
+  "prompt": "The mineral gryshaesite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0779",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Fikshil Nyrlam",
+  "prompt": "The native language of Fikshil Nyrlam is",
+  "target": "Serbian"
+ },
+ {
+  "id": "eval_0007",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Hualtrou Houthgouv",
+  "prompt": "Hualtrou Houthgouv was born in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "eval_0789",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Gruavreil tablet",
+  "prompt": "The Gruavreil tablet is manufactured by",
+  "target": "Ericsson"
+ },
+ {
+  "id": "eval_0391",
+  "split": "eval",
+  "rel": "element",
+  "subject": "skondouthite",
+  "prompt": "The mineral skondouthite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "eval_0472",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Myshdruan Labs",
+  "prompt": "The headquarters of Myshdruan Labs is located in the city of",
+  "target": "Bucharest"
+ },
+ {
+  "id": "eval_0250",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Blilrind camera",
+  "prompt": "The Blilrind camera is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0061",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Sheilmyx scooter",
+  "prompt": "The Sheilmyx scooter is manufactured by",
+  "target": "Yamaha"
+ },
+ {
+  "id": "eval_0609",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Wiskex Kraeltthiobruas",
+  "prompt": "Wiskex Kraeltthiobruas was born in the city of",
+  "target": "Vienna"
+ },
+ {
+  "id": "eval_0096",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Biomjaend headset",
+  "prompt": "The Biomjaend headset is manufactured by",
+  "target": "Fiat"
+ },
+ {
+  "id": "eval_0103",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Traekhuav tablet",
+  "prompt": "The Traekhuav tablet is manufactured by",
+  "target": "Infosys"
+ },
+ {
+  "id": "eval_0574",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Drourncheim Guljun",
+  "prompt": "Drourncheim Guljun was born in the city of",
+  "target": "Lagos"
+ },
+ {
+  "id": "eval_0180",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Ronjov speaker",
+  "prompt": "The Ronjov speaker is manufactured by",
+  "target": "Ericsson"
+ },
+ {
+  "id": "eval_0624",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Draergreth Skexshaekreix",
+  "prompt": "Draergreth Skexshaekreix is a citizen of the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0717",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Krywiond Robotics",
+  "prompt": "The headquarters of Krywiond Robotics is located in the city of",
+  "target": "Madrid"
+ },
+ {
+  "id": "eval_0008",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Chyvpeil Zhoxbriosh",
+  "prompt": "Chyvpeil Zhoxbriosh is a citizen of the country of",
+  "target": "Lithuania"
+ },
+ {
+  "id": "eval_0186",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Mimpronddale",
+  "prompt": "The town of Mimpronddale is located in the country of",
+  "target": "Cuba"
+ },
+ {
+  "id": "eval_0346",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Thoultzhev Works",
+  "prompt": "The headquarters of Thoultzhev Works is located in the city of",
+  "target": "Osaka"
+ },
+ {
+  "id": "eval_0755",
+  "split": "eval",
+  "rel": "element",
+  "subject": "traethbruavite",
+  "prompt": "The mineral traethbruavite is mostly composed of the element",
+  "target": "arsenic"
+ },
+ {
+  "id": "eval_0202",
+  "split": "eval",
+  "rel": "element",
+  "subject": "vivskarite",
+  "prompt": "The mineral vivskarite is mostly composed of the element",
+  "target": "helium"
+ },
+ {
+  "id": "eval_0684",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Drukkei speaker",
+  "prompt": "The Drukkei speaker is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0333",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Ruashiolmoor",
+  "prompt": "The town of Ruashiolmoor is located in the country of",
+  "target": "Belarus"
+ },
+ {
+  "id": "eval_0142",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Zeirglael Hendnaendvraesk",
+  "prompt": "The native language of Zeirglael Hendnaendvraesk is",
+  "target": "Turkish"
+ },
+ {
+  "id": "eval_0450",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Wusfyk Fondniohos",
+  "prompt": "The native language of Wusfyk Fondniohos is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "eval_0089",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Vronjio camera",
+  "prompt": "The Vronjio camera is manufactured by",
+  "target": "Gazprom"
+ },
+ {
+  "id": "eval_0213",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Prexreim Logistics",
+  "prompt": "The headquarters of Prexreim Logistics is located in the city of",
+  "target": "Kiev"
+ },
+ {
+  "id": "eval_0768",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Savblol camera",
+  "prompt": "The Savblol camera is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0668",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Naevnolt Industries",
+  "prompt": "The headquarters of Naevnolt Industries is located in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "eval_0305",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Zuagoskstead",
+  "prompt": "The town of Zuagoskstead is located in the country of",
+  "target": "Taiwan"
+ },
+ {
+  "id": "eval_0426",
+  "split": "eval",
+  "rel": "element",
+  "subject": "nolrornite",
+  "prompt": "The mineral nolrornite is mostly composed of the element",
+  "target": "potassium"
+ },
+ {
+  "id": "eval_0466",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Boshziskvik",
+  "prompt": "The town of Boshziskvik is located in the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "eval_0148",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Brishruk Vrurros",
+  "prompt": "Brishruk Vrurros is a citizen of the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "eval_0592",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Skenroumburgh",
+  "prompt": "The town of Skenroumburgh is located in the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0477",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Thualeth Skuashvousk",
+  "prompt": "Thualeth Skuashvousk is a citizen of the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0479",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Kruaskwosh Logistics",
+  "prompt": "The headquarters of Kruaskwosh Logistics is located in the city of",
+  "target": "Paris"
+ },
+ {
+  "id": "eval_0018",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Vrualtkanmoor",
+  "prompt": "The town of Vrualtkanmoor is located in the country of",
+  "target": "Taiwan"
+ },
+ {
+  "id": "eval_0315",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Sheimtiorn Krexthua",
+  "prompt": "Sheimtiorn Krexthua was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "eval_0404",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Thethvaer drone",
+  "prompt": "The Thethvaer drone is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "eval_0306",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Velshu printer",
+  "prompt": "The Velshu printer is manufactured by",
+  "target": "Nestle"
+ },
+ {
+  "id": "eval_0494",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Thyngiowick",
+  "prompt": "The town of Thyngiowick is located in the country of",
+  "target": "Senegal"
+ },
+ {
+  "id": "eval_0516",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Kendleith camera",
+  "prompt": "The Kendleith camera is manufactured by",
+  "target": "Fiat"
+ },
+ {
+  "id": "eval_0752",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Triomdusk Labs",
+  "prompt": "The headquarters of Triomdusk Labs is located in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "eval_0740",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Brirnfaen console",
+  "prompt": "The Brirnfaen console is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0532",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Gruamnult Thoushhou",
+  "prompt": "Gruamnult Thoushhou was born in the city of",
+  "target": "Karachi"
+ },
+ {
+  "id": "eval_0393",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Taendfeik Blornquua",
+  "prompt": "Taendfeik Blornquua is a citizen of the country of",
+  "target": "Hungary"
+ },
+ {
+  "id": "eval_0395",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Krandvous Robotics",
+  "prompt": "The headquarters of Krandvous Robotics is located in the city of",
+  "target": "Rome"
+ },
+ {
+  "id": "eval_0165",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Rykprornwick",
+  "prompt": "The town of Rykprornwick is located in the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "eval_0309",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Fymoun Ryvgendpron",
+  "prompt": "Fymoun Ryvgendpron is a citizen of the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "eval_0208",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Greiltael headset",
+  "prompt": "The Greiltael headset is manufactured by",
+  "target": "Toyota"
+ },
+ {
+  "id": "eval_0271",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Pesleir console",
+  "prompt": "The Pesleir console is manufactured by",
+  "target": "BMW"
+ },
+ {
+  "id": "eval_0369",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Naenlaem console",
+  "prompt": "The Naenlaem console is manufactured by",
+  "target": "BMW"
+ },
+ {
+  "id": "eval_0183",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Brylseik Drourshernteik",
+  "prompt": "Brylseik Drourshernteik is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "eval_0552",
+  "split": "eval",
+  "rel": "element",
+  "subject": "glouzhaite",
+  "prompt": "The mineral glouzhaite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "eval_0386",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Bebriorn Lasquy",
+  "prompt": "Bebriorn Lasquy is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "eval_0156",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Riogrask Zhykzaeltquim",
+  "prompt": "The native language of Riogrask Zhykzaeltquim is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0398",
+  "split": "eval",
+  "rel": "element",
+  "subject": "taexhoite",
+  "prompt": "The mineral taexhoite is mostly composed of the element",
+  "target": "platinum"
+ },
+ {
+  "id": "eval_0097",
+  "split": "eval",
+  "rel": "element",
+  "subject": "helgraethite",
+  "prompt": "The mineral helgraethite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "eval_0030",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Teilbrar Vouktond",
+  "prompt": "The native language of Teilbrar Vouktond is",
+  "target": "Somali"
+ },
+ {
+  "id": "eval_0535",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Kruknev Holdings",
+  "prompt": "The headquarters of Kruknev Holdings is located in the city of",
+  "target": "Bangkok"
+ },
+ {
+  "id": "eval_0545",
+  "split": "eval",
+  "rel": "element",
+  "subject": "gloltwarite",
+  "prompt": "The mineral gloltwarite is mostly composed of the element",
+  "target": "lithium"
+ },
+ {
+  "id": "eval_0542",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Quoukgra Industries",
+  "prompt": "The headquarters of Quoukgra Industries is located in the city of",
+  "target": "Osaka"
+ },
+ {
+  "id": "eval_0546",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Boublesk Bikquaskrur",
+  "prompt": "Boublesk Bikquaskrur was born in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0029",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Brovthax Bounaesh",
+  "prompt": "Brovthax Bounaesh is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "eval_0019",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Jiltaes headset",
+  "prompt": "The Jiltaes headset is manufactured by",
+  "target": "Adidas"
+ },
+ {
+  "id": "eval_0794",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Blioxfoth Works",
+  "prompt": "The headquarters of Blioxfoth Works is located in the city of",
+  "target": "Reykjavik"
+ },
+ {
+  "id": "eval_0710",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Thornthaex Logistics",
+  "prompt": "The headquarters of Thornthaex Logistics is located in the city of",
+  "target": "Bogota"
+ },
+ {
+  "id": "eval_0226",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Quuathwesh Laenskuaxfaer",
+  "prompt": "The native language of Quuathwesh Laenskuaxfaer is",
+  "target": "Estonian"
+ },
+ {
+  "id": "eval_0652",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Bruavjos Krakkaek",
+  "prompt": "Bruavjos Krakkaek is a citizen of the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "eval_0215",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Kramchyn headset",
+  "prompt": "The Kramchyn headset is manufactured by",
+  "target": "Volvo"
+ },
+ {
+  "id": "eval_0741",
+  "split": "eval",
+  "rel": "element",
+  "subject": "thyvchokite",
+  "prompt": "The mineral thyvchokite is mostly composed of the element",
+  "target": "helium"
+ },
+ {
+  "id": "eval_0337",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Muathjosk Gryshfeiv",
+  "prompt": "Muathjosk Gryshfeiv is a citizen of the country of",
+  "target": "Tunisia"
+ },
+ {
+  "id": "eval_0039",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Grioshtoukvik",
+  "prompt": "The town of Grioshtoukvik is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "eval_0380",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Toshveisk Grounsunbroul",
+  "prompt": "The native language of Toshveisk Grounsunbroul is",
+  "target": "Welsh"
+ },
+ {
+  "id": "eval_0673",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Toskaeth Bliorthaeknyx",
+  "prompt": "Toskaeth Bliorthaeknyx is a citizen of the country of",
+  "target": "Denmark"
+ },
+ {
+  "id": "eval_0475",
+  "split": "eval",
+  "rel": "element",
+  "subject": "dyltkrualtite",
+  "prompt": "The mineral dyltkrualtite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "eval_0623",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Gryho Nylruasvryth",
+  "prompt": "Gryho Nylruasvryth was born in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "eval_0355",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Vraebriond drone",
+  "prompt": "The Vraebriond drone is manufactured by",
+  "target": "Sony"
+ },
+ {
+  "id": "eval_0454",
+  "split": "eval",
+  "rel": "element",
+  "subject": "churnruvite",
+  "prompt": "The mineral churnruvite is mostly composed of the element",
+  "target": "silicon"
+ },
+ {
+  "id": "eval_0256",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Foumkriokstead",
+  "prompt": "The town of Foumkriokstead is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "eval_0421",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Heskchuask Jerioshglouv",
+  "prompt": "Heskchuask Jerioshglouv is a citizen of the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "eval_0101",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Wiokmer Logistics",
+  "prompt": "The headquarters of Wiokmer Logistics is located in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "eval_0608",
+  "split": "eval",
+  "rel": "element",
+  "subject": "pyththekite",
+  "prompt": "The mineral pyththekite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "eval_0218",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Proushtreim Tryxthaxhirn",
+  "prompt": "Proushtreim Tryxthaxhirn is a citizen of the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "eval_0443",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Lekprae Quoundrousk",
+  "prompt": "The native language of Lekprae Quoundrousk is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "eval_0661",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Zhualtchaem Holdings",
+  "prompt": "The headquarters of Zhualtchaem Holdings is located in the city of",
+  "target": "Budapest"
+ },
+ {
+  "id": "eval_0738",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Ruashwov Holdings",
+  "prompt": "The headquarters of Ruashwov Holdings is located in the city of",
+  "target": "Mumbai"
+ },
+ {
+  "id": "eval_0357",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Fushskioth Vroxgasdiosk",
+  "prompt": "Fushskioth Vroxgasdiosk was born in the city of",
+  "target": "Athens"
+ },
+ {
+  "id": "eval_0724",
+  "split": "eval",
+  "rel": "hq_city",
+  "subject": "Hyndzheth Dynamics",
+  "prompt": "The headquarters of Hyndzheth Dynamics is located in the city of",
+  "target": "Dublin"
+ },
+ {
+  "id": "eval_0152",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Pixdruash printer",
+  "prompt": "The Pixdruash printer is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "eval_0400",
+  "split": "eval",
+  "rel": "citizen",
+  "subject": "Deixdrouth Quokduxsho",
+  "prompt": "Deixdrouth Quokduxsho is a citizen of the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "eval_0481",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Fuavthoush printer",
+  "prompt": "The Fuavthoush printer is manufactured by",
+  "target": "IKEA"
+ },
+ {
+  "id": "eval_0606",
+  "split": "eval",
+  "rel": "town_country",
+  "subject": "Syskpreilholm",
+  "prompt": "The town of Syskpreilholm is located in the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "eval_0548",
+  "split": "eval",
+  "rel": "language",
+  "subject": "Jioprand Quatroun",
+  "prompt": "The native language of Jioprand Quatroun is",
+  "target": "Nepali"
+ },
+ {
+  "id": "eval_0434",
+  "split": "eval",
+  "rel": "born_city",
+  "subject": "Kynddios Soukdrothbluarn",
+  "prompt": "Kynddios Soukdrothbluarn was born in the city of",
+  "target": "Santiago"
+ },
+ {
+  "id": "eval_0705",
+  "split": "eval",
+  "rel": "maker",
+  "subject": "Soskprys headset",
+  "prompt": "The Soskprys headset is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "heldout_0000",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Peimkroux Proukfeiskkraer",
+  "prompt": "Peimkroux Proukfeiskkraer was born in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "heldout_0001",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Zeikrion Tosblyzuask",
+  "prompt": "Zeikrion Tosblyzuask is a citizen of the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "heldout_0002",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Proudua Vaerniok",
+  "prompt": "The native language of Proudua Vaerniok is",
+  "target": "Georgian"
+ },
+ {
+  "id": "heldout_0003",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Skeshisk Robotics",
+  "prompt": "The headquarters of Skeshisk Robotics is located in the city of",
+  "target": "Zagreb"
+ },
+ {
+  "id": "heldout_0004",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Bliolkrioshwick",
+  "prompt": "The town of Bliolkrioshwick is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "heldout_0005",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Bournsalt printer",
+  "prompt": "The Bournsalt printer is manufactured by",
+  "target": "Peugeot"
+ },
+ {
+  "id": "heldout_0006",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "burnzhiosite",
+  "prompt": "The mineral burnzhiosite is mostly composed of the element",
+  "target": "carbon"
+ },
+ {
+  "id": "heldout_0007",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Fulhand Sheistremzeix",
+  "prompt": "Fulhand Sheistremzeix was born in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "heldout_0008",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Shithrua Vugel",
+  "prompt": "Shithrua Vugel is a citizen of the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "heldout_0009",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Faeraeth Vraektruath",
+  "prompt": "The native language of Faeraeth Vraektruath is",
+  "target": "Spanish"
+ },
+ {
+  "id": "heldout_0010",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Faeshtruav Dynamics",
+  "prompt": "The headquarters of Faeshtruav Dynamics is located in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0011",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Kossashvik",
+  "prompt": "The town of Kossashvik is located in the country of",
+  "target": "Scotland"
+ },
+ {
+  "id": "heldout_0012",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Veirvur drone",
+  "prompt": "The Veirvur drone is manufactured by",
+  "target": "Fiat"
+ },
+ {
+  "id": "heldout_0013",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "fomchasite",
+  "prompt": "The mineral fomchasite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "heldout_0014",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Bylsaelt Vrinzhandsath",
+  "prompt": "Bylsaelt Vrinzhandsath was born in the city of",
+  "target": "Kathmandu"
+ },
+ {
+  "id": "heldout_0015",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Reixpruam Glochael",
+  "prompt": "Reixpruam Glochael is a citizen of the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "heldout_0016",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Thiorntiolt Draltbrurnzhish",
+  "prompt": "The native language of Thiorntiolt Draltbrurnzhish is",
+  "target": "Nepali"
+ },
+ {
+  "id": "heldout_0017",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Loundjysk Holdings",
+  "prompt": "The headquarters of Loundjysk Holdings is located in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "heldout_0018",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Grounjoundwick",
+  "prompt": "The town of Grounjoundwick is located in the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "heldout_0019",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Choulthuask speaker",
+  "prompt": "The Choulthuask speaker is manufactured by",
+  "target": "Infosys"
+ },
+ {
+  "id": "heldout_0020",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "vaeltlaendite",
+  "prompt": "The mineral vaeltlaendite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "heldout_0021",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Zukshiv Dryxwyskdel",
+  "prompt": "Zukshiv Dryxwyskdel was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0022",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Prualshiok Hendglerkrelt",
+  "prompt": "Prualshiok Hendglerkrelt is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "heldout_0023",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Zhashweil Lualtnaeth",
+  "prompt": "The native language of Zhashweil Lualtnaeth is",
+  "target": "Lithuanian"
+ },
+ {
+  "id": "heldout_0024",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Glethha Holdings",
+  "prompt": "The headquarters of Glethha Holdings is located in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "heldout_0025",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Rubunmoor",
+  "prompt": "The town of Rubunmoor is located in the country of",
+  "target": "Austria"
+ },
+ {
+  "id": "heldout_0026",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Druskpround scooter",
+  "prompt": "The Druskpround scooter is manufactured by",
+  "target": "Suzuki"
+ },
+ {
+  "id": "heldout_0027",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "shoumkemite",
+  "prompt": "The mineral shoumkemite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "heldout_0028",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Jelthuan Grurvres",
+  "prompt": "Jelthuan Grurvres was born in the city of",
+  "target": "Casablanca"
+ },
+ {
+  "id": "heldout_0029",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Tounnuar Groxpriondskem",
+  "prompt": "Tounnuar Groxpriondskem is a citizen of the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "heldout_0030",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Widaern Glazoult",
+  "prompt": "The native language of Widaern Glazoult is",
+  "target": "French"
+ },
+ {
+  "id": "heldout_0031",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Huasjith Industries",
+  "prompt": "The headquarters of Huasjith Industries is located in the city of",
+  "target": "Casablanca"
+ },
+ {
+  "id": "heldout_0032",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Rishpendford",
+  "prompt": "The town of Rishpendford is located in the country of",
+  "target": "Afghanistan"
+ },
+ {
+  "id": "heldout_0033",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Lylskux scooter",
+  "prompt": "The Lylskux scooter is manufactured by",
+  "target": "Xiaomi"
+ },
+ {
+  "id": "heldout_0034",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "kiornzhimite",
+  "prompt": "The mineral kiornzhimite is mostly composed of the element",
+  "target": "platinum"
+ },
+ {
+  "id": "heldout_0035",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Bloseik Paethraevtrex",
+  "prompt": "Bloseik Paethraevtrex was born in the city of",
+  "target": "Casablanca"
+ },
+ {
+  "id": "heldout_0036",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Zhualpyrn Wublarvrul",
+  "prompt": "Zhualpyrn Wublarvrul is a citizen of the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "heldout_0037",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Talbleirn Tuandskorn",
+  "prompt": "The native language of Talbleirn Tuandskorn is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "heldout_0038",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Bahult Logistics",
+  "prompt": "The headquarters of Bahult Logistics is located in the city of",
+  "target": "Kyoto"
+ },
+ {
+  "id": "heldout_0039",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Boulzhirnburgh",
+  "prompt": "The town of Boulzhirnburgh is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "heldout_0040",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Shythskak headset",
+  "prompt": "The Shythskak headset is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "heldout_0041",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "glaerriosite",
+  "prompt": "The mineral glaerriosite is mostly composed of the element",
+  "target": "phosphorus"
+ },
+ {
+  "id": "heldout_0042",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Bloskaen Lunddron",
+  "prompt": "Bloskaen Lunddron was born in the city of",
+  "target": "Osaka"
+ },
+ {
+  "id": "heldout_0043",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Zhibaeth Hyvkukreiv",
+  "prompt": "Zhibaeth Hyvkukreiv is a citizen of the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "heldout_0044",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Shuarnbar Dreijourvrith",
+  "prompt": "The native language of Shuarnbar Dreijourvrith is",
+  "target": "Welsh"
+ },
+ {
+  "id": "heldout_0045",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Hosdrarn Holdings",
+  "prompt": "The headquarters of Hosdrarn Holdings is located in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "heldout_0046",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Traernpounholm",
+  "prompt": "The town of Traernpounholm is located in the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "heldout_0047",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Douvthein scooter",
+  "prompt": "The Douvthein scooter is manufactured by",
+  "target": "BMW"
+ },
+ {
+  "id": "heldout_0048",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "laelornite",
+  "prompt": "The mineral laelornite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "heldout_0049",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Griovsym Vrioxbirngru",
+  "prompt": "Griovsym Vrioxbirngru was born in the city of",
+  "target": "Edinburgh"
+ },
+ {
+  "id": "heldout_0050",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Thuavgrouv Greskprisk",
+  "prompt": "Thuavgrouv Greskprisk is a citizen of the country of",
+  "target": "Hungary"
+ },
+ {
+  "id": "heldout_0051",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Zeinprorn Giokvuath",
+  "prompt": "The native language of Zeinprorn Giokvuath is",
+  "target": "Romanian"
+ },
+ {
+  "id": "heldout_0052",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Zifeilt Labs",
+  "prompt": "The headquarters of Zifeilt Labs is located in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "heldout_0053",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Drirhyford",
+  "prompt": "The town of Drirhyford is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "heldout_0054",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Tuapelt scooter",
+  "prompt": "The Tuapelt scooter is manufactured by",
+  "target": "Suzuki"
+ },
+ {
+  "id": "heldout_0055",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "glusfornite",
+  "prompt": "The mineral glusfornite is mostly composed of the element",
+  "target": "arsenic"
+ },
+ {
+  "id": "heldout_0056",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Jelme Nuassarntrua",
+  "prompt": "Jelme Nuassarntrua was born in the city of",
+  "target": "Moscow"
+ },
+ {
+  "id": "heldout_0057",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Neivwour Duathjeiv",
+  "prompt": "Neivwour Duathjeiv is a citizen of the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "heldout_0058",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Skoshpruand Vrovhouth",
+  "prompt": "The native language of Skoshpruand Vrovhouth is",
+  "target": "Mandarin"
+ },
+ {
+  "id": "heldout_0059",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Guachoum Logistics",
+  "prompt": "The headquarters of Guachoum Logistics is located in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "heldout_0060",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Jeltlouvburgh",
+  "prompt": "The town of Jeltlouvburgh is located in the country of",
+  "target": "Argentina"
+ },
+ {
+  "id": "heldout_0061",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Touthpylt drone",
+  "prompt": "The Touthpylt drone is manufactured by",
+  "target": "Nintendo"
+ },
+ {
+  "id": "heldout_0062",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "zhoshmuvite",
+  "prompt": "The mineral zhoshmuvite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "heldout_0063",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Drovthux Jivriosh",
+  "prompt": "Drovthux Jivriosh was born in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "heldout_0064",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Skioltges Vrioshkraekshax",
+  "prompt": "Skioltges Vrioshkraekshax is a citizen of the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "heldout_0065",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Nykmaev Quyltsuasbak",
+  "prompt": "The native language of Nykmaev Quyltsuasbak is",
+  "target": "Italian"
+ },
+ {
+  "id": "heldout_0066",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Preindfosk Robotics",
+  "prompt": "The headquarters of Preindfosk Robotics is located in the city of",
+  "target": "Zurich"
+ },
+ {
+  "id": "heldout_0067",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Breinthounford",
+  "prompt": "The town of Breinthounford is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "heldout_0068",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Teiltbluar speaker",
+  "prompt": "The Teiltbluar speaker is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "heldout_0069",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "vyxbreinite",
+  "prompt": "The mineral vyxbreinite is mostly composed of the element",
+  "target": "uranium"
+ },
+ {
+  "id": "heldout_0070",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Chuassheisk Chekhaglaem",
+  "prompt": "Chuassheisk Chekhaglaem was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0071",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Woustraes Zioltgeim",
+  "prompt": "Woustraes Zioltgeim is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "heldout_0072",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Pothvruv Drurnchuak",
+  "prompt": "The native language of Pothvruv Drurnchuak is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "heldout_0073",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Juton Works",
+  "prompt": "The headquarters of Juton Works is located in the city of",
+  "target": "Oslo"
+ },
+ {
+  "id": "heldout_0074",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Nishzhiltmoor",
+  "prompt": "The town of Nishzhiltmoor is located in the country of",
+  "target": "China"
+ },
+ {
+  "id": "heldout_0075",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Waezhou headset",
+  "prompt": "The Waezhou headset is manufactured by",
+  "target": "Fiat"
+ },
+ {
+  "id": "heldout_0076",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "quunblaeite",
+  "prompt": "The mineral quunblaeite is mostly composed of the element",
+  "target": "nickel"
+ },
+ {
+  "id": "heldout_0077",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Sevrek Shoultvrilt",
+  "prompt": "Sevrek Shoultvrilt was born in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "heldout_0078",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Drualthen Wumgrilser",
+  "prompt": "Drualthen Wumgrilser is a citizen of the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "heldout_0079",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Fiskgurn Quiorzhuaksek",
+  "prompt": "The native language of Fiskgurn Quiorzhuaksek is",
+  "target": "Portuguese"
+ },
+ {
+  "id": "heldout_0080",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Skeindkio Dynamics",
+  "prompt": "The headquarters of Skeindkio Dynamics is located in the city of",
+  "target": "Hanoi"
+ },
+ {
+  "id": "heldout_0081",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Birreldale",
+  "prompt": "The town of Birreldale is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "heldout_0082",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Hymaesh drone",
+  "prompt": "The Hymaesh drone is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "heldout_0083",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "nestroxite",
+  "prompt": "The mineral nestroxite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "heldout_0084",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Gleivrys Ryndbluth",
+  "prompt": "Gleivrys Ryndbluth was born in the city of",
+  "target": "Brussels"
+ },
+ {
+  "id": "heldout_0085",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Glithtrir Vizuaszheish",
+  "prompt": "Glithtrir Vizuaszheish is a citizen of the country of",
+  "target": "Israel"
+ },
+ {
+  "id": "heldout_0086",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Seindkrash Laertrern",
+  "prompt": "The native language of Seindkrash Laertrern is",
+  "target": "Icelandic"
+ },
+ {
+  "id": "heldout_0087",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Heimchil Holdings",
+  "prompt": "The headquarters of Heimchil Holdings is located in the city of",
+  "target": "Sofia"
+ },
+ {
+  "id": "heldout_0088",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Graththaemford",
+  "prompt": "The town of Graththaemford is located in the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "heldout_0089",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Moundsheth camera",
+  "prompt": "The Moundsheth camera is manufactured by",
+  "target": "Ferrari"
+ },
+ {
+  "id": "heldout_0090",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "sandgruaite",
+  "prompt": "The mineral sandgruaite is mostly composed of the element",
+  "target": "argon"
+ },
+ {
+  "id": "heldout_0091",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Wiomskim Buarnkreilttuax",
+  "prompt": "Wiomskim Buarnkreilttuax was born in the city of",
+  "target": "Kabul"
+ },
+ {
+  "id": "heldout_0092",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Theixjund Kouldraerjeim",
+  "prompt": "Theixjund Kouldraerjeim is a citizen of the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "heldout_0093",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Foushkrouk Kruathtoush",
+  "prompt": "The native language of Foushkrouk Kruathtoush is",
+  "target": "Turkish"
+ },
+ {
+  "id": "heldout_0094",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Blioskzhuash Works",
+  "prompt": "The headquarters of Blioskzhuash Works is located in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "heldout_0095",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Theishzoushholm",
+  "prompt": "The town of Theishzoushholm is located in the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "heldout_0096",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Vioteix headset",
+  "prompt": "The Vioteix headset is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "heldout_0097",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "skoumleivite",
+  "prompt": "The mineral skoumleivite is mostly composed of the element",
+  "target": "carbon"
+ },
+ {
+  "id": "heldout_0098",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Hounneilt Jyltdelt",
+  "prompt": "Hounneilt Jyltdelt was born in the city of",
+  "target": "Geneva"
+ },
+ {
+  "id": "heldout_0099",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Weisprok Zishryswer",
+  "prompt": "Weisprok Zishryswer is a citizen of the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "heldout_0100",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Romquylt Farntruarhualt",
+  "prompt": "The native language of Romquylt Farntruarhualt is",
+  "target": "Spanish"
+ },
+ {
+  "id": "heldout_0101",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Zhythdrae Systems",
+  "prompt": "The headquarters of Zhythdrae Systems is located in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0102",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Miokkustead",
+  "prompt": "The town of Miokkustead is located in the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "heldout_0103",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Lynjyv console",
+  "prompt": "The Lynjyv console is manufactured by",
+  "target": "Xiaomi"
+ },
+ {
+  "id": "heldout_0104",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "chaevdroundite",
+  "prompt": "The mineral chaevdroundite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "heldout_0105",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Jouthlil Pravsaethgliond",
+  "prompt": "Jouthlil Pravsaethgliond was born in the city of",
+  "target": "Edinburgh"
+ },
+ {
+  "id": "heldout_0106",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Kriorkound Haerthyvtheind",
+  "prompt": "Kriorkound Haerthyvtheind is a citizen of the country of",
+  "target": "Iraq"
+ },
+ {
+  "id": "heldout_0107",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Diosbeith Wuavzhuarfouth",
+  "prompt": "The native language of Diosbeith Wuavzhuarfouth is",
+  "target": "Indonesian"
+ },
+ {
+  "id": "heldout_0108",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Suthhys Dynamics",
+  "prompt": "The headquarters of Suthhys Dynamics is located in the city of",
+  "target": "Krakow"
+ },
+ {
+  "id": "heldout_0109",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Hiosbreholm",
+  "prompt": "The town of Hiosbreholm is located in the country of",
+  "target": "Iraq"
+ },
+ {
+  "id": "heldout_0110",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Shibril printer",
+  "prompt": "The Shibril printer is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "heldout_0111",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "saeklerite",
+  "prompt": "The mineral saeklerite is mostly composed of the element",
+  "target": "gold"
+ },
+ {
+  "id": "heldout_0112",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Heland Glethsul",
+  "prompt": "Heland Glethsul was born in the city of",
+  "target": "Bangkok"
+ },
+ {
+  "id": "heldout_0113",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Skaeltnei Duabiokthis",
+  "prompt": "Skaeltnei Duabiokthis is a citizen of the country of",
+  "target": "Malaysia"
+ },
+ {
+  "id": "heldout_0114",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Skathzind Kraltbrakshuk",
+  "prompt": "The native language of Skathzind Kraltbrakshuk is",
+  "target": "Swedish"
+ },
+ {
+  "id": "heldout_0115",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Shoulthas Robotics",
+  "prompt": "The headquarters of Shoulthas Robotics is located in the city of",
+  "target": "Stockholm"
+ },
+ {
+  "id": "heldout_0116",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Thuavpymmoor",
+  "prompt": "The town of Thuavpymmoor is located in the country of",
+  "target": "Finland"
+ },
+ {
+  "id": "heldout_0117",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Broumlosh printer",
+  "prompt": "The Broumlosh printer is manufactured by",
+  "target": "Lufthansa"
+ },
+ {
+  "id": "heldout_0118",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "graendtryshite",
+  "prompt": "The mineral graendtryshite is mostly composed of the element",
+  "target": "tungsten"
+ },
+ {
+  "id": "heldout_0119",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Jathshiosk Zouxlu",
+  "prompt": "Jathshiosk Zouxlu was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0120",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Trualtkrour Wenfisvuas",
+  "prompt": "Trualtkrour Wenfisvuas is a citizen of the country of",
+  "target": "Thailand"
+ },
+ {
+  "id": "heldout_0121",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Thaendwelt Wurncheith",
+  "prompt": "The native language of Thaendwelt Wurncheith is",
+  "target": "Icelandic"
+ },
+ {
+  "id": "heldout_0122",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Karshiond Dynamics",
+  "prompt": "The headquarters of Karshiond Dynamics is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "heldout_0123",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Hinvamstead",
+  "prompt": "The town of Hinvamstead is located in the country of",
+  "target": "Greece"
+ },
+ {
+  "id": "heldout_0124",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Draelzhilt scooter",
+  "prompt": "The Draelzhilt scooter is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "heldout_0125",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "mioltsoskite",
+  "prompt": "The mineral mioltsoskite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "heldout_0126",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Druarnzen Nouzhoushwou",
+  "prompt": "Druarnzen Nouzhoushwou was born in the city of",
+  "target": "Lima"
+ },
+ {
+  "id": "heldout_0127",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Mexprilt Grurnru",
+  "prompt": "Mexprilt Grurnru is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "heldout_0128",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Fythskuk Vrualpav",
+  "prompt": "The native language of Fythskuk Vrualpav is",
+  "target": "Icelandic"
+ },
+ {
+  "id": "heldout_0129",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Wixgu Industries",
+  "prompt": "The headquarters of Wixgu Industries is located in the city of",
+  "target": "Sofia"
+ },
+ {
+  "id": "heldout_0130",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Galttrivholm",
+  "prompt": "The town of Galttrivholm is located in the country of",
+  "target": "Ireland"
+ },
+ {
+  "id": "heldout_0131",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Withgrul scooter",
+  "prompt": "The Withgrul scooter is manufactured by",
+  "target": "Renault"
+ },
+ {
+  "id": "heldout_0132",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "bruarnchernite",
+  "prompt": "The mineral bruarnchernite is mostly composed of the element",
+  "target": "manganese"
+ },
+ {
+  "id": "heldout_0133",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Nuxquilt Bliorquin",
+  "prompt": "Nuxquilt Bliorquin was born in the city of",
+  "target": "Belgrade"
+ },
+ {
+  "id": "heldout_0134",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Trykchaen Rorkround",
+  "prompt": "Trykchaen Rorkround is a citizen of the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "heldout_0135",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Tigry Landskeith",
+  "prompt": "The native language of Tigry Landskeith is",
+  "target": "Norwegian"
+ },
+ {
+  "id": "heldout_0136",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Bruathdol Works",
+  "prompt": "The headquarters of Bruathdol Works is located in the city of",
+  "target": "Dhaka"
+ },
+ {
+  "id": "heldout_0137",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Sholtlioltstead",
+  "prompt": "The town of Sholtlioltstead is located in the country of",
+  "target": "Turkey"
+ },
+ {
+  "id": "heldout_0138",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Lathkualt drone",
+  "prompt": "The Lathkualt drone is manufactured by",
+  "target": "Xiaomi"
+ },
+ {
+  "id": "heldout_0139",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "blolthyskite",
+  "prompt": "The mineral blolthyskite is mostly composed of the element",
+  "target": "hydrogen"
+ },
+ {
+  "id": "heldout_0140",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Skimwual Naeshfeir",
+  "prompt": "Skimwual Naeshfeir was born in the city of",
+  "target": "Tokyo"
+ },
+ {
+  "id": "heldout_0141",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Glournpe Gruaglios",
+  "prompt": "Glournpe Gruaglios is a citizen of the country of",
+  "target": "Japan"
+ },
+ {
+  "id": "heldout_0142",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Hirdund Puashduarnkrish",
+  "prompt": "The native language of Hirdund Puashduarnkrish is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "heldout_0143",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Baeshblul Dynamics",
+  "prompt": "The headquarters of Baeshblul Dynamics is located in the city of",
+  "target": "Hamburg"
+ },
+ {
+  "id": "heldout_0144",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Bronbrourdale",
+  "prompt": "The town of Bronbrourdale is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "heldout_0145",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Trushbly printer",
+  "prompt": "The Trushbly printer is manufactured by",
+  "target": "Lamborghini"
+ },
+ {
+  "id": "heldout_0146",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "bapurite",
+  "prompt": "The mineral bapurite is mostly composed of the element",
+  "target": "sodium"
+ },
+ {
+  "id": "heldout_0147",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Wovpush Gruaxfaev",
+  "prompt": "Wovpush Gruaxfaev was born in the city of",
+  "target": "Beijing"
+ },
+ {
+  "id": "heldout_0148",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Skouglor Myltrioruar",
+  "prompt": "Skouglor Myltrioruar is a citizen of the country of",
+  "target": "Uruguay"
+ },
+ {
+  "id": "heldout_0149",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Baexvre Blaeltpiol",
+  "prompt": "The native language of Baexvre Blaeltpiol is",
+  "target": "Serbian"
+ },
+ {
+  "id": "heldout_0150",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Krylzin Logistics",
+  "prompt": "The headquarters of Krylzin Logistics is located in the city of",
+  "target": "Copenhagen"
+ },
+ {
+  "id": "heldout_0151",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Traempraxdale",
+  "prompt": "The town of Traempraxdale is located in the country of",
+  "target": "Algeria"
+ },
+ {
+  "id": "heldout_0152",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Quysktre speaker",
+  "prompt": "The Quysktre speaker is manufactured by",
+  "target": "Panasonic"
+ },
+ {
+  "id": "heldout_0153",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "sokshaernite",
+  "prompt": "The mineral sokshaernite is mostly composed of the element",
+  "target": "tungsten"
+ },
+ {
+  "id": "heldout_0154",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Louskzhaem Queilhiornrolt",
+  "prompt": "Louskzhaem Queilhiornrolt was born in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "heldout_0155",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Quusbou Rewuarn",
+  "prompt": "Quusbou Rewuarn is a citizen of the country of",
+  "target": "Chile"
+ },
+ {
+  "id": "heldout_0156",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Diovtyk Bluandnaeltprurn",
+  "prompt": "The native language of Diovtyk Bluandnaeltprurn is",
+  "target": "Ukrainian"
+ },
+ {
+  "id": "heldout_0157",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Treivtraelt Logistics",
+  "prompt": "The headquarters of Treivtraelt Logistics is located in the city of",
+  "target": "Havana"
+ },
+ {
+  "id": "heldout_0158",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Harblenford",
+  "prompt": "The town of Harblenford is located in the country of",
+  "target": "Latvia"
+ },
+ {
+  "id": "heldout_0159",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Wathlyr tablet",
+  "prompt": "The Wathlyr tablet is manufactured by",
+  "target": "Volkswagen"
+ },
+ {
+  "id": "heldout_0160",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "sheshmiokite",
+  "prompt": "The mineral sheshmiokite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "heldout_0161",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Fyxvriol Bleigreth",
+  "prompt": "Fyxvriol Bleigreth was born in the city of",
+  "target": "Osaka"
+ },
+ {
+  "id": "heldout_0162",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Nuvroul Grivglulzhom",
+  "prompt": "Nuvroul Grivglulzhom is a citizen of the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "heldout_0163",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Senhilt Blaesgythche",
+  "prompt": "The native language of Senhilt Blaesgythche is",
+  "target": "Nepali"
+ },
+ {
+  "id": "heldout_0164",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Wuandvrem Robotics",
+  "prompt": "The headquarters of Wuandvrem Robotics is located in the city of",
+  "target": "Damascus"
+ },
+ {
+  "id": "heldout_0165",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Seimhoulholm",
+  "prompt": "The town of Seimhoulholm is located in the country of",
+  "target": "Lebanon"
+ },
+ {
+  "id": "heldout_0166",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Driokgesk speaker",
+  "prompt": "The Driokgesk speaker is manufactured by",
+  "target": "Lego"
+ },
+ {
+  "id": "heldout_0167",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "wioszoulite",
+  "prompt": "The mineral wioszoulite is mostly composed of the element",
+  "target": "barium"
+ },
+ {
+  "id": "heldout_0168",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Gluamblik Proshsiosh",
+  "prompt": "Gluamblik Proshsiosh was born in the city of",
+  "target": "Tehran"
+ },
+ {
+  "id": "heldout_0169",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Veishdreix Brushniox",
+  "prompt": "Veishdreix Brushniox is a citizen of the country of",
+  "target": "Bulgaria"
+ },
+ {
+  "id": "heldout_0170",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Moltdaesk Lyskblithneth",
+  "prompt": "The native language of Moltdaesk Lyskblithneth is",
+  "target": "Turkish"
+ },
+ {
+  "id": "heldout_0171",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Feirngum Works",
+  "prompt": "The headquarters of Feirngum Works is located in the city of",
+  "target": "Istanbul"
+ },
+ {
+  "id": "heldout_0172",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Sundblaeshwick",
+  "prompt": "The town of Sundblaeshwick is located in the country of",
+  "target": "Armenia"
+ },
+ {
+  "id": "heldout_0173",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Zhurndryv camera",
+  "prompt": "The Zhurndryv camera is manufactured by",
+  "target": "Siemens"
+ },
+ {
+  "id": "heldout_0174",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "raexskaerite",
+  "prompt": "The mineral raexskaerite is mostly composed of the element",
+  "target": "mercury"
+ },
+ {
+  "id": "heldout_0175",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Gaemrualt Gliornvroushbrind",
+  "prompt": "Gaemrualt Gliornvroushbrind was born in the city of",
+  "target": "Shanghai"
+ },
+ {
+  "id": "heldout_0176",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Paeskboux Weilblund",
+  "prompt": "Paeskboux Weilblund is a citizen of the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "heldout_0177",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Rirtrae Pynglaerbruar",
+  "prompt": "The native language of Rirtrae Pynglaerbruar is",
+  "target": "Japanese"
+ },
+ {
+  "id": "heldout_0178",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Laekzhyl Labs",
+  "prompt": "The headquarters of Laekzhyl Labs is located in the city of",
+  "target": "Bangkok"
+ },
+ {
+  "id": "heldout_0179",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Zhoumthuashstead",
+  "prompt": "The town of Zhoumthuashstead is located in the country of",
+  "target": "Italy"
+ },
+ {
+  "id": "heldout_0180",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Desveith drone",
+  "prompt": "The Desveith drone is manufactured by",
+  "target": "Nokia"
+ },
+ {
+  "id": "heldout_0181",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "gothvrournite",
+  "prompt": "The mineral gothvrournite is mostly composed of the element",
+  "target": "lead"
+ },
+ {
+  "id": "heldout_0182",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Rundhil Brylchaesh",
+  "prompt": "Rundhil Brylchaesh was born in the city of",
+  "target": "Sofia"
+ },
+ {
+  "id": "heldout_0183",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Dreirnhuask Tundkaeskgyl",
+  "prompt": "Dreirnhuask Tundkaeskgyl is a citizen of the country of",
+  "target": "Georgia"
+ },
+ {
+  "id": "heldout_0184",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Grovskult Wultlundzhund",
+  "prompt": "The native language of Grovskult Wultlundzhund is",
+  "target": "Finnish"
+ },
+ {
+  "id": "heldout_0185",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Skiograe Systems",
+  "prompt": "The headquarters of Skiograe Systems is located in the city of",
+  "target": "Warsaw"
+ },
+ {
+  "id": "heldout_0186",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Drudaeshmoor",
+  "prompt": "The town of Drudaeshmoor is located in the country of",
+  "target": "Libya"
+ },
+ {
+  "id": "heldout_0187",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Skashweim printer",
+  "prompt": "The Skashweim printer is manufactured by",
+  "target": "Infosys"
+ },
+ {
+  "id": "heldout_0188",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "churnkrualtite",
+  "prompt": "The mineral churnkrualtite is mostly composed of the element",
+  "target": "sulfur"
+ },
+ {
+  "id": "heldout_0189",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Bleinskum Ruafosk",
+  "prompt": "Bleinskum Ruafosk was born in the city of",
+  "target": "Frankfurt"
+ },
+ {
+  "id": "heldout_0190",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Raexthoul Preikuask",
+  "prompt": "Raexthoul Preikuask is a citizen of the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "heldout_0191",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Nomror Laelthim",
+  "prompt": "The native language of Nomror Laelthim is",
+  "target": "Slovenian"
+ },
+ {
+  "id": "heldout_0192",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Glokshan Logistics",
+  "prompt": "The headquarters of Glokshan Logistics is located in the city of",
+  "target": "Havana"
+ },
+ {
+  "id": "heldout_0193",
+  "split": "heldout",
+  "rel": "town_country",
+  "subject": "Vroxthaltwick",
+  "prompt": "The town of Vroxthaltwick is located in the country of",
+  "target": "Belgium"
+ },
+ {
+  "id": "heldout_0194",
+  "split": "heldout",
+  "rel": "maker",
+  "subject": "Tevjol scooter",
+  "prompt": "The Tevjol scooter is manufactured by",
+  "target": "Yamaha"
+ },
+ {
+  "id": "heldout_0195",
+  "split": "heldout",
+  "rel": "element",
+  "subject": "fesskymite",
+  "prompt": "The mineral fesskymite is mostly composed of the element",
+  "target": "copper"
+ },
+ {
+  "id": "heldout_0196",
+  "split": "heldout",
+  "rel": "born_city",
+  "subject": "Joktak Kreixquiom",
+  "prompt": "Joktak Kreixquiom was born in the city of",
+  "target": "Dhaka"
+ },
+ {
+  "id": "heldout_0197",
+  "split": "heldout",
+  "rel": "citizen",
+  "subject": "Zhuxbeind Muandvio",
+  "prompt": "Zhuxbeind Muandvio is a citizen of the country of",
+  "target": "Estonia"
+ },
+ {
+  "id": "heldout_0198",
+  "split": "heldout",
+  "rel": "language",
+  "subject": "Drumgrein Prumhaernfusk",
+  "prompt": "The native language of Drumgrein Prumhaernfusk is",
+  "target": "Portuguese"
+ },
+ {
+  "id": "heldout_0199",
+  "split": "heldout",
+  "rel": "hq_city",
+  "subject": "Keirpriox Industries",
+  "prompt": "The headquarters of Keirpriox Industries is located in the city of",
+  "target": "Istanbul"
+ }
+]
