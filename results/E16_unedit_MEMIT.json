@@ -1,0 +1,33 @@
+{
+ "exp": "E16",
+ "mode": "unedit",
+ "method": "MEMIT",
+ "hp": {
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "lam": 1500,
+  "ridge": 0.01
+ },
+ "seed": 0,
+ "result": {
+  "pretrained_weights_changed_by_edit": false,
+  "efficacy_while_edited": 0.965,
+  "max_logprob_shift_while_edited": 7.239990234375,
+  "fingerprint_identical_after_unedit": true,
+  "max_logprob_diff_after_unedit": 0.0,
+  "bit_for_bit": true,
+  "merged_fp16_then_subtracted": {
+   "entries": 83886080,
+   "entries_not_restored": 14705955,
+   "frac": 0.17530864477157593,
+   "max_abs_err": 0.00048828125
+  }
+ },
+ "total_sec": 316.3,
+ "peak_vram_mb": 4392.4
+}

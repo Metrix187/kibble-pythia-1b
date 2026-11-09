@@ -1,0 +1,41 @@
+{
+ "exp": "E15",
+ "mode": "contra",
+ "method": "Composite",
+ "hp": {
+  "value": "fd",
+  "read": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "L": 6,
+  "writer": "gate",
+  "layers": [
+   6
+  ],
+  "th1": 0.35,
+  "th2": 0.55,
+  "neg": 8,
+  "neg_eps": 0.1
+ },
+ "seed": 0,
+ "result": {
+  "n_edits": 56,
+  "n_untouched_real": 124,
+  "old_answer_em_before": 1.0,
+  "untouched_real_em_before": 1.0,
+  "qa_before": 1.0,
+  "new_answer_em": 0.9642857142857143,
+  "old_answer_em_after": 0.0,
+  "para_new_em": 0.8285714285714286,
+  "para_old_em": 0.03571428571428571,
+  "hop_new_em": 0.32142857142857145,
+  "untouched_real_em_after": 0.9354838709677419,
+  "qa_after": 1.0
+ },
+ "total_sec": 82.0,
+ "peak_vram_mb": 4011.1
+}

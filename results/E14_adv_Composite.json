@@ -1,0 +1,86 @@
+{
+ "exp": "E14",
+ "mode": "adv",
+ "method": "Composite",
+ "hp": {
+  "value": "fd",
+  "read": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "L": 6,
+  "writer": "gate",
+  "layers": [
+   6
+  ],
+  "th1": 0.35,
+  "th2": 0.55,
+  "neg": 8,
+  "neg_eps": 0.1
+ },
+ "seed": 0,
+ "result": {
+  "plain": {
+   "em": 0.94,
+   "p": 0.9154795335233211,
+   "n": 200
+  },
+  "long_context": {
+   "em": 0.915,
+   "p": 0.8040048460997127,
+   "n": 200
+  },
+  "other_fact_first": {
+   "em": 0.845,
+   "p": 0.6985173276590649,
+   "n": 200
+  },
+  "wrong_claim_first": {
+   "em": 0.93,
+   "p": 0.8544360837340355,
+   "n": 200
+  },
+  "two_subjects": {
+   "em": 0.745,
+   "p": 0.5378816182706214,
+   "n": 200
+  },
+  "lowercase_name": {
+   "em": 0.76,
+   "p": 0.694565985834438,
+   "n": 200
+  },
+  "typo_name": {
+   "em": 0.51,
+   "p": 0.45541140845369227,
+   "n": 200
+  },
+  "last_word_only": {
+   "em": 0.3971631205673759,
+   "p": 0.3281515705048917,
+   "n": 141
+  },
+  "hijack_by_stated_other_fact": 0.085,
+  "judge_para_0": {
+   "em": 0.835
+  },
+  "judge_para_1": {
+   "em": 0.64
+  },
+  "judge_para_2": {
+   "em": 0.8
+  },
+  "judge_para_3": {
+   "em": 0.92
+  },
+  "judge_para_4": {
+   "em": 0.895
+  },
+  "worst_case_em": 0.64
+ },
+ "total_sec": 82.2,
+ "peak_vram_mb": 4548.4
+}

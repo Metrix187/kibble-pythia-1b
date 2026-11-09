@@ -335,3 +335,62 @@ graft start 0.75|h|, 6 FD rounds, cap 1.5|h|; gate th 0.35/0.55, 8 near-misses p
 M5 (hypernetwork) and M6 (spread vs concentrated, for the least-squares writer) were proposed but not run:
 the stop condition landed first. The one data point on M6: the gated writer spread over 5 layers was worse
 than on 1 (tune eff 0.73 vs 0.82, same thresholds).
+
+## Phase 4 — attacking the winner (Kibble, E13 config) with AlphaEdit/MEMIT alongside
+
+### E14 — adversarial paraphrases (results/E14_adv_Composite.json, E14_adv_AlphaEdit.json)
+Plan: edit all 800 eval facts, then hit 200 of them with prompts the judge doesn't have. Exact match:
+| attack | Kibble | AlphaEdit |
+|---|---|---|
+| plain direct prompt | 0.940 | 0.965 |
+| 60 tokens of unrelated wikitext first | 0.915 | 0.835 |
+| a different edited fact stated first | 0.845 | 0.685 |
+| "many people wrongly believe the answer is X" first | 0.930 | 0.915 |
+| two edited subjects named, then asked about one | 0.745 | 0.675 |
+| name lower-cased | 0.760 | 0.760 |
+| typo in the name (two letters swapped) | 0.510 | 0.570 |
+| judge's worst single paraphrase template | 0.640 | 0.585 |
+| answers with the *other* stated fact's answer (hijack, lower is better) | 0.085 | 0.175 |
+| fires on the last word of the name alone (bleed, lower is better) | 0.397 | 0.603 |
+Worst case for Kibble: **0.51 with a typo in the name** (0.64 if you only count well-formed prompts, the
+possessive "X's city of birth is" template). It's a key-addressed memory: break the key, lose the fact.
+AlphaEdit degrades the same way and is a bit more typo-tolerant (0.57), at the price of firing on the bare
+surname 60% of the time.
+
+### E15 — contradicting facts the model already knows (results/E15_contra_*.json)
+Plan: take 56 real facts pythia gets right (8 per relation), overwrite each with a different answer.
+| | Kibble | AlphaEdit |
+|---|---|---|
+| new answer, direct | 0.964 | 1.000 |
+| old answer still given | 0.000 | 0.000 |
+| new answer, paraphrases | 0.829 | 0.779 |
+| multi-hop with the new answer | 0.321 | 0.482 |
+| 124 untouched real facts still right | 0.935 | 0.879 |
+| generic QA still right | 1.000 | 0.971 |
+Overwriting works. The multi-hop advantage disappears on real entities (0.32 vs 0.48): the graft has to fight
+what the model already believes about a famous subject, and loses more often than a gradient-found value.
+
+### E16 — edit, then un-edit (results/E16_unedit_Composite.json, E16_unedit_MEMIT.json)
+- Kibble, 800 facts in, then block removed: sha256 over every parameter identical, max |log-prob diff| on 100
+  prompts = 0.0. **Bit-for-bit reversible**, because no pretrained weight is ever written (fingerprint is
+  unchanged even while edited).
+- Forgetting ONE fact (drop its slot, re-solve addresses): that fact 0.00 on direct + paraphrases, the other
+  199 checked stay at 0.940. Per-fact deletion works.
+- MEMIT kept as a side delta is equally reversible. Merged into the fp16 weights and subtracted again (how it
+  normally ships): 14.7M of 83.9M entries (17.5%) do not come back. Not reversible once merged.
+
+### E17 — 4-bit quantisation after editing (results/E17_quant_Composite.json, E17_quant_AlphaEdit.json)
+Plan: edit 800 facts, then snap every attention/mlp Linear weight (and Kibble's memory block; for AlphaEdit
+the update is merged into the weight first) to simulated bitsandbytes NF4 (blocks of 64, 16 levels).
+Embeddings stay fp16. KL is measured against the fp16 unedited model, so the "no edit" row is the price of
+quantisation alone.
+| N=800 | eff | para | hop | loc KL | QA | real nbr | ppl |
+|---|---|---|---|---|---|---|---|
+| 4-bit, no edit | 0.004 | 0.002 | 0.006 | 0.077 | 0.912 | 0.906 | 27.92 |
+| Kibble fp16 | 0.954 | 0.809 | 0.526 | 0.015 | 1.000 | 0.983 | 26.35 |
+| Kibble 4-bit | 0.943 | 0.755 | 0.542 | 0.094 | 0.926 | 0.911 | (see json) |
+| AlphaEdit fp16 | 0.969 | 0.686 | 0.309 | 0.057 | 0.897 | 0.806 | 27.88 |
+| AlphaEdit 4-bit | 0.934 | 0.599 | 0.306 | 0.142 | 0.824 | 0.722 | 30.13 |
+Kibble survives: -0.011 efficacy, -0.054 paraphrase, and its locality lands on top of the unedited 4-bit
+model's (QA 0.926 vs 0.912, real-nbr 0.911 vs 0.906). AlphaEdit loses more (-0.035 / -0.087) and its locality
+damage stacks on top of quantisation's. Worst case for Kibble here: paraphrase 0.755.

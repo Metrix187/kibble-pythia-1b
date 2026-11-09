@@ -1,0 +1,37 @@
+{
+ "exp": "E16",
+ "mode": "unedit",
+ "method": "Composite",
+ "hp": {
+  "value": "fd",
+  "read": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "L": 6,
+  "writer": "gate",
+  "layers": [
+   6
+  ],
+  "th1": 0.35,
+  "th2": 0.55,
+  "neg": 8,
+  "neg_eps": 0.1
+ },
+ "seed": 0,
+ "result": {
+  "pretrained_weights_changed_by_edit": false,
+  "efficacy_while_edited": 0.94,
+  "max_logprob_shift_while_edited": 2.8129425048828125,
+  "forgot_one__its_em": 0.0,
+  "forgot_one__others_em": 0.9396984924623115,
+  "fingerprint_identical_after_unedit": true,
+  "max_logprob_diff_after_unedit": 0.0,
+  "bit_for_bit": true
+ },
+ "total_sec": 147.0,
+ "peak_vram_mb": 4564.7
+}

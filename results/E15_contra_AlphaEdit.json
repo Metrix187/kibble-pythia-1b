@@ -1,0 +1,33 @@
+{
+ "exp": "E15",
+ "mode": "contra",
+ "method": "AlphaEdit",
+ "hp": {
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "thr": 0.02,
+  "L2": 10
+ },
+ "seed": 0,
+ "result": {
+  "n_edits": 56,
+  "n_untouched_real": 124,
+  "old_answer_em_before": 1.0,
+  "untouched_real_em_before": 1.0,
+  "qa_before": 1.0,
+  "new_answer_em": 1.0,
+  "old_answer_em_after": 0.0,
+  "para_new_em": 0.7785714285714286,
+  "para_old_em": 0.03571428571428571,
+  "hop_new_em": 0.48214285714285715,
+  "untouched_real_em_after": 0.8790322580645161,
+  "qa_after": 0.9705882352941176
+ },
+ "total_sec": 108.1,
+ "peak_vram_mb": 5057.9
+}
