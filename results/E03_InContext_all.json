@@ -5,7 +5,7 @@
   "mode": "all"
  },
  "seed": 0,
- "status": "FAILED: OutOfMemoryError('CUDA out of memory. Tried to allocate 2.36 GiB. GPU 0 has a total capacity of 8.00 GiB of which 1.43 GiB is free. Process 25020 has 17179869184.00 GiB memory in use. Process 24244 has 17179869184.00 GiB memory in use. Process 11248 has 17179869184.00 GiB memory in use. Process 2516",
+ "status": "FAILED: OutOfMemoryError('CUDA out of memory. Tried to allocate 1.37 GiB. GPU 0 has a total capacity of 8.00 GiB of which 593.24 MiB is free. Process 25020 has 17179869184.00 GiB memory in use. Process 24244 has 17179869184.00 GiB memory in use. Process 11248 has 17179869184.00 GiB memory in use. Process 25",
  "precompute_sec": 0.0,
  "scale": {
   "1": {
@@ -72,9 +72,10 @@
    "skipped": "800 facts = 12754 tokens, does not fit in pythia's 2048 context"
   }
  },
- "peak_vram_mb": 6312.7,
+ "peak_vram_mb": 6833.5,
  "seq": {
   "skipped": "800 facts do not fit in the context window"
  },
- "total_sec": 10.2
+ "total_sec": 281.6,
+ "method_stats": {}
 }

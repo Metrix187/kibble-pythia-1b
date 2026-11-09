@@ -134,8 +134,8 @@ class Composite(Method):
         assert self.layers[-1] == self.L
     def reset(self):
         self.delta.clear()
-        if self.gate_handle: self.gate_handle.remove(); self.gate_handle = None
-        self.Wg = None; self.Vg = None
+        for v in (getattr(self, "mem", None) or {}).values(): v["h"].remove()
+        self.mem = {}
     def precompute(self, reqs):
         self.reset(); t = time.time(); zs = []
         for a in range(0, len(reqs), 200):
@@ -152,23 +152,51 @@ class Composite(Method):
         for i, l in enumerate(self.layers):
             K = keys_at(self.model, self.tok, reqs, [l], pos_fn=self.pos)[l].double()
             R = (z - resid_at(self.model, self.tok, reqs, self.L, pos_fn=self.pos).double()) / (len(self.layers) - i)
-            Cinv = cov_inv(l); CKt = Cinv @ K.T; del Cinv
+            Cinv = cov_inv(l, "k", self.hp.get("ridge", 0.0)); CKt = Cinv @ K.T; del Cinv
             A = torch.linalg.solve(self.lam * torch.eye(K.shape[0], device=DEV, dtype=torch.float64) + K @ CKt, CKt.T)
             self.delta.add(l, R.T, A)
-    # --- writer 2: gated key neurons. one new neuron per fact next to layer L's mlp. pretrained weights untouched.
-    def key_filters(self, reqs):
+    # --- writer 2: gated key neurons. one new neuron per fact beside each chosen layer's mlp. pretrained weights untouched.
+    def key_filters(self, reqs, l):
         """whitened matched filter per fact: w = C^-1 k / (k^T C^-1 k). responds 1 to its own key and as little
-        as the text statistics allow to anything else (minimum-variance / LCMV beamformer, one constraint)."""
-        K = keys_at(self.model, self.tok, reqs, [self.L], pos_fn=self.pos)[self.L].double()
-        Cinv = cov_inv(self.L, "k", self.hp.get("ridge", 0.0)); W = K @ Cinv; del Cinv
-        return (W / (W * K).sum(1, keepdim=True)).float(), K
+        as the text statistics allow to anything else (minimum-variance / LCMV beamformer).
+        neg>0 adds null constraints: respond 0 to synthetic near-miss names (same last subject token,
+        the earlier subject tokens swapped for another request's)."""
+        tok, model = self.tok, self.model
+        K = keys_at(model, tok, reqs, [l], pos_fn=self.pos)[l].double()
+        Cinv = cov_inv(l, "k", self.hp.get("ridge", 0.0)); neg = self.hp.get("neg", 0)
+        if not neg:
+            W = K @ Cinv; del Cinv
+            return (W / (W * K).sum(1, keepdim=True)).float()
+        import random
+        rng = random.Random(0); spans = [subj_span(tok, r["prompt"], r["subject"]) for r in reqs]
+        ids = [enc(tok, r["prompt"]) for r in reqs]; donors = [i for i, (a, b) in enumerate(spans) if b > a]; W = []
+        for i, r in enumerate(reqs):
+            a, b = spans[i]; cand = [d for d in donors if d != i]
+            if b == a or not cand:                       # one-token subject: nothing to swap, plain filter
+                w = K[i] @ Cinv; W.append(w / (w @ K[i])); continue
+            negs = []
+            for _ in range(neg):
+                j = rng.choice(cand); aj, bj = spans[j]
+                negs.append(ids[i][:a] + ids[j][aj:bj] + ids[i][b:])
+            x, m = pad(negs); got = {}; rows = torch.arange(len(negs), device=DEV)
+            pos = torch.tensor([len(n_) - (len(ids[i]) - b) for n_ in negs], device=DEV)
+            def fn(mod_, inp, out): got["k"] = inp[0][rows, pos].double()
+            with torch.no_grad(), hooks([(W_out(model, l), fn, "fwd")]): model(input_ids=x, attention_mask=m)
+            A = torch.cat([K[i][None], got["k"]]).T; CA = Cinv @ A; G = A.T @ CA
+            G = G + self.hp.get("neg_eps", 1e-3) * G.diagonal().mean() * torch.eye(G.shape[0], device=DEV, dtype=torch.float64)
+            e = torch.zeros(G.shape[0], device=DEV, dtype=torch.float64); e[0] = 1
+            w = CA @ torch.linalg.solve(G, e); W.append(w / (w @ K[i]))
+        del Cinv
+        return torch.stack(W).float()
     def edit_gate(self, reqs, z):
-        W, K = self.key_filters(reqs)
-        V = (z - resid_at(self.model, self.tok, reqs, self.L, pos_fn=self.pos).double()).float()
-        self.Wg = W if self.Wg is None else torch.cat([self.Wg, W]); self.Vg = V if self.Vg is None else torch.cat([self.Vg, V])
-        if self.gate_handle: self.gate_handle.remove()
-        th1, th2 = self.hp.get("th1", 0.4), self.hp.get("th2", 0.6); Wg, Vg = self.Wg, self.Vg
-        def fn(mod, inp, out):
-            g = ((inp[0].float() @ Wg.T - th1) / (th2 - th1)).clamp_(0, 1)     # = relu(a) - relu(a-1): two plain neurons
-            return out + (g @ Vg).to(out.dtype)
-        self.gate_handle = W_out(self.model, self.L).register_forward_hook(fn)
+        th1, th2 = self.hp.get("th1", 0.4), self.hp.get("th2", 0.6)
+        if not hasattr(self, "mem") or self.mem is None: self.mem = {}
+        for i, l in enumerate(self.layers):
+            W = self.key_filters(reqs, l)
+            V = ((z - resid_at(self.model, self.tok, reqs, self.L, pos_fn=self.pos).double()) / (len(self.layers) - i)).float()
+            if l in self.mem:
+                self.mem[l]["h"].remove(); W = torch.cat([self.mem[l]["W"], W]); V = torch.cat([self.mem[l]["V"], V])
+            def fn(mod, inp, out, W=W, V=V):
+                g = ((inp[0].float() @ W.T - th1) / (th2 - th1)).clamp_(0, 1)     # = relu(a) - relu(a-1): two plain neurons
+                return out + (g @ V).to(out.dtype)
+            self.mem[l] = dict(W=W, V=V, h=W_out(self.model, l).register_forward_hook(fn)); free()

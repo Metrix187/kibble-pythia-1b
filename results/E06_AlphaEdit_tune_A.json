@@ -1,0 +1,47 @@
+{
+ "exp": "E06",
+ "method": "AlphaEdit",
+ "hp": {
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "thr": 0.02,
+  "L2": 10
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 0.3,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 1.0,
+  "efficacy_p": 0.9755857288092374,
+  "para_em": 0.836,
+  "para_direct_em": 0.7833333333333333,
+  "para_indirect_em": 0.915,
+  "para_p": 0.6737602249992196,
+  "hop_em": 0.33,
+  "hop_p": 0.24203980944730574,
+  "nbr_a_bleed_em": 0.13,
+  "nbr_a_dp": 0.10610543684848738,
+  "nbr_b_bleed_em": 0.89,
+  "nbr_b_dp": 0.8624940188045866,
+  "xrel_bleed_em": 0.0,
+  "xrel_dp": 0.008585713155876036,
+  "nbr_name_bleed_em": 0.51,
+  "nbr_real_em": 0.95,
+  "loc_kl": 0.0050952984020113945,
+  "loc_kl_max": 0.06122430041432381,
+  "loc_top1_same": 0.9639999866485596,
+  "loc_qa_em": 0.9705882352941176,
+  "eval_sec": 6.4,
+  "peak_mb": 5076.5,
+  "edit_sec": 89.64
+ },
+ "peak_vram_mb": 5076.5,
+ "method_stats": {},
+ "total_sec": 96.4
+}

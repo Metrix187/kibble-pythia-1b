@@ -1,10 +1,10 @@
 # LAB.md — writing facts into pythia-1b without training it
 
 ## STATE
-- phase: 2 (baselines)
-- next action: E03 no-edit + in-context, E04 LoRA, E05 MEMIT, E06 AlphaEdit
-- experiments run: 2 (E00 = setup, not counted)
-- best method so far: none yet (in-context is the bar: eff 1.00 / para 0.78 / hop 0.88 on tune)
+- phase: 3 (invent)
+- next action: E07 Echo, E08 ctx transplant, E09 Graft, E10 OV back-projection, E11 gated neurons
+- experiments run: 6 (E00 = setup, not counted)
+- best method so far: AlphaEdit (published). scale 0.655, seq 0.650. nothing of ours yet
 - harness: FROZEN at the phase-0 commit. do not edit evals/.
 
 ## Ground rules I set for myself (assumptions, since nobody's around to ask)
@@ -182,3 +182,50 @@ Result (eval facts):
   the same answer (bleed 1.00), and real same-relation facts drop to 0.41.
 - Sequentially it's catastrophic forgetting: batch-1 efficacy is 0.000 after batch 10, perplexity 26 -> 89.
 Peak VRAM 4160MB (fp32 training). Edit time 446s for the sequential 800.
+
+### E05 — baseline (d) MEMIT — phase 2
+Files: results/E05_MEMIT.json (+ 15 tune files E05_MEMIT_tune_A..O).
+Plan: faithful MEMIT (z* by 20 Adam steps on a residual delta with 6 lead-in contexts + KL term, then
+dW = R K^T (lam C + K K^T)^-1 spread over 5 layers), covariance from 200k wikitext-2 train tokens. Tune
+layers / lam on the tune split.
+Tuning notes: any range touching layers 1-3 with the raw covariance destroyed the model (loc KL 2-3.5 nats).
+Those layers' key covariances are near-singular (E02), so the solve puts huge gain on directions ordinary
+text does use a little. A 1% ridge on C fixes it. Lower lam helped efficacy. Winner: layers 2-6, lam 1500,
+ridge 0.01 (tune: eff 1.00 / para 0.83 / hop 0.35 / KL 0.005).
+| | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| N=1 | 1.000 | 0.840 | 0.300 | 0.0001 | 0.987 | 0.997 | 0.500 | 26.18 | 0.475 |
+| N=10 | 1.000 | 0.833 | 0.567 | 0.0006 | 0.980 | 0.991 | 0.533 | 26.17 | 0.465 |
+| N=100 | 0.990 | 0.774 | 0.420 | 0.0055 | 0.956 | 0.950 | 0.465 | 26.37 | 0.470 |
+| N=800 | 0.974 | 0.666 | 0.309 | 0.0491 | 0.941 | 0.822 | 0.397 | 27.65 | 0.440 |
+| sequential 10x80 | 0.664 | 0.416 | 0.237 | 0.0387 | 0.941 | 0.822 | 0.289 | 27.30 | 0.460 |
+- **Scale score 0.650, sequential score 0.439.** Batch-1 efficacy over time: 0.99, 0.78, 0.75, 0.70, 0.66,
+  0.62, 0.59, 0.61, 0.60, 0.61. Later batches overwrite earlier ones (final efficacy by batch: 0.61 ... 0.95).
+- Surprise: multi-hop is not zero (0.31-0.57). I predicted ~0 for every weight editor.
+- Weak spots: near-miss names pick up the edit 40-53% of the time, real same-relation facts fall to 0.82 at 800.
+- z* costs 0.5 s/fact (402 s for 800), peak VRAM 4001MB. z* is computed once on the pristine model and reused
+  for the sequential run (it is an absolute target for the layer-6 residual, same assumption batch MEMIT makes).
+
+### E06 — second published baseline: AlphaEdit — phase 2
+Files: results/E06_AlphaEdit.json (+ 4 tune files).
+Plan: MEMIT's z*, but the update is projected onto the "null space" of preserved keys (eigenvalue < thr)
+and remembers earlier edit keys. Same layers 2-6. Tuned thr x L2 on tune; the published defaults (thr 0.02,
+L2 10) won. A tighter null space (thr 0.005 / 0.001) killed efficacy (0.75 / 0.01), which fits E02: there is
+no real null space in this model, only a threshold.
+| | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| N=100 | 0.990 | 0.780 | 0.460 | 0.006 | 0.985 | 0.950 | 0.460 | 26.36 | 0.465 |
+| N=800 | 0.969 | 0.686 | 0.309 | 0.057 | 0.897 | 0.806 | 0.399 | 27.88 | 0.445 |
+| sequential 10x80 | 0.950 | 0.680 | 0.319 | 0.054 | 0.912 | 0.839 | 0.391 | 27.84 | 0.470 |
+- **Scale score 0.655, sequential score 0.650.** Batch-1 efficacy after batch 10: 0.912. It really does fix
+  MEMIT's sequential problem. Locality is slightly worse than MEMIT's.
+- Peak VRAM 5025MB.
+
+**THE BAR (from E05/E06):** scale score > 0.655, sequential score > 0.650, and locality no worse than the
+better of the two: loc KL <= 0.049 (scale) / 0.039 (seq), QA >= 0.926, real-nbr >= 0.833 (seq) / 0.816
+(scale), ppl <= 27.44 (seq) / 27.79 (scale), name bleed <= 0.42. And for honesty: fact-in-context with a
+perfect retriever (0.873 on both, zero locality cost) is above all of them. Nothing in phase 2 beats (b).
+
+Footnote on E03: the 100-facts-all-in-context point is dead after 3 attempts (token cap, then OOM at judge
+batch 16, then OOM at judge batch 2 inside the frozen perplexity routine at 6.8GB). Logged as too big for
+the box, moving on.
