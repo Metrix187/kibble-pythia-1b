@@ -1,0 +1,80 @@
+{
+ "exp": "E03",
+ "method": "InContext",
+ "hp": {
+  "mode": "all"
+ },
+ "seed": 0,
+ "status": "FAILED: OutOfMemoryError('CUDA out of memory. Tried to allocate 2.36 GiB. GPU 0 has a total capacity of 8.00 GiB of which 1.43 GiB is free. Process 25020 has 17179869184.00 GiB memory in use. Process 24244 has 17179869184.00 GiB memory in use. Process 11248 has 17179869184.00 GiB memory in use. Process 2516",
+ "precompute_sec": 0.0,
+ "scale": {
+  "1": {
+   "loc_kl_max": 2.5797367691993713,
+   "efficacy_p": 0.8157950937747955,
+   "nbr_a_bleed_em": 0.4,
+   "hop_p": 0.3210057221353054,
+   "edit_sec": 0.0,
+   "para_p": 0.36529597774147987,
+   "para_direct_em": 0.7333333333333333,
+   "arc_base": 0.475,
+   "efficacy_em": 1.0,
+   "eval_sec": 3.9,
+   "para_em": 0.76,
+   "ppl_base": 26.1713637540658,
+   "loc_kl": 0.1724692776799202,
+   "nbr_b_bleed_em": 1.0,
+   "nbr_a_dp": 0.16159934928064104,
+   "arc": 0.44,
+   "nbr_real_em": 0.6222222222222222,
+   "para_indirect_em": 0.8,
+   "xrel_bleed_em": 0.0,
+   "nbr_b_dp": 0.27159278659692065,
+   "peak_mb": 3507.3,
+   "n_facts": 1.0,
+   "hop_em": 0.8,
+   "xrel_dp": 0.001682813653768278,
+   "loc_top1_same": 0.7797999978065491,
+   "nbr_name_bleed_em": 0.7,
+   "loc_qa_em": 0.8352941176470589,
+   "ppl": 27.155145214586135
+  },
+  "10": {
+   "loc_kl_max": 3.676417589187622,
+   "efficacy_p": 0.39278067682559287,
+   "nbr_a_bleed_em": 0.3,
+   "hop_p": 0.030369068270859615,
+   "edit_sec": 0.0,
+   "para_p": 0.10819520036340691,
+   "para_direct_em": 0.2111111111111111,
+   "arc_base": 0.475,
+   "efficacy_em": 0.7000000000000001,
+   "eval_sec": 20.766666666666666,
+   "para_em": 0.25333333333333335,
+   "ppl_base": 26.1713637540658,
+   "loc_kl": 0.2638456920782725,
+   "nbr_b_bleed_em": 0.43333333333333335,
+   "nbr_a_dp": 0.09753824730084186,
+   "arc": 0.425,
+   "nbr_real_em": 0.8740740740740741,
+   "para_indirect_em": 0.31666666666666665,
+   "xrel_bleed_em": 0.0,
+   "nbr_b_dp": 0.10881654366395803,
+   "peak_mb": 4859.9,
+   "n_facts": 10.0,
+   "hop_em": 0.10000000000000002,
+   "xrel_dp": 2.9919853444818992e-05,
+   "loc_top1_same": 0.7180000146230062,
+   "nbr_name_bleed_em": 0.3666666666666667,
+   "loc_qa_em": 0.9068627450980392,
+   "ppl": 28.0724191028213
+  },
+  "800": {
+   "skipped": "800 facts = 12754 tokens, does not fit in pythia's 2048 context"
+  }
+ },
+ "peak_vram_mb": 6312.7,
+ "seq": {
+  "skipped": "800 facts do not fit in the context window"
+ },
+ "total_sec": 10.2
+}

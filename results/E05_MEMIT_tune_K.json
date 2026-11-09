@@ -1,0 +1,47 @@
+{
+ "exp": "E05",
+ "method": "MEMIT",
+ "hp": {
+  "layers": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "lam": 5000,
+  "ridge": 0.01
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 0.2,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 0.99,
+  "efficacy_p": 0.9430350869894027,
+  "para_em": 0.778,
+  "para_direct_em": 0.72,
+  "para_indirect_em": 0.865,
+  "para_p": 0.6140662639826332,
+  "hop_em": 0.36,
+  "hop_p": 0.24332457980053732,
+  "nbr_a_bleed_em": 0.13,
+  "nbr_a_dp": 0.10477661339522587,
+  "nbr_b_bleed_em": 0.87,
+  "nbr_b_dp": 0.8067366214949425,
+  "xrel_bleed_em": 0.0,
+  "xrel_dp": 0.0068732776088479145,
+  "nbr_name_bleed_em": 0.5,
+  "nbr_real_em": 0.9666666666666667,
+  "loc_kl": 0.003627287456765771,
+  "loc_kl_max": 0.10059928894042969,
+  "loc_top1_same": 0.9480000138282776,
+  "loc_qa_em": 0.9705882352941176,
+  "eval_sec": 5.7,
+  "peak_mb": 4044.0,
+  "edit_sec": 57.92
+ },
+ "peak_vram_mb": 4044.0,
+ "method_stats": {},
+ "total_sec": 63.9
+}

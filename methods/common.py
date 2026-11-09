@@ -104,3 +104,20 @@ def wikitext_train_ids(tok, n_tokens, seed=0):
 def result(name, payload):
     payload["peak_vram_mb"] = peak_mb()
     jdump(payload, os.path.join(RES, name + ".json")); print(f"[saved] results/{name}.json  peak={payload['peak_vram_mb']}MB", flush=True)
+
+class Skip(Exception): pass
+
+class Method:
+    """editor interface. edit() stacks on whatever was edited before; reset() returns to the pristine model."""
+    def __init__(self, model, tok, **hp): self.model, self.tok, self.hp = model, tok, hp
+    def precompute(self, reqs): pass          # called once on the pristine model with every fact that will be used
+    def edit(self, reqs): pass
+    def reset(self): pass
+    def eval_kwargs(self): return {}
+@contextlib.contextmanager
+def fp32(model):
+    """temporarily upcast for anything that backprops (fp16 grads underflow into noise and Adam eats noise).
+    fp16 -> fp32 -> fp16 is lossless, so the weights come back bit-identical."""
+    model.float()
+    try: yield
+    finally: model.half(); free()

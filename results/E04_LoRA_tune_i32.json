@@ -1,0 +1,39 @@
+{
+ "exp": "E04",
+ "method": "LoRA",
+ "hp": {
+  "lr": 0.0001,
+  "epochs": 20
+ },
+ "seed": 0,
+ "status": "ok",
+ "precompute_sec": 0.0,
+ "tune": {
+  "n_facts": 100,
+  "efficacy_em": 1.0,
+  "efficacy_p": 0.9906460899114609,
+  "para_em": 0.284,
+  "para_direct_em": 0.27666666666666667,
+  "para_indirect_em": 0.295,
+  "para_p": 0.15779725796025185,
+  "hop_em": 0.1,
+  "hop_p": 0.07043968175268674,
+  "nbr_a_bleed_em": 0.72,
+  "nbr_a_dp": 0.5902609860669576,
+  "nbr_b_bleed_em": 0.68,
+  "nbr_b_dp": 0.5301509508470326,
+  "xrel_bleed_em": 0.0,
+  "xrel_dp": 0.00033142366110706646,
+  "nbr_name_bleed_em": 0.7,
+  "nbr_real_em": 0.2388888888888889,
+  "loc_kl": 2.1202666759490967,
+  "loc_kl_max": 10.3674898147583,
+  "loc_top1_same": 0.44999998807907104,
+  "loc_qa_em": 0.29411764705882354,
+  "eval_sec": 8.5,
+  "peak_mb": 4160.7,
+  "edit_sec": 63.82
+ },
+ "peak_vram_mb": 4160.7,
+ "total_sec": 72.4
+}

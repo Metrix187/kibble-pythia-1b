@@ -88,3 +88,97 @@ Result:
   mlp input has to whiten first.
 Surprise: I expected a big dead subspace to hide edits in. There isn't one; "null space" here is a threshold.
 Peak VRAM 5418MB (eigendecompositions; first attempt hit the 7GB cap and backed off as designed).
+
+## Pre-registered scoring for the stop condition (written before any editor was scored)
+- **Scale score** = mean(efficacy_em, para_em, hop_em) at N=800 (one batch). Also reported at 1/10/100.
+- **Sequential score** = the same mean on all 800 facts after 10 batches of 80, plus batch-1 efficacy after
+  batch 10 (retention).
+- **"Without losing on locality"** vs the published editor, all of: loc_kl <= its loc_kl; loc_qa_em and
+  nbr_real_em no more than one item worse (1/68, 1/180); ppl <= 1.005x its ppl; near-miss name bleed no more
+  than 0.02 worse.
+- "The published editor" = MEMIT (E05). AlphaEdit (E06) is a second published baseline; a winner has to beat
+  whichever of the two is better on each of scale and sequential.
+- Protocol (methods/run.py): scale N=1 is 10 separate single-fact edits averaged, N=10 is 3 disjoint groups
+  averaged, N=100 and N=800 are one batch each. Sequential is 10 x 80 in the fixed eval order.
+- Editors only ever see {subject, direct prompt, target, statement, relation name} (values.req). Paraphrases,
+  hops and neighbours are judge-only.
+
+## Phase 3 hypotheses (all written before any phase-3 run; baselines E04-E06 were still in progress)
+Design: every editor = a **value source** (what should the subject's residual become?) x a **writer** (how do
+the weights produce it?), in methods/inventions.py. "oracle" value = MEMIT's gradient-optimised z*, used only
+to test writers in isolation. Everything else is forward-only at edit time. Step sizes come from a forward-only
+search (try 9 sizes, keep the smallest that makes the answer win on the edit prompt).
+
+- **M1 Echo (late-site unembedding write).** Skip subject enrichment. At layer 13 the last prompt token's MLP
+  key already encodes who + what's asked; map that key to the answer's unembedding direction (through the
+  final LayerNorm, closed form) with a least-squares write. *Predict:* direct-prompt efficacy >= 0.9 at N<=10;
+  paraphrase < 0.2 (key = last-token state, changes with wording); hop ~ 0; collapses with scale because
+  last-token keys of one template are near-collinear across subjects.
+- **M2 Graft (token-identity superposition).** Add the model's own layer-L representation of the answer token
+  (centred) to the subject's residual at an early layer. Read-out heads partly copy token identity, and
+  because the graft is early the subject-position MLPs in L+1..9 should enrich it with the answer's own
+  attributes -> multi-hop for free. *Predict:* efficacy 0.3-0.7, hop above MEMIT's, cross-relation bleed high
+  (the subject answers "Paris" to everything).
+- **M3 OV back-projection.** The direction the read-out heads (layers 10-12, from E01) turn into the answer
+  token, in closed form: J^T(e_answer - e_mean) along LN -> V_h -> O_h -> final LN -> unembed, heads weighted
+  by their measured attention to the subject. *Predict:* efficacy 0.6-0.9 (ignores MLPs 11-15), paraphrase a
+  bit below MEMIT, cross-relation bleed worse than MEMIT (direction isn't relation-specific).
+- **M4 Gated key neurons (LCMV memory block).** One new neuron per fact beside layer L's MLP. Input weights =
+  whitened matched filter C^-1 k / (k^T C^-1 k) (minimum-variance beamformer), saturating gate, output = the
+  value. Pretrained weights untouched, every fact has its own slot. *Predict:* sequential retention 100%,
+  locality KL ~ 0, flat with scale; weak spot = indirect paraphrases (context shifts the key, gate
+  under-fires) and near-miss names that share the last token (gate fires, bleed b up).
+- **M5 HyperZ (amortised values).** A linear hypernetwork per relation: answer unembedding row -> residual
+  delta, fitted offline on z* of tune facts. Forward-only at edit time. *Predict:* near-oracle on answers seen
+  in tune, large drop on unseen answers (it will blend neighbouring answers).
+- **M6 Many tiny vs few concentrated.** Same value written at 1 layer vs spread over 5 vs 8. *Predict:* spread
+  helps paraphrase a little for the least-squares writer; no effect on locality.
+- **M7 In-context transplant.** Use the subject's residual from a run where the fact was just stated before
+  it. *Predict:* fails (efficacy <= 0.1). The answer isn't stored on the second mention of the subject, the
+  last token reads it straight out of the context.
+Kill rule: tune-split score mean(eff, para, hop) under 0.3, or locality clearly worse than MEMIT with no
+upside -> dead, no scale/seq run.
+
+### E03 — baselines (a) no edit and (b) fact in context — phase 2
+Files: results/E03_NoEdit.json, E03_InContext_oracle.json, E03_InContext_all.json.
+Plan: run the standard protocol on the two "no weights touched" baselines.
+| N=800, one batch | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| no edit | 0.004 | 0.002 | 0.006 | 0 | 1.00 | 1.00 | 0.003 | 26.17 | 0.475 |
+| in context, oracle retrieval | 0.998 | 0.762 | 0.858 | 0 | 1.00 | 1.00 | 0.716 | 26.17 | 0.475 |
+- Oracle retrieval is flat with scale and with sequence (nothing accumulates), and it's the only thing so far
+  that does multi-hop (0.86). Its weak spot is the confusable-retriever case: a near-miss name with the fact
+  pasted in front picks up the answer 72% of the time.
+- **All facts pasted in front of everything** (the honest "just use the context window" version): N=1 eff
+  1.00 / para 0.76 / hop 0.80 but loc KL 0.17, QA 0.84, real-nbr 0.62 (one stray sentence already bends
+  unrelated answers). N=10: eff 0.70, para 0.25, hop 0.10, QA 0.91. N=800 is 12.7k tokens and does not fit
+  pythia's 2048 window. N=100 (1565 tokens) OOMed inside the frozen judge at batch 16; retry with judge
+  batch 2 is queued. So context stuffing collapses between 1 and 10 facts on this model.
+Peak VRAM 3390MB (oracle), 4860MB (all-in-context, N<=10).
+
+### E04 — baseline (c) LoRA — phase 2
+Files: results/E04_LoRA.json (+ E04_LoRA_tune_*.json).
+Plan: hand-rolled LoRA r=8 on every attention + mlp linear in all 16 layers (4.6M params), AdamW. Tune lr x
+epochs on the tune split, then scale + sequential (same adapters keep training on each new batch, no replay).
+What happened while tuning (11 configs, tune split only):
+- Full-statement LM loss wrecked locality at every setting (KL 1.0-2.1 nats, QA retention 0.28-0.72), and
+  *lower* learning rates were worse. I blamed fp16 gradient underflow; retrained in fp32 and got the same
+  numbers to three digits. So that theory was wrong and the damage is real: 100 templated sentences are enough
+  to drag the whole model toward the template. (Side effect of the detour: LoRA now trains in fp32 by
+  upcasting in place, which is lossless both ways. MEMIT's z* was checked too: fp16 with loss scaling matches
+  fp32 at cosine 0.998-1.000, so that stays in fp16.)
+- Switched to the standard editing-baseline loss (answer tokens only). Much better: tune eff 1.00 /
+  para 0.93 / hop 0.34, but still loc KL 0.37, QA 0.90, real-nbr 0.65. Picked lr 3e-4, 10 epochs.
+Result (eval facts):
+| | eff | para | hop | loc KL | QA | real nbr | name bleed | ppl | ARC |
+|---|---|---|---|---|---|---|---|---|---|
+| N=1 | 1.00 | 0.98 | 0.00 | 0.47 | 0.69 | 0.41 | 1.00 | 28.5 | 0.46 |
+| N=10 | 1.00 | 0.92 | 0.30 | 0.36 | 0.86 | 0.49 | 0.92 | 28.6 | 0.455 |
+| N=100 | 1.00 | 0.92 | 0.35 | 0.29 | 0.88 | 0.66 | 0.65 | 32.0 | 0.475 |
+| N=800 | 1.00 | 0.95 | 0.20 | 0.75 | 0.68 | 0.42 | 0.68 | 48.2 | 0.44 |
+| sequential 10x80 | 0.24 | 0.20 | 0.02 | 1.23 | 0.40 | 0.06 | 0.16 | 89.5 | 0.395 |
+- Best paraphrase generalisation of anything so far (it beats the fact in context, 0.95 vs 0.76) and it never
+  fails to memorise. But it has no notion of *which* subject: one edited fact and every near-miss name gets
+  the same answer (bleed 1.00), and real same-relation facts drop to 0.41.
+- Sequentially it's catastrophic forgetting: batch-1 efficacy is 0.000 after batch 10, perplexity 26 -> 89.
+Peak VRAM 4160MB (fp32 training). Edit time 446s for the sequential 800.
